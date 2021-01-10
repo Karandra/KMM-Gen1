@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<SetupInfo Version="5.1">
+<Installer ID="" Profile="ProjectAction.SelectCurrent">
+<Settings>
+<InstallerPath></InstallerPath>
+<CompressionMethod>LZMA2</CompressionMethod>
+<CompressionLevel>9</CompressionLevel>
+<DictionarySize>5</DictionarySize>
+<UseMultiThreading>1</UseMultiThreading>
+<Solid>0</Solid>
+<ComponentsEnabled>0</ComponentsEnabled>
+<ConditionalInstallEnabled>0</ConditionalInstallEnabled>
+</Settings>
+<Info>
+<Name></Name>
+<LocalizedName></LocalizedName>
+<Version></Version>
+<Author></Author>
+<Localizer></Localizer>
+<Copyrights></Copyrights>
+<Description></Description>
+<URL></URL>
+<OriginalURL></OriginalURL>
+<Discussion></Discussion>
+<Category>---</Category>
+<Custom>
+</Custom>
+<Documents Default="">
+</Documents>
+<Videos>
+</Videos>
+</Info>
+<Interface>
+<WindowTitle>ProjectAction.AddDefault</WindowTitle>
+<WindowSubtitle>ProjectAction.AddDefault</WindowSubtitle>
+<Logo></Logo>
+<Images ScreenshotsEnabled="1"></Images>
+</Interface>
+<INI>
+</INI>
+<Files StructureType="Simple"></Files>
+<Requirements ShowCommonRequirements="1">
+<Set ID="ProjectAction.AddDefault" Operator="And">
+</Set>
+</Requirements>
+<Components>
+<RequiredFiles></RequiredFiles>
+<ConditionalInstall></ConditionalInstall>
+<Steps>
+</Steps>
+<Sets>
+<Set ID="ProjectAction.AddDefault" Name="" SelectionMode="">
+</Set>
+</Sets>
+</Components>
+</Installer>
+</SetupInfo>

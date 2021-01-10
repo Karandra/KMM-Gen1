@@ -1,0 +1,15 @@
+[ReqConfig]
+; Operators: >, >=, <, <=, ==, !=
+; States: Active, Inactive, Present, Missing, Installed
+DefaultOperator=>=
+DefaultVariable=InstallPath
+DefaultState=Present
+;QWERTY=(Name="", Variable="", File="", State="Present", RequiredVersion="");
+
+[General]
+;SKSE64=(Name="Skyrim SE Script Extender", Variable="InstallPath", File="SKSE64_Loader.exe", State="Present", RequiredVersion="0.0.0.0");
+
+[DLC]
+DG=(Name="Dawnguard", Variable="DataFilesPath", File="Dawnguard.esm", State="Present", RequiredVersion="");
+HF=(Name="HearthFire", Variable="DataFilesPath", File="HearthFires.esm", State="Present", RequiredVersion="");
+DB=(Name="Dragonborn", Variable="DataFilesPath", File="Dragonborn.esm", State="Present", RequiredVersion="");

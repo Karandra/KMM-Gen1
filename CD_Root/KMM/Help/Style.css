@@ -1,0 +1,25 @@
+﻿Body {
+	Background-Color: FFFFFF; /*Light Blue: C1D5EC; Dark Blue: A4C1E1; WinGray: F0F0F0; White: FFFFFF; Black: 000000*/
+	Background-Repeat: Repeat;
+	Background-Attachment: Fixed;
+	Background-Position: Left Top;
+}
+
+Div {
+	Font-Style: Normal;
+	Font-Size: 9pt;
+	Font-Family: "Segoe UI", Tahoma, Arial, Sans-Serif;
+}
+
+.Footer {
+	Margin: Auto;
+	Position: Fixed;
+	Left: 0; Bottom: 50;
+	Width: 100%;
+}
+
+#Footer { 
+	Margin-Top: 5px; 
+	/*Border-Top: 1px solid #000; */
+	Height: 50px; 
+}

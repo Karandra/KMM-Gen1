@@ -1,0 +1,31 @@
+[ReqConfig]
+; Operators: >, >=, <, <=, ==, !=
+; States: Active, Inactive, Present, Missing, Installed
+DefaultOperator=>=
+DefaultVariable=InstallPath
+DefaultState=Present
+;QWERTY=(Name="", Variable="", File="", State="Present", RequiredVersion="");
+
+[General]
+NVSE=(Name="New Vegas Script Extender", Variable="InstallPath", File="NVSE_Loader.exe", State="Present", RequiredVersion="0.5");
+
+[DLC]
+DeadMoney=(Name="Dead Money", Variable="DataFilesPath", File="DeadMoney.esm", State="Present", RequiredVersion="");
+HonestHearts=(Name="Honest Hearts", Variable="DataFilesPath", File="HonestHearts.esm", State="Present", RequiredVersion="");
+OldWorldBlues=(Name="Old World Blues", Variable="DataFilesPath", File="OldWorldBlues.esm", State="Present", RequiredVersion="");
+LonesomeRoad=(Name="Lonesome Road", Variable="DataFilesPath", File="LonesomeRoad.esm", State="Present", RequiredVersion="");
+GRA=(Name="Gun Runners Arsenal", Variable="DataFilesPath", File="GunRunnersArsenal.esm", State="Present", RequiredVersion="");
+CouriersStash=(Name="Courier's Stash", Variable="DataFilesPath", File="", State="Present", RequiredVersion="");
+CS-ClassicPack=(Name="Courier's Stash - Classic Pack", Variable="DataFilesPath", File="ClassicPack.esm", State="Present", RequiredVersion="");
+CS-MercenaryPack=(Name="Courier's Stash - Mercenary Pack", Variable="DataFilesPath", File="MercenaryPack.esm", State="Present", RequiredVersion="");
+CS-CaravanPack=(Name="Courier's Stash - Caravan Pack", Variable="DataFilesPath", File="CaravanPack.esm", State="Present", RequiredVersion="");
+CS-TribalPack=(Name="Courier's Stash - Tribal Pack", Variable="DataFilesPath", File="TribalPack.esm", State="Present", RequiredVersion="");
+
+[Framework]
+MCM=(Name="Mod Configuration Menu", Variable="DataFilesPath", File="NVSE\Plugins\MCM.dll", State="Present", RequiredVersion="");
+Lutana=(Name="Lutana NVSE Plugin", Variable="DataFilesPath", File="NVSE\Plugins\Lutana_NVSE.dll", State="Present", RequiredVersion="");
+
+[Body]
+Type3=(Name="Dimonized TYPE3 Female Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+T6M=(Name="Type 6 Modification Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+RM=(Name="Robert Male Body Replacer", Variable="InstallPath", File="", State="Installed", RequiredVersion="");

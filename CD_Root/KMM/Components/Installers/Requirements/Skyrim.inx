@@ -1,0 +1,70 @@
+[ReqConfig]
+; Operators: >, >=, <, <=, ==, !=
+; States: Active, Inactive, Present, Missing, Installed
+DefaultOperator=>=
+DefaultVariable=InstallPath
+DefaultState=Present
+;QWERTY=(Name="", Variable="", File="", State="Present", RequiredVersion="");
+
+[General]
+SKSE=(Name="Skyrim Script Extender", Variable="InstallPath", File="SKSE_Loader.exe", State="Present", RequiredVersion="0.1.7.3");
+ScriptDragon=(Name="ScriptDragon", Variable="InstallPath", File="ScriptDragon.dll", State="Present", RequiredVersion="1.9.32.0");
+
+[DLC]
+DG=(Name="Dawnguard", Variable="DataFilesPath", File="Dawnguard.esm", State="Present", RequiredVersion="");
+HF=(Name="HearthFire", Variable="DataFilesPath", File="HearthFires.esm", State="Present", RequiredVersion="");
+DB=(Name="Dragonborn", Variable="DataFilesPath", File="Dragonborn.esm", State="Present", RequiredVersion="");
+HRTP=(Name="HighRes Texture Pack", Variable="DataFilesPath", File="HighResTexturePack01.bsa", State="Present", RequiredVersion="");
+
+[Framework]
+SkyUI=(Name="SkyUI", Variable="DataFilesPath", File="SkyUI.esp", State="Present", RequiredVersion="3.0");
+NiO=(Name="NetImmerse Override", Variable="DataFilesPath", File="SKSE\Plugins\NIOverride.dll", State="Present", RequiredVersion="3.0");
+RM=(Name="RaceMenu", Variable="DataFilesPath", File="RaceMenu.esp", State="Present", RequiredVersion="3.0");
+FNIS=(Name="Fores New Idles in Skyrim", Variable="DataFilesPath", File="Tools\GenerateFNIS_for_Users\GenerateFNISforUsers.exe", State="Present", RequiredVersion="5.2");
+HDT-HHS=(Name="HDT HighHeels System", Variable="DataFilesPath", File="hdtHighHeel.esm", State="Present", RequiredVersion="");
+HDT-PE=(Name="HDT Physics Extensions", Variable="DataFilesPath", File="SKSE\plugins\hdtPhysicsExtensions.dll", State="Present", RequiredVersion="");
+HDT-SMP=(Name="HDT Skinned Mesh Physics", Variable="DataFilesPath", File="SKSE\plugins\HDTSkinnedMeshPhysics.dll", State="Present", RequiredVersion="");
+ECE=(Name="Enhanced Character Edit", Variable="DataFilesPath", File="CharacterMakingExtender.esp", State="Present", RequiredVersion="");
+SSL=(Name="SexLab", Variable="DataFilesPath", File="SexLab.esm", State="Present", RequiredVersion="1.5");
+SLA=(Name="SexLab - Aroused", Variable="DataFilesPath", File="SexLabAroused.esm", State="Present", RequiredVersion="");
+
+[Body]
+CBBE=(Name="Caliente's Beautiful Bodies Edition", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+UNP=(Name="Unpretend Female Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+LB=(Name="Lady Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+DEM=(Name="Demonica", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+7B=(Name="SeveNBase", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+DGS=(Name="Dream Girl", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+TBD=(Name="Touched by Dibella", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+ADEC=(Name="Acdale EyeCandy Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+CHSBHC=(Name="Cherry Hotalings Super Busty H Cup", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+UNP-TM=(Name="UNP Topmodel", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+
+[Misc]
+XPMS=(Name="XP32 Maximum Skeleton", Variable="DataFilesPath", File="", State="Installed", RequiredVersion="");
+XPMSE=(Name="XP32 Maximum Skeleton Extended", Variable="DataFilesPath", File="XPMSE.esp", State="Present", RequiredVersion="3.0");
+Fuz-Ro-Doh=(Name="Fuz Ro D'oh - Silent Voice", Variable="DataFilesPath", File="SKSE\Plugins\Fuz Ro D'oh.dll", State="Present", RequiredVersion="3.0");
+Player Voicesets=(Name="Player Voicesets", Variable="DataFilesPath", File="chfshPlayerVoicesets.esp", State="Present", RequiredVersion="0.5");
+ASH=(Name="Apachii SkyHair", Variable="DataFilesPath", File="ApachiiHair.esm", State="Present", RequiredVersion="");
+AS-LAL=(Name="Alternate Start - Live Another Life", Variable="DataFilesPath", File="Alternate Start - Live Another Life.esp", State="Present", RequiredVersion="");
+SkyRe=(Name="Skyrim Redone", Variable="DataFilesPath", File="SkyRe.esp", State="Present", RequiredVersion="");
+DSR=(Name="Dual Sheath Redux", Variable="DataFilesPath", File="Dual Sheath Redux.esp", State="Present", RequiredVersion="");
+RND=(Name="Realistic Needs and Diseases", Variable="DataFilesPath", File="RealisticNeedsAndDiseases.esp", State="Present", RequiredVersion="");
+SKCU=(Name="Skyrim Community Uncapper", Variable="DataFilesPath", File="SKSE\Plugins\SKSE_Elys_Uncapper.dll", State="Present", RequiredVersion="");
+PCEA=(Name="PC Exclusive Animation Path", Variable="DataFilesPath", File="", State="Installed", RequiredVersion="");
+PCEA2=(Name="PC Exclusive Animations - 2nd Generation", Variable="DataFilesPath", File="FNIS_PCEA2.esp", State="Present", RequiredVersion="");
+ZaZ=(Name="ZaZ Animation Pack", Variable="DataFilesPath", File="ZaZAnimationPack.esm", State="Present", RequiredVersion="");
+ZaX=(Name="ZaZ Extension Pack", Variable="DataFilesPath", File="ZazExtensionPack.esm", State="Present", RequiredVersion="");
+
+[Patch]
+USKP=(Name="Unofficial Skyrim Patch", Variable="DataFilesPath", File="Unofficial Skyrim Patch.esp", State="Present", RequiredVersion="");
+UDGP=(Name="Unofficial Dawnguard Patch", Variable="DataFilesPath", File="Unofficial Dawnguard Patch.esp", State="Present", RequiredVersion="");
+UHFP=(Name="Unofficial Hearthfire Patch", Variable="DataFilesPath", File="Unofficial Hearthfire Patch.esp", State="Present", RequiredVersion="");
+UDBP=(Name="Unofficial Dragonborn Patch", Variable="DataFilesPath", File="Unofficial Dragonborn Patch.esp", State="Present", RequiredVersion="");
+
+[Extra]
+DDa=(Name="Devious Devices - Assets", Variable="DataFilesPath", File="Devious Devices - Assets.esm", State="Present", RequiredVersion="");
+DDi=(Name="Devious Devices - Integration", Variable="DataFilesPath", File="Devious Devices - Integration.esm", State="Present", RequiredVersion="");
+DDx=(Name="Devious Devices - Expansion", Variable="DataFilesPath", File="Devious Devices - Expansion.esm", State="Present", RequiredVersion="");
+DD-CDS=(Name="Devious Devices - Captured Dreams Shop", Variable="DataFilesPath", File="Captured Dreams.esp", State="Present", RequiredVersion="");
+AS-LaDL=(Name="Alternate Start - Live a Deviant Life", Variable="DataFilesPath", File="Alternate Start - Live A Deviant Life.esp", State="Present", RequiredVersion="");

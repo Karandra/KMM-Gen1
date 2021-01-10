@@ -1,0 +1,27 @@
+[ReqConfig]
+; Operators: >, >=, <, <=, ==, !=
+; States: Active, Inactive, Present, Missing, Installed
+DefaultOperator=>=
+DefaultVariable=InstallPath
+DefaultState=Present
+;QWERTY=(Name="", Variable="", File="", State="Present", RequiredVersion="");
+
+[General]
+MWSE=(Name="Morrowind Script Extender", Variable="InstallPath", File="MWSE.dll", State="Present", RequiredVersion="0.9.4");
+
+[DLC]
+Tribunal=(Name="Tribunal", Variable="DataFilesPath", File="Tribunal.esm", State="Present", RequiredVersion="");
+Bloodmoon=(Name="Bloodmoon", Variable="DataFilesPath", File="Bloodmoon.esm", State="Present", RequiredVersion="");
+
+[Framework]
+MCP=(Name="Morrowind Code Patch", Variable="InstallPath", File="Morrowind Code Patch.exe", State="Present", RequiredVersion="");
+MGE=(Name="Morrowind Graphics Extender", Variable="InstallPath", File="MGEgui.exe", State="Present", RequiredVersion="3.8");
+MGEXE=(Name="Morrowind Graphics Extender: XE", Variable="InstallPath", File="MGEXEgui.exe", State="Present", RequiredVersion="0.9");
+
+[Body]
+BB=(Name="Better Bodies", Variable="DataFilesPath", File="Better Bodies.esp", State="Present", RequiredVersion="");
+BH=(Name="Better Heads", Variable="DataFilesPath", File="Better Heads.esp", State="Present", RequiredVersion="");
+
+[Misc]
+TR=(Name="Tamriel Rebuilt", Variable="DataFilesPath", File="TR_Data.esm", State="Present", RequiredVersion="");
+CH=(Name="Chaos Heart", Variable="DataFilesPath", File="ChaosHeart.esp", State="Present", RequiredVersion="");

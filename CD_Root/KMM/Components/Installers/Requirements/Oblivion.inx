@@ -1,0 +1,58 @@
+[ReqConfig]
+; Operators: >, >=, <, <=, ==, !=
+; States: Active, Inactive, Present, Missing, Installed
+DefaultOperator=>=
+DefaultVariable=InstallPath
+DefaultState=Present
+;QWERTY=(Name="", Variable="", File="", State="Present", RequiredVersion="");
+
+[General]
+OBSE=(Name="Oblivion Script Extender", Variable="InstallPath", File="OBSE_Loader.exe", State="Present", RequiredVersion="0.0.20");
+
+[DLC]
+SI=(Name="Shivering Isles", Variable="DataFilesPath", File="DLCShiveringIsles.esp", State="Present", RequiredVersion="");
+KotN=(Name="Knights of the Nine", Variable="DataFilesPath", File="Knights.esp", State="Present", RequiredVersion="");
+SpellTomes=(Name="Spell Tomes", Variable="DataFilesPath", File="DLCSpellTomes.esp", State="Present", RequiredVersion="");
+TheVileLair=(Name="The Vile Lair", Variable="DataFilesPath", File="DLCVileLair.esp", State="Present", RequiredVersion="");
+MehrunesRazor=(Name="Mehrunes Razor", Variable="DataFilesPath", File="DLCMehrunesRazor.esp", State="Present", RequiredVersion="");
+TheThievesDen=(Name="The Thieves Den", Variable="DataFilesPath", File="DLCThievesDen.esp", State="Present", RequiredVersion="");
+Frostcrag=(Name="Wizard's Tower", Variable="DataFilesPath", File="DLCFrostcrag.esp", State="Present", RequiredVersion="");
+Orrery=(Name="Orrery", Variable="DataFilesPath", File="DLCOrrery.esp", State="Present", RequiredVersion="");
+HorseArmor=(Name="Horse Armor", Variable="DataFilesPath", File="DLCHorseArmor.esp", State="Present", RequiredVersion="");
+FightersStronghold=(Name="Fighter's Stronghold", Variable="DataFilesPath", File="DLCFightersStronghold.esp", State="Present", RequiredVersion="");
+
+[Framework]
+RHHS=(Name="Vipcxjs Real High Heels System", Variable="DataFilesPath", File="VipCxj_HighHeels.esp", State="Installed", RequiredVersion="");
+MenuQue=(Name="MenuQue", Variable="DataFilesPath", File="OBSE\Plugins\MenuQue.dll", State="Present", RequiredVersion="");
+Blockhead=(Name="Blockhead", Variable="DataFilesPath", File="OBSE\Plugins\Blockhead.dll", State="Present", RequiredVersion="10.0");
+DarNifiedUI=(Name="DarNified UI", Variable="DataFilesPath", File="", State="Installed", RequiredVersion="");
+DarkUId DarN=(Name="DarkUId DarN", Variable="DataFilesPath", File="", State="Installed", RequiredVersion="");
+OBGE=(Name="Oblivion Graphics Extender", Variable="DataFilesPath", File="OBSE\Plugins\OBGEv2.dll", State="Present", RequiredVersion="3.0");
+OR=(Name="Oblivion Reloaded", Variable="DataFilesPath", File="OBSE\Plugins\OblivionReloaded.dll", State="Present", RequiredVersion="4.0");
+
+[Body]
+HGEC=(Name="Hentai Gentlemen's EyeCandy Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+FF=(Name="Fantasy Figures", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+RM=(Name="Robert Male Body Replacer", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+RF=(Name="Robert Female Body Replacer", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+DMRA=(Name="Double Melon & Round Ass", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+
+[Misc]
+CMCS=(Name="Coronerras Maximum Compatibility Skeletons", Variable="DataFilesPath", File="", State="Installed", RequiredVersion="");
+ULC=(Name="Unique Landscapes Compilation", Variable="DataFilesPath", File="", State="Installed", RequiredVersion="");
+OXP=(Name="Oblivion XP", Variable="DataFilesPath", File="", State="Installed", RequiredVersion="");
+
+FLCI=(Name="Francesco's Leveled Creatures-Items Mod", Variable="DataFilesPath", File="Francesco's Leveled Creatures-Items Mod.esm", State="Present", RequiredVersion="");
+OWC=(Name="Oblivion WarCry", Variable="DataFilesPath", File="Oblivion WarCry.esp", State="Present", RequiredVersion="");
+OWC-ND=(Name="Oblivion WarCry - New Dimension", Variable="DataFilesPath", File="OWC - New Dimension.esp", State="Present", RequiredVersion="");
+OOO=(Name="Oscuros Oblivion Overhaul", Variable="DataFilesPath", File="Oscuro's_Oblivion_Overhau.esm", State="Present", RequiredVersion="");
+MMM=(Name="Martigen Monster Mod", Variable="DataFilesPath", File="Mart's Monster Mod.esm", State="Present", RequiredVersion="");
+FCOM=(Name="FCOM Convergence", Variable="DataFilesPath", File="FCOM_Convergence.esm", State="Present", RequiredVersion="");
+COBL=(Name="Common Oblivion", Variable="DataFilesPath", File="Cobl Main.esm", State="Present", RequiredVersion="");
+DeadOrAlive=(Name="Dead or Alive", Variable="DataFilesPath", File="7roads.esp", State="Present", RequiredVersion="");
+Nehrim=(Name="Nehrim: At Fates Edge", Variable="DataFilesPath", File="Nehrim.esm", State="Present", RequiredVersion="");
+
+[Patch]
+UOB=(Name="Unofficial Oblivion Patch", Variable="DataFilesPath", File="Unofficial Oblivion Patch.esp", State="Present", RequiredVersion="");
+USIP=(Name="Unofficial Shivering Isles Patch", Variable="DataFilesPath", File="Unofficial Shivering Isles Patch.esp", State="Present", RequiredVersion="");
+UODLCP=(Name="Unofficial Oblivion DLC Patches", Variable="DataFilesPath", File="Knights - Unofficial Patch.esp", State="Present", RequiredVersion="");

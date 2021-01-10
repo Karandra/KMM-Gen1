@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<Links>
+	<Skyrim>
+		<Entry>
+			<Name>FNIS for Modders</Name>
+			<Path>GenerateFNIS_for_Modders\GenerateFNISforModders.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>FNIS for Users</Name>
+			<Path>GenerateFNIS_for_Users\GenerateFNISforUsers.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>BOSS</Name>
+			<Path>BOSS\BOSS GUI.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>Skyrim Strings Localizer</Name>
+			<Path>Skyrim Strings Localizer\Skyrim String Localizer.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>SaveTool</Name>
+			<Path>SaveTool\SaveTool.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>TES5Edit</Name>
+			<Path>TES5Edit\TES5Edit.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>Skyrim Mod Complex Optimizer x86</Name>
+			<Path>SMCO\SMCO32.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>Skyrim Mod Complex Optimizer x64</Name>
+			<Path>SMCO\SMCO64.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>Caliente BodySlide</Name>
+			<Path>CalienteTools\BodySlide\BodySlide.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+		<Entry>
+			<Name>Caliente Texture Blender Lite</Name>
+			<Path>CalienteTools\TexBlendLite\TexBlend.exe</Path>
+			<Commnd></Commnd>
+		</Entry>
+	</Skyrim>
+</Links>

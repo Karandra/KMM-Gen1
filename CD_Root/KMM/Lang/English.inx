@@ -1,0 +1,1307 @@
+[Config]
+CharSet=EASTEUROPE_CHARSET
+
+; ANSI_CHARSET - ANSI character set.
+; BALTIC_CHARSET - Baltic character set.
+; CHINESEBIG5_CHARSET - Chinese character set.
+; DEFAULT_CHARSET - Default character set.
+; EASTEUROPE_CHARSET - Eastern European character set.
+; GB2312_CHARSET - GB2312 character set.
+; GREEK_CHARSET - Greek character set.
+; HANGUL_CHARSET - Hangul character set.
+; MAC_CHARSET - MAC character set.
+; OEM_CHARSET - OEM character set.
+; RUSSIAN_CHARSET - Russian character set.
+; SHIFTJIS_CHARSET - Shiftjis character set.
+; SYMBOL_CHARSET - Symbol character set.
+; TURKISH_CHARSET - Turkish character set.
+;Comments;
+LineSeparator= (0x1F)
+;Comments;
+[Lang]
+;Generic;
+Generic.Error=												Error
+Generic.Warning=											Warning
+Generic.Confrimation=										Confrimation
+Generic.Info=												Info
+Generic.Unknown=											Unknown
+Generic.OK=													OK
+Generic.Cancel=												Cancel
+Generic.Extra=												Extra
+Generic.NotDefined=											Not defined
+Generic.Move=												Moving
+Generic.DataInputTitle=										Data input
+Generic.DataInputSelect=									Select a parameter:
+Generic.DataInputType=										Enter data:
+Generic.EnterName=											Enter a name:
+Generic.EnterName2=											Enter a name:
+Generic.EnterFileName=										Enter file name:
+Generic.EnterID=											Enter ID:
+Generic.EnterCommand=										Enter a command:
+Generic.EnterVersion=										Enter a version:
+Generic.EnterData=											Data input
+Generic.Cantinue=											Continue
+Generic.CantinueAsk=										Continue?
+Generic.Removing=											Removing
+Generic.RemovingS=											Removing "%s"
+Generic.Renaming=											Renaming
+Generic.Overwrite=											Overwriting
+Generic.Copying=											Copying
+Generic.CopyingS=											Copying "%s"
+Generic.CopyingP=											Copying: %d%%
+Generic.CopyingXS=											Copying: %d%% "%s"
+Generic.Moving=												Moving
+Generic.MovingS=											Moving "%s"
+Generic.MovingXS=											Moving: %d%% "%s"
+Generic.Extracting=											Extracting
+Generic.ExtractingS=										Extracting "%s"
+Generic.SelectFolder=										Select a folder
+Generic.SelectFolders=										Select folders
+Generic.SelectFile=											Select a file
+Generic.SelectFiles=										Select files
+Generic.FileNotFound=										File not found"%s"
+Generic.CanNotOpenFile=										Unable to open file"%s"
+Generic.CanNotOpenFolder=									Unable to open folder"%s"
+Generic.CanNotSaveFile=										Unable to save file"%s"
+Generic.OverwriteFile=										File already exists"%s"Overwrite?
+Generic.NoData=												No data
+Generic.NoDataToLoad=										No data to load
+Generic.RemoveFileAsk=										Do you really want to remove this file"%s"?
+Generic.RemoveFolderAsk=									Do you really want to remove this folder and all its contents"%s"?
+Generic.Properties=											Properties
+
+Generic.File=												File
+Generic.FileS=												File "%s"
+Generic.Folder=												Folder
+Generic.FolderS=											Folder "%s"
+Generic.NoFiles=											No files
+
+Generic.Done=												Done
+Generic.Saving=												Saving
+Generic.Loading=											Loading
+Generic.Open=												Open
+Generic.Save=												Save
+Generic.Browse=												Browse
+Generic.Select=												Select
+Generic.SelectAll=											Select all
+Generic.SelectAll2=											Select all
+Generic.Apply=												Apply
+Generic.Detect=												Detect
+Generic.Import=												Import
+Generic.Export=												Export
+Generic.SpecialCharacters=									Special ñharacters
+Generic.Clean=												Clean
+Generic.ImportNoData=										No data to import
+Generic.UnsupportedFileType=								Unsupported file type
+Generic.UnsupportedFileTypeS=								Unsupported file type: "%s"
+Generic.Yes=												Yes
+Generic.No=													No
+Generic.Add=												Add
+Generic.Remove=												Remove
+Generic.RemoveAll=											Remove all
+Generic.RemoveAll2=											Remove all
+Generic.Copy=												Copy
+Generic.Paste=												Paste
+
+Generic.AllFiles=											All files
+Generic.AllSupported=										All supported formats
+Generic.Images=												Images
+Generic.PNG=												PNG images
+Generic.JPG=												JPEG images
+Generic.BMP=												BMP images
+Generic.GIF=												GIF images
+Generic.EXE=												Executables
+Generic.DLL=												DLL libraries
+Generic.INI=												INI files
+Generic.XML=												XML files
+Generic.TXT=												Text files
+Generic.ZIP=												ZIP archives
+Generic.SMI=												Skyrim Mod Installer
+Generic.SMP=												Simple Mod Project
+Generic.SMPOld=												Skyrim Mod Project
+Generic.AMI=												Advanced Mod Installer
+Generic.LNK=												Shortcuts
+Generic.Saves=												Save files
+
+;Generic Menu Strings;
+Menu=														Menu
+Menu.Open=													Open
+Menu.Save=													Save
+Menu.SaveAs=												Save as
+Menu.FileLocation=											File location
+Menu.FolderLocation=										Folder location
+Menu.RenameFile=											Rename file
+Menu.RenameFolder=											Rename
+Menu.RemoveFile=											Delete file
+Menu.RemoveFolder=											Delete folder
+Menu.FileProperties=										Properties
+Menu.Debug=													Debug
+Menu.FileFilter=											-- File filter
+Menu.CheckAll=												Check all
+Menu.UncheckAll=											Uncheck all
+Menu.Enabled=												Enabled
+Menu.Disabled=												Disabled
+
+;Generic Interface Strings;
+Interface=													Interface
+Interface.File=												File
+Interface.Files=											Files
+Interface.MainFiles=										Main files
+Interface.FileName=											File name
+Interface.Path=												Path
+Interface.FullPath=											Full path
+Interface.Command=											Command
+Interface.Resolution=										Resolution
+Interface.Format=											Format
+Interface.Size=												Size
+Interface.Index=											Index
+Interface.Type=												Type
+Interface.Compare=											Compare
+Interface.ElementType=										Element type
+Interface.DateCreation=										Date created
+Interface.DateModified=										Date modified
+Interface.DateUpdate=										Date updated
+Interface.DateInstall=										Date installed
+Interface.DateUninstall=									Date uninstalled
+Interface.DateLastAccess=									Last access date
+Interface.Version=											Version
+Interface.Author=											Author
+Interface.Description=										Description
+Interface.Name=												Name
+Interface.Name2=											Name
+Interface.ID=												Identifier
+Interface.IDShort=											ID
+Interface.Address=											Address
+Interface.Flag=												Flag
+Interface.Set=												Set
+Interface.OrderNum=											Number
+Interface.Parametr=											Parameter
+Interface.Section=											Section
+Interface.Field=											Field
+Interface.Element=											Element
+Interface.Data=												Data
+Interface.Value=											Value
+Interface.Comment=											Comment
+Interface.Installer=										Installer
+Interface.NotSupported=										Not supported
+Interface.FileNotLoaded=									File not loaded
+Interface.Action=											Action
+Interface.Time=												Time
+Interface.Component=										Component
+Interface.LoadingFilesList=									Loading files list
+Interface.LoadedX/Y=										%d loaded out of %d
+Interface.LoadedX=											%d%% loaded
+Interface.ProcessedX/Y=										%d processed out of %d
+Interface.ProcessedX=										%d%% processed
+Interface.GeneralProgressX=									General progress %d%%
+Interface.SaveObject=										Save
+Interface.Character=										Character
+Interface.Level=											Level
+Interface.Karma=											Karma
+Interface.Location=											Location
+Interface.TimeInGame=										Time played
+Interface.Gender=											Gender
+Interface.Race=												Race
+Interface.Plugins=											Plugins
+Interface.SearchPathNotSpeciefed=							Search path is not specified
+Interface.RecurseSearch=									Search in subfolders
+Interface.SearchingFiles=									Searching for files
+Interface.SearchingFilesS=									Searching for files: "%s"
+Interface.FilteringFiles=									Filtering files
+Interface.ShellOpen=										Open in associated application
+Interface.ShellEdit=										Edit in associated application
+Interface.Edit=												Edit
+Interface.Search=											Search
+Interface.SearchResultsTrue=								Search completed. Elements found: %d
+Interface.SearchResultsFalse=								No items matching "%s" were found
+Interface.GoToUpLevel=										Jump up
+Interface.Collapse=											Collapse
+Interface.Expand=											Expand
+Interface.WebLinkOpenTitle=									Open link
+Interface.WebLinkOpen=										Do you want to open this web page: "%s"?
+Interface.LoadingFiles=										Loading files
+Interface.LoadingData=										Loading data
+Interface.SavingData=										Saving data
+Interface.PlaceholderNo=									<No>
+Interface.PlaceholderNone=									<None>
+Interface.PlaceholderAll=									<All>
+Interface.PlaceholderAll2=									<All>
+Interface.EmptyStringPlaceholder=							<Empty string>
+Interface.DoNotChange=										Do not change
+Interface.Variable=											Variable
+Interface.Info=												Info
+Interface.Dependencies=										Dependencies
+Interface.Screenshots=										Screenshots
+Interface.Documents=										Documents
+Interface.Video=											Video
+Interface.Log=												Log
+Interface.Signature=										Signature
+Interface.Site=												Site
+Interface.Create=											Create
+Interface.Remove=											Delete
+Interface.Categories=										Categories
+Interface.CategoryCreate=									Create a category
+Interface.CategoryRemove=									Delete category
+Interface.RemoveFromLog=									Delete from log
+Interface.OpenFolder=										Open folder
+Interface.CreateShortcut=									Create shortcut
+Interface.Move=												Move
+Interface.EntryNotFound=									Entry not found
+Interface.Controls=											Controls
+Interface.Build=											Build
+Interface.Data=												Data
+Interface.UserData=											User data
+Interface.CompressionLevel.Label=							Compression level
+Interface.CompressionLevel=									(0="0 - None", 1="1 - Fastest", 3="3 - Fast", 5="5 - Normal", 7="7 - Maximum", 9="9 - Ultra");
+Interface.CompressionMethod=								Compression method
+Interface.IncorrectInputS=									Incorrect input "%s"
+Interface.TextEditor=										Text editor
+Interface.CurrentVariableValue=								Current variable value
+
+;Miscellaneous;
+Misc=														Miscellaneous
+Misc.Components=											Components
+
+;Component: Core. Module: Core;
+NotSupported=												Not supported
+Unavailable=												Unavailable
+Unavailable.Warning=										Unavailable in this version
+
+Status=														Status
+Status.Initializing=										Initializing data. This can take some time.
+Status.Cancel=												Cancel
+Status.Working=												Running
+Status.Installing=											Installing
+Status.InstallingNoFiles=									No files to install
+Status.Preparing=											Preparing
+Status.Converting=											Converting
+Status.Interrupt=											Aborting
+Status.Processing=											Processing
+Status.ProcessingFile=										Processing file
+Status.TempFolderCleaning=									Cleaning temporary folder
+Status.LoadingDocuments=									Loading documents
+Status.LoadingDocument=										Loading document
+Status.NoDocuments=											No documents
+Status.LoadingImages=										Loading screenshots
+Status.NoImages=											No screenshots
+Status.NoVideo=												No videos
+
+;Module: Menu;
+Menu.Settings=												Settings
+Menu.Profile=												Change profile. Selected: "%s"
+Menu.About=													About
+Menu.LaunchGeneric=											Launch %s
+Menu.Open=													Open
+Menu.Game=													game
+Menu.Game2=													games
+Menu.AdditionalProgram=										additional program
+Menu.AlternateProgram=										alternate prorgam
+Menu.Launcher=												launcher
+Menu.Editor=												editor
+
+Menu.Open.MainSettings=										Main settings folder
+Menu.Open.ProfileSettings=									Profile settings folder
+Menu.Open.Game=												%s folder
+Menu.Open.DataFiles=										%s data folder
+Menu.Open.Settings=											%s settings folder
+Menu.Open.Saves=											%s saves folder
+Menu.Open.PluginsList=										%s plugins list folder
+Menu.Open.ConfigBackUp=										%s configuration backup folder
+Menu.Open.FolderNotExist=									This folder wasn't found in available pathes list
+
+Menu.Installers=											Installers
+Menu.Installers.Manager=									Installers manager
+Menu.Installers.Install=									Install
+Menu.Installers.Design=										Create
+
+;Module: Settings;
+Settings=													Settings
+Settings.General=											General settings
+Settings.Reset=												Reset settings
+Settings.ResetWarning=										Do you really want to reset "%s" profile?
+
+Settings.General.Language.Label=							Interface language
+Settings.General.Language=									(Russian="Russian", English="English");
+Settings.General.InstalledPath=								%s folder
+Settings.General.DiskImage=									Disk image
+Settings.General.SteamLibrary=								Steam library
+Settings.General.StartWindow.Label=							Start window
+Settings.General.StartWindow=								(1="INI configuration", 2="Plugin activation", 3="Install", 4="Create installer");
+Settings.General.LaunchVia=									Launch %s via %s
+Settings.General.LaunchAdditional=							Launch %s
+Settings.General.AllowLaunch=								Enable %s
+Settings.General.BackgroundModeOnLaunch=					Run %s in background mode
+Settings.General.MountDiskImage=							Mount disk image
+Settings.General.SaveAndRestoreWindowSizes=					Save and restore window sizes
+Settings.General.SaveAndRestoreWindowSizesReset=			Reset
+Settings.General.SimpleMenuComposition=						Simple menu composition
+
+Settings.LaunchEx=											Extended run
+Settings.LaunchEx.LaunchList=								Executables list
+Settings.LaunchEx.LaunchListInterval.Label=					Launch interval
+Settings.LaunchEx.LaunchListInterval=						(0="0 s", 100="0.1 s", 300="0.3 s", 500="0.5 s", 800="0.8 s", 1000="1 s", 1200="1.2 s", 1500="1.5 s");
+Settings.LaunchEx.WindowMode.Label=							Window mode
+Settings.LaunchEx.WindowMode=								(1="Normal", 6="Minimize", 3="Maximize");
+Settings.LaunchEx.EanbleLaunchEx=							Enable extended run
+Settings.LaunchEx.EanbleLaunchList=							Run programs from executables list
+Settings.LaunchEx.EanbleTransmitControl=					Transfer run control
+Settings.LaunchEx.EanbleTransmitControlBackground=			Start in background mode
+
+Settings.ConfigINI=											INI Config
+Settings.ConfigINI.BackupCompressionLavel.Label=			Backup compression level
+Settings.ConfigINI.BackupCompressionLavel=					(0="0 - None", 1="1 - Fastest", 3="3 - Fast", 5="5 - Normal", 7="7 - Maximum", 9="9 - Ultra");
+Settings.ConfigINI.ENBOverride.Label=						ENB configuration file
+Settings.ConfigINI.AutoShowConsole=							Show console automatically
+
+Settings.DataFiles=											Data Files
+Settings.DataFiles.LoadOrderFile.Label=						Load order
+Settings.DataFiles.BOSSPath.Label=							Path to BOSS folder
+Settings.DataFiles.LOOTPath.Label=							Path to LOOT folder
+Settings.DataFiles.AutoSavePluginsList=						Autosave plugin list
+Settings.DataFiles.LoadLogData=								Load installation log data
+Settings.DataFiles.AllowESPAboveESM=						Allow ESP above ESM
+Settings.DataFiles.ShowSystemToolLinks=						Show system links to tools
+
+Settings.Installers=										Installers
+Settings.Installers.InstallersFolder.Label=					Installers folder
+Settings.Installers.ProjectsFolder.Label=					Projects folder
+Settings.Installers.FOModTitle=								FOMod settings
+Settings.Installers.FOModGenerateID.Label=					Generate IDs
+Settings.Installers.FOModGenerateID=						(0="Always", 1="For installation only", 2="Never");
+Settings.Installers.FOModEncoding.Label=					Encoding
+Settings.Installers.EngineVersionCheck=						Check installation engine version
+Settings.Installers.InstalledCheck=							Check installation status
+Settings.Installers.InstallerVersionCheck=					Check installed version
+Settings.Installers.RevertINISettingsOnUninstall=			Revert INI files configuration
+Settings.Installers.RememberFolder=							Remember last folder
+Settings.Installers.ExpandInfoRows=							Expand info rows
+Settings.Installers.UninstallOnReinstall=					Unistall before reinstall
+Settings.Installers.UninstallOnCancel=						Uninstall after installation has been canceled
+
+WindowName.Settings=										%s - %s - Application settings
+WindowName.ConfigINI=										%s - %s - INI Config
+WindowName.DataFiles=										%s - %s - Data Files
+WindowName.InstallPackage=									%s - %s - Install
+WindowName.CreatePackage=									%s - %s - Create installer
+WindowName.PackageManager=									%s - %s - Manage installers
+WindowName.Interface=										%s - %s - Interface page
+
+About=														About
+About.Version=												Version: %s
+About.Info=													Info
+About.License=												License
+
+;Module: LaunchEx;
+LaunchEx=													Extended run
+LaunchEx.StatusText1=										Running programs
+LaunchEx.StatusText2=										Waiting to run: 
+LaunchEx.StatusText3=										Wait %f s to run.
+LaunchEx.StatusText4=										Aborting
+LaunchEx.StatusText5=										Launching
+LaunchEx.IncorrectLaunchConfigMessage=						Incorrect extended run settings. Run using standard configuration?
+LaunchEx.ProgramNotFound=									Unable to find file to run: "%s".Continue?
+LaunchEx.TransmitProgramNotFound=							Unable to find file to pass control: "%s"
+
+;Module: Profiles and AppData;
+Profiles.NotInstalled=										Not installed
+Profiles.GameFolderNotExist=								The game hasn't been installed or folder doesn't exist
+Profiles.ProfileRegistryPathMismatch=						Path to profile folder is not specified in registry or doesn't match the path saved in profile settings.Fix?
+Profiles.PathNotSpecified=									Profile folder is not specified. Shut down.
+Profiles.GameFolderNotFound=								Installation folder "%s" wasn't found in:"%s"It may have been moved or deleted. Would you like to select a folder manually?
+Profiles.PathFromRegistry=									Registry path
+Profiles.PathInRegistryNotFound=							Path to this folder wasn't found in registry
+Profiles.ProfileNotSpecified=								Profile not specified
+
+Profiles.WindowTitle=										Select profile
+Profiles.WindowSubTitle=									Select a profile to launch
+Profiles.ShowHide=											Hidden profile
+Profiles.ShowHiddenProfiles=								Show hidden profiles
+Profiles.ShowProfilesID=									Show IDs
+Profiles.DoNotShowOnLaunch=									Do not show on launch
+
+;Component: ConfigINI;
+ConfigINI=													INI Config
+;Module: Core;
+ConfigINI.OtherRatios=										Other aspect ratios
+ConfigINI.BackUpMessageTitle=								Backup
+ConfigINI.BackUpRemoveMessage=								Do you really want to delete the configuration backup?Backup created: %s
+ConfigINI.CanNotOpenBackUpConfig=							Unable to open backup configuration file
+ConfigINI.KeyCodeNotFound=									Key code not found
+;Console;
+ConfigINI.Console.KeyNotAssigned=							{Not assigned}
+ConfigINI.Console.KeyNotFound=								{Not found}
+ConfigINI.Console.SectionRemoved=							{%s}Section deleted: [%s]
+ConfigINI.Console.ValueRemoved=								{%s}[%s]Parameter deleted: %s
+ConfigINI.Console.ValueNotFound=							{%s}[%s]%s={Parameter not found}
+ConfigINI.Console.ValueFound=								{%s}[%s]%s=%s
+ConfigINI.Console.ValueFoundDouble=							{%s}[%s]%s=%s%s=%s
+
+;Interface;
+;Graphics;
+ConfigINI.Interface.bFull Screen=							Full screen mode
+ConfigINI.Interface.bFXAAEnabled=							Enable FXAA
+ConfigINI.Interface.iPresentInterval=						Vertical synchronization
+ConfigINI.Interface.bTransparencyMultisampling=				Transparency multisampling
+ConfigINI.Interface.bDoHighDynamicRange=					Use High Dynamic Range (HDR)
+ConfigINI.Interface.bDoDepthOfField=						Depth of field
+ConfigINI.Interface.bDoRadialBlur=							Radial blur
+ConfigINI.Interface.bDisableAllGore=						Disable all gore
+ConfigINI.Interface.bBloodSplatterEnabled=					Blood splatter
+ConfigINI.Interface.bFloatPointRenderTarget=				bFloatPointRenderTarget
+
+ConfigINI.Interface.iMultiSample.Label=						Antialiasing
+ConfigINI.Interface.iMultiSample=							(0="0 - None", 1="1õ - Low", 2="2õ - Medium", 4="4õ - High", 8="8õ - Ultra");
+ConfigINI.Interface.iMaxAnisotropy.Label=					Anisotropic filtering
+ConfigINI.Interface.iMaxAnisotropy=							(0="0 - None", 2="2õ - Low", 4="4õ - Medium", 8="8õ - High", 12="12x - Ultra", 16="16õ - Extreme");
+ConfigINI.Interface.iTexMipMapSkip.Label=					Texture quality
+ConfigINI.Interface.iTexMipMapSkip=							(4="4 - Very low", 3="3 - Low", 2="2 - Medium", 1="1 - High", 0="0 - Ultra", -1="-1 - Increased detail", -2="-2 - Increased detail");
+ConfigINI.Interface.fGamma.Label=							Gamma correction
+ConfigINI.Interface.sD3DDevice.Label=						Graphics adapter
+ConfigINI.Interface.Resolution.Label=						Resolution
+
+;Shadows;
+ConfigINI.Interface.bTreesReceiveShadows=					Shadows on trees
+ConfigINI.Interface.bDrawLandShadows=						Land shadows
+ConfigINI.Interface.bActorSelfShadowing=					Actor self shadowing
+
+ConfigINI.Interface.iShadowMapResolution.Label=				Shadow resolution
+ConfigINI.Interface.iShadowMapResolution=					(512="512 - Low", 1024="1024 - Medium", 2048="2048 - High", 4096="4096 - Ultra", 8192="8192 - Extreme");
+ConfigINI.Interface.iBlurDeferredShadowMask.Label=			Shadow blur
+ConfigINI.Interface.iBlurDeferredShadowMask=				(0="0 - No blur", 3="3 - Medium blur", 7="7 - Full blur");
+ConfigINI.Interface.iShadowMaskQuarter.Label=				Shadow detail
+ConfigINI.Interface.fShadowDistance.Label=					Shadow distance
+ConfigINI.Interface.fInteriorShadowDistance.Label=			Shadow distance in interiors
+ConfigINI.Interface.fShadowBiasScale.Label=					Shadow bias scale
+ConfigINI.Interface.fSunUpdateThreshold.Label=				Update frequency
+ConfigINI.Interface.fSunShadowUpdateTime.Label=				Update time
+
+;Water;
+ConfigINI.Interface.bUseWaterReflections=					Water reflections
+ConfigINI.Interface.bReflectLODObjects=						Reflect objects
+ConfigINI.Interface.bReflectLODLand=						Reflect land
+ConfigINI.Interface.bReflectSky=							Reflect sky
+ConfigINI.Interface.bReflectLODTrees=						Reflect trees
+ConfigINI.Interface.bUseWaterRefractions=					Water refractions
+ConfigINI.Interface.bUseWaterDepth=							Water depth
+ConfigINI.Interface.bUseWaterDisplacements=					Water displacements
+
+ConfigINI.Interface.iWaterMultiSamples.Label=				Water antialiasing
+ConfigINI.Interface.iWaterMultiSamples=						(0="0 - None", 1="1õ - Low", 2="2õ - Medium", 4="4õ - High", 8="8õ - Ultra");
+ConfigINI.Interface.Water Resolution.Label=					Water reflections resolution
+
+;Audio;
+ConfigINI.Interface.bEnableAudio=							Enable audio
+ConfigINI.Interface.fAudioMasterVolume.Label=				Master volume
+
+;Gameplay;
+ConfigINI.Interface.bGamepadEnable=							Enable gamepad
+ConfigINI.Interface.bGamePadRumble=							Gamepad rumble
+ConfigINI.Interface.bSaveOnPause=							Save on pause
+ConfigINI.Interface.bSaveOnWait=							Save on wait
+ConfigINI.Interface.bSaveOnTravel=							Save on travel
+ConfigINI.Interface.bSaveOnRest=							Save on rest
+
+ConfigINI.Interface.iDifficulty.Label=						Difficulty
+ConfigINI.Interface.iDifficulty=							(0="Novice", 1="Apprentice", 2="Adept", 3="Expert", 4="Master", 5="Legendary");
+ConfigINI.Interface.fAutosaveEveryXMins.Label=				Autosave (min)
+
+;Interface;
+ConfigINI.Interface.bDialogueSubtitles=						Dialogue subtitles
+ConfigINI.Interface.bGeneralSubtitles=						General subtitles
+ConfigINI.Interface.bShowCompass=							Show compass
+ConfigINI.Interface.bShowQuestMarkers=						Quest markers
+ConfigINI.Interface.bShowFloatingQuestMarkers=				Floating quest markers
+ConfigINI.Interface.bCrosshairEnabled=						Enable crosshair
+ConfigINI.Interface.bShowHUDMessages=						HUD messages
+ConfigINI.Interface.bShowTutorials=							Show tutorial messages
+ConfigINI.Interface.bShowSubtitleSpeakerName=				Show speaker name in subtitles
+ConfigINI.Interface.bTrackProgress=							Level progress bar
+ConfigINI.Interface.bHealthBarShowing=						Enemy health bar
+
+ConfigINI.Interface.fHUDOpacity.Label=						HUD Opacity
+ConfigINI.Interface.fHUDOpacity=							(1.0000="1.0000 - Opaque", 0.0000="0.0000 - Transparent");
+ConfigINI.Interface.fMaxSubtitleDistance.Label=				Subtitle visibility distance
+ConfigINI.Interface.sIntroSequence.Label=					Intro sequence
+;Vegetation;
+ConfigINI.Interface.GrassTitle=								Grass
+ConfigINI.Interface.TreesTitle=								Trees
+
+ConfigINI.Interface.bAllowCreateGrass=						Enable grass
+ConfigINI.Interface.bGrassPointLighting=					Point lighting
+ConfigINI.Interface.bDrawShaderGrass=						Improved grass shader
+ConfigINI.Interface.bRenderSkinnedTrees=					Skinned trees
+
+ConfigINI.Interface.fGrassFadeRange.Label=					Grass fade
+ConfigINI.Interface.iMinGrassSize.Label=					Grass density
+ConfigINI.Interface.fTreeLoadDistance.Label=				Tree fade
+ConfigINI.Interface.fTreesMidLODSwitchDist.Label=			Detail
+ConfigINI.Interface.uiMaxSkinnedTreesToRender.Label=		Maximum skinned trees
+
+;LevelOfDetail;
+ConfigINI.Interface.bPrecipitation=							Weather
+ConfigINI.Interface.bDecals=								Enable decals
+
+ConfigINI.Interface.fLODFadeOutMultObjects.Label=			Object fade
+ConfigINI.Interface.fLODFadeOutMultItems.Label=				Item fade
+ConfigINI.Interface.fLODFadeOutMultActors.Label=			Actor fade
+ConfigINI.Interface.fSkyCellRefFadeDistance.Label=			Clouds fade
+ConfigINI.Interface.fBlockMaximumDistance.Label=			fBlockMaximumDistance
+ConfigINI.Interface.fBlockLevel1Distance.Label=				fBlockLevel1Distance
+ConfigINI.Interface.fBlockLevel0Distance.Label=				fBlockLevel0Distance
+ConfigINI.Interface.fSplitDistanceMult.Label=				fSplitDistanceMult
+ConfigINI.Interface.uGridsToLoad.Label=						Grids to load
+ConfigINI.Interface.iMaxDesired.Label=						Decal count
+
+;Other;
+ConfigINI.Interface.MemoryManagementTitle=					Memory management
+ConfigINI.Interface.DebugLogTitle=							Debug logging
+ConfigINI.Interface.BackgroudLoadingTitle=					Backgroud loading
+
+ConfigINI.Interface.bAlwaysRunByDefault=					Always run by default
+ConfigINI.Interface.bMouseAcceleration=						Mouse acceleration
+ConfigINI.Interface.bInvertYValues=							Invert Y axis
+ConfigINI.Interface.bEnableFileSelection=					Plugins activation in %s
+ConfigINI.Interface.bAllowScreenShot=						Allow screenshot
+ConfigINI.Interface.bPreemptivelyUnloadCells=				Preemptively unload cells
+ConfigINI.Interface.bPreCullActors=							Preemptively cull actors
+ConfigINI.Interface.bSelectivePurgeUnusedOnFastTravel=		Selective purge unused on fast travel
+ConfigINI.Interface.bEnableLogging=							Enable logging
+ConfigINI.Interface.bEnableTrace=							Enable tracing
+ConfigINI.Interface.bEnableStoryManagerLogging=				Enable story manager
+ConfigINI.Interface.bUseBackgroundFileLoader=				Use background file loader
+ConfigINI.Interface.bBackgroundLoadLipFiles=				Load lip files in background
+ConfigINI.Interface.bLoadBackgroundFaceGen=					Load FaceGen in background
+ConfigINI.Interface.bUseMultiThreadedFaceGen=				Use multithreaded FaceGen
+ConfigINI.Interface.bBackgroundCellLoads=					Load cells in background
+ConfigINI.Interface.bLoadHelmetsInBackground=				Load helmets in background
+ConfigINI.Interface.bUseMultiThreadedTrees=					Use multithreaded trees
+
+ConfigINI.Interface.sLanguage.Label=						Language
+ConfigINI.Interface.sLanguage=								(RUSSIAN="Russian", ENGLISH="English", GERMAN="German", FRENCH="French", CZECH="Czech", ITALIAN="Italian", POLISH="Polish", SPANISH="Spanish");
+ConfigINI.Interface.fMouseHeadingSensitivity.Label=			Mouse sensitivity
+ConfigINI.Interface.fMouseWheelZoomSpeed.Label=				Camera zoom speed
+ConfigINI.Interface.iScreenShotIndex.Label=					Screenshot index
+ConfigINI.Interface.fInAirFallingCharGravityMult.Label=		Falling speed
+
+;ENB Effects;
+ConfigINI.Interface.EffectsTitle=							Effects
+ConfigINI.Interface.GeneralSettingsTitle=					General settings
+
+ConfigINI.Interface.UseEffect=								Use effects
+ConfigINI.Interface.ForceAnisotropicFiltering=				Force anisotropic filtering
+ConfigINI.Interface.UseOriginalPostProcessing=				Enable original post processing
+ConfigINI.Interface.UseOriginalObjectsProcessing=			Enable original objects processing
+ConfigINI.Interface.EnableBloom=							Enable bloom
+ConfigINI.Interface.EnableAdaptation=						Enable adaptation
+ConfigINI.Interface.EnableAmbientOcclusion=					Enable Ambient Occlusion (SSAO)
+ConfigINI.Interface.EnableDepthOfField=						Enable depth of field
+ConfigINI.Interface.EnableDetailedShadow=					Enable detailed shadows
+ConfigINI.Interface.EnableSunRays=							Enable sun rays
+ConfigINI.Interface.EnableSkyLighting=						Enable sky lighting
+ConfigINI.Interface.EnableReflection=						Enable reflection
+ConfigINI.Interface.SkipShaderOptimization=					Skip shader optimization
+ConfigINI.Interface.UsePaletteTexture=						Use palette texture
+ConfigINI.Interface.UsePatchSpeedhackWithoutGraphics=		Use patch speedhack without graphics
+
+ConfigINI.Interface.Quality=								(2="2 - Low", 1="1 - Medium", 0="0 - High");
+ConfigINI.Interface.Quality.Label=							Bloom quality
+ConfigINI.Interface.MaxAnisotropy.Label=					Anisotropic filtering
+ConfigINI.Interface.MaxAnisotropy=							(0="0 - None", 2="2õ - Low", 4="4õ - Medium", 8="8õ - High", 12="12x - Ultra", 16="16õ - Extreme");
+ConfigINI.Interface.AdditionalConfigFile.Label=				Additional config file
+
+;ENB AmbientOcclusion;
+ConfigINI.Interface.EnableAmbientOcclusion=					Ambient occlusion (AO)
+ConfigINI.Interface.UseIndirectLighting=					Indirect lighting (IL)
+ConfigINI.Interface.UseComplexIndirectLighting=				Complex indirect lighting
+
+ConfigINI.Interface.SamplingQuality.Label=					Sampling quality
+ConfigINI.Interface.SamplingQuality=						(2="2 - Low", 1="1 - Medium", 0="0 - High");
+ConfigINI.Interface.FilterQuality.Label=					Filter quality
+ConfigINI.Interface.FilterQuality=							(2="2 - Low", 1="1 - Medium", 0="0 - High");
+ConfigINI.Interface.SamplingRange.Label=					Sampling range
+ConfigINI.Interface.FadeFogRangeDay.Label=					Fade fog range day
+ConfigINI.Interface.FadeFogRangeNight.Label=				Fade fog range night
+ConfigINI.Interface.SizeScale.Label=						Size scale
+ConfigINI.Interface.SourceTexturesScale.Label=				Source textures scale
+ConfigINI.Interface.AOAmount.Label=							AO amount
+ConfigINI.Interface.ILAmount.Label=							IL amount
+
+;ENB Shadows;
+ConfigINI.Interface.ShadowObjectsFix=						Shadow objects fix
+ConfigINI.Interface.ShadowCastersFix=						Shadow casters fix
+ConfigINI.Interface.UseBilateralShadowFilter=				Use bilateral shadow filter
+ConfigINI.Interface.ShadowQualityFix=						Shadow quality fix
+
+ConfigINI.Interface.DetailedShadowQuality.Label=			Detailed shadow quality
+ConfigINI.Interface.ShadowBlurRange.Label=					Shadow blur range
+ConfigINI.Interface.ShadowFilterQuality.Label=				Shadow filter quality
+
+;ENB Other;
+ConfigINI.Interface.FPSLimitTitle=							FPS Limiter
+ConfigINI.Interface.ProxyLibraryTitle=						Proxy library
+ConfigINI.Interface.FixesTitle=								Fixes
+ConfigINI.Interface.ControlsTitle=							Controls config
+
+ConfigINI.Interface.EnableFPSLimit=							Enabled
+ConfigINI.Interface.WaitBusyRenderer=						Wait busy renderer
+ConfigINI.Interface.EnableProxyLibrary=						Enable proxy library
+ConfigINI.Interface.InitProxyFunctions=						Init proxy functions
+ConfigINI.Interface.ForceFakeVideocard=						Force fake video card
+ConfigINI.Interface.FixGameBugs=							Fix game bugs
+ConfigINI.Interface.FixParallaxBugs=						Fix parallax bugs
+ConfigINI.Interface.ForceSingleCoreCPU=						Force single core CPU
+ConfigINI.Interface.IgnoreThreadManagement=					Ignore thread management
+ConfigINI.Interface.IgnoreThreadPriority=					Ignore thread priority
+ConfigINI.Interface.AntiBSOD=								Anti-BSoD
+ConfigINI.Interface.IgnoreLoadingScreen=					Ignore loading screen
+ConfigINI.Interface.ProxyLibrary.Label=						Proxy library
+ConfigINI.Interface.FPSLimit.Label=							Maximum FPS
+ConfigINI.Interface.KeyReadConfig.Label=					Read config
+ConfigINI.Interface.KeyCombination.Label=					Combination key
+ConfigINI.Interface.KeyUseEffect.Label=						Use effects
+ConfigINI.Interface.KeyFPSLimit.Label=						Limit FPS
+ConfigINI.Interface.KeyShowFPS.Label=						Show FPS
+ConfigINI.Interface.KeyScreenshot.Label=					Take screenshot
+ConfigINI.Interface.KeyEditor.Label=						Show editor
+ConfigINI.Interface.KeyFreeVRAM.Label=						Free video memory
+
+;Page names;
+ConfigINI.Pages=											Config pages
+ConfigINI.Pages.ExtendedEditor=								Extended editor
+
+ConfigINI.Pages.Graphics=									Graphics
+ConfigINI.Pages.Shadows=									Shadows
+ConfigINI.Pages.Water=										Water
+ConfigINI.Pages.Audio=										Audio
+ConfigINI.Pages.Gameplay=									Gameplay
+ConfigINI.Pages.Interface=									Interface
+ConfigINI.Pages.Vegetation=									Vegetation
+ConfigINI.Pages.LevelOfDetail=								Level of detail
+ConfigINI.Pages.Other=										Other
+
+ConfigINI.Pages.ENB=										ENB
+ConfigINI.Pages.ENB.Effects=								Effects
+ConfigINI.Pages.ENB.AO=										Ambient Occlusion
+ConfigINI.Pages.ENB.Shadows=								Shadows
+ConfigINI.Pages.ENB.Other=									Other
+;Menu;
+ConfigINI.Menu=												Menu
+ConfigINI.Menu.ReadOnlyController=							Read only
+ConfigINI.Menu.BackUp=										Backup
+ConfigINI.Menu.BackUp.Create=								Create backup
+ConfigINI.Menu.BackUp.Restore=								Restore %s
+ConfigINI.Menu.BackUp.Remove=								Delete backup
+ConfigINI.Menu.ExtendedEditor=								Extended editor
+;Quick Settings Menu;
+ConfigINI.QSM.Title.ENB=									-- ENB INI files
+;Module: ExtendedEditor;
+ConfigINI.ExtendedEditor=									Extended editor
+ConfigINI.ExtendedEditor.MainFiles=							Main files
+ConfigINI.ExtendedEditor.OtherFiles=						Other files
+;Menu;
+ConfigINI.ExtendedEditor.Menu=								Menu
+ConfigINI.ExtendedEditor.Menu.AddSection=					Add section
+ConfigINI.ExtendedEditor.Menu.RemoveSection=				Delete section
+ConfigINI.ExtendedEditor.Menu.RemoveSectionAsk=				Do you really want to delete "%s" section?
+ConfigINI.ExtendedEditor.Menu.SectionAlreadyExist=			Section "%s" already exists
+ConfigINI.ExtendedEditor.Menu.AddValue=						Add parameter
+ConfigINI.ExtendedEditor.Menu.RemoveValue=					Delete parameter
+ConfigINI.ExtendedEditor.Menu.ValueAlreadyExist=			Parameter "%s" already exists
+ConfigINI.ExtendedEditor.Menu.RemoveValueAsk=				Do you really want to delete "%s" parameter?
+
+;Component: DataFiles;
+DataFiles=													Data Files
+;Module: Core;
+;No Strings;
+;Module: Menu;
+DataFiles.Menu=												Menu
+DataFiles.Menu.PluginActivation=							Plugin activation
+DataFiles.Menu.ArchivesRegistration=						Archive registration
+DataFiles.Menu.SavesManager=								Save manager
+DataFiles.Menu.SteamWorkshopModBuilder=						Steam Workshop mod builder
+DataFiles.Menu.Tools=										Tools
+DataFiles.Menu.Screenshots=									Screenshots
+DataFiles.Menu.ArchiveInvalidation=							Archive invalidation
+;Module: PluginFile;
+DataFiles.PluginFile.IncorrectFileType=						Invalid data file
+DataFiles.PluginFile.TypeMaster=							Master file
+DataFiles.PluginFile.TypePlugin=							
+;Module: ArchiveInv;
+DataFiles.ArchiveInv=										Archive invalidation
+;Module: Archives;
+DataFiles.Archives=											Archive registration
+DataFiles.Archives.ListSaved=								List "%s" from [%s] saved
+;Quick Settings Menu;
+DataFiles.Archives.QMS=										Quick settings
+DataFiles.Archives.QMS.EditorMode=							Editor mode
+;Module: Connection;
+DataFiles.Connection=										Plugins activation
+DataFiles.Connection.ActiveListNotFound=					List of active plugins wasn't wound in: "%s"A file will be created.
+DataFiles.Connection.OrderListNotFound=						List of installed plugins wasn't wound in: "%s"A file will be created.
+DataFiles.Connection.FileArrangeError=						You can't move ESP files above master files.If it is necessary to do so, enable this function in the settings menu.
+DataFiles.Connection.DependenciesChecking=					Checking dependencies
+DataFiles.Connection.DependenciesChecking.FileNotFound=		File "%s" wasn't found. It is required for the following files to work:
+;Menu;
+DataFiles.Menu=												Menu
+DataFiles.Menu.Import=										Import
+DataFiles.Menu.ImportExport=								Import/Export
+DataFiles.Menu.Sorting=										Sort
+DataFiles.Menu.ImportList=									Import load order
+DataFiles.Menu.ExportList=									Export load order
+DataFiles.Menu.ExportOnlyActive=							Export active plugins list
+;Quick Settings Menu;
+DataFiles.QMS=												Quick settings
+
+DataFiles.QMS.LoadOrderTitle=								-- Load order
+
+DataFiles.QMS.BOSSWorkingMode=								-- BOSS mode
+DataFiles.QMS.ModeConsole=									Console
+DataFiles.QMS.ModeGUI=										GUI
+
+DataFiles.QMS.MiscTitle=									-- Miscellaneous
+DataFiles.QMS.ActivePluginsCount=							Active plugins: %d
+DataFiles.QMS.AllowMoveESPAboveESM=							Allow ESP above ESM
+DataFiles.QMS.Fallout4PluginActivationBypass=				Bypass plugin activation
+DataFiles.QMS.ReadOnlyTitle=								-- Read only
+;Interface;
+DataFiles.Interface=										Interface
+DataFiles.Interface.PartOfInstaller=						Part of installer
+DataFiles.Interface.PartOf=									Part of
+DataFiles.Interface.NoDependencies=							No dependencies
+
+;Module: SavesManager;
+DataFiles.SavesManager=										Saves manager
+DataFiles.SavesManager.PluginsSyncError=					Error synchronizing plugin list
+DataFiles.SavesManager.PluginsFetchError=					Error retrieving plugin list
+DataFiles.SavesManager.HMS=									%d h %d min %d s
+DataFiles.SavesManager.HMS2=								%d days
+DataFiles.SavesManager.IncorrectFileType=					This file is not a correct save file
+;Menu;
+DataFiles.SavesManager.Menu=								Menu
+DataFiles.SavesManager.Menu.SyncPluginsList=				Synchronize plugin list
+DataFiles.SavesManager.Menu.ExportPluginsList=				Export plugin list
+
+;Module: Screenshots;
+DataFiles.Screenshots=										Screenshots
+DataFiles.Screenshots.Image=								%s image
+DataFiles.Screenshots.ImageENBImages=						Ignore ENB images
+
+;Module: Sorting;
+DataFiles.Sorting=											Autosorting
+DataFiles.Sorting.WorkingFolderNotSpecified=				Working folder for "%s" is not specified.Would you like to specify it?
+DataFiles.Sorting.UseTool=									Use %s
+DataFiles.Sorting.WaitForComplete=							Waiting for %s to shut down
+DataFiles.Sorting.WorkingModeNotSpecified=					Working mode for %s is not specified: "%s". Check working mode settings.
+DataFiles.Sorting.WorkingError=								%s runtime error. Error code: %d
+DataFiles.Sorting.WorkingComplete=							%s work has been completed
+DataFiles.Sorting.IncorrectLoadOrderFile=					You have to set "%s" as main load order file before using this function.
+DataFiles.Sorting.ConsoleNotSupported=						Console is not supported in this version of %s.
+
+;Module: SteamWorkshopModBuilder;
+DataFiles.SWModBuilder=										Steam Workshop mod builder
+DataFiles.SWModBuilder.ID=									Addon identifier
+DataFiles.SWModBuilder.SimpleInstall=						Simple install
+DataFiles.SWModBuilder.CreateInstaller=						Create installer
+DataFiles.SWModBuilder.CreatingInstaller=					Creating installer
+DataFiles.SWModBuilder.SimpleInstallComplete=				Installation completed.Delete original files?
+DataFiles.SWModBuilder.SimpleInstallNoFiles=				No files to install.
+DataFiles.SWModBuilder.InformationWebRequest=				Requesting information from Steam Workshop
+DataFiles.SWModBuilder.CreatingProject=						Creating project
+DataFiles.SWModBuilder.SavingProject=						Saving project
+
+;Module: Tools;
+DataFiles.Tools=											Tools
+DataFiles.Tools.AddLink=									Add link
+DataFiles.Tools.RemoveLink=									Delete link
+DataFiles.Tools.EditCommand=								Edit command
+DataFiles.Tools.SystemLinkRemoveWarning=					You can't delete a system link
+DataFiles.Tools.ShowSystemLinks=							Show system liks
+
+;Component: Installers;
+Installers=													Installers
+;Module: Core;
+Installers.Operator=										Operator
+Installers.Operators=										Operators
+Installers.SelectOperator=									Select operator
+Installers.Operators.And=									And
+Installers.Operators.Or=									Or
+
+Installers.ExtractingError=									Extraction error: #%d. Command:
+Installers.ExtractingErrorSimple=							Extraction error: #%d
+Installers.FormatNotSupported=								Format "%s" is not supported.
+Installers.FormatNotRecognized=								Can't recognize installer type:"%s"
+Installers.CanNotOpenArchive=								Unable to open file: "%s"Archive might be broken or this format is not supported.
+
+Installers.Log=												Installation log
+Installers.Log.RemovingEntryTitle=							Delete from log
+Installers.Log.RemovingEntry=								Do you really want to remove this entry "%s"?
+Installers.Log.RemovingEntryUninstaallAsk=					Would you like to uninstall before clearing the log?
+Installers.Log.EntryNotFound=								Entry "%s" not found
+Installers.Log.EntryInvalidPointer=							Pointer "%s" is not valid pointer to log entry.
+Installers.Log.CategoryRemoveAsk=							Do you really want to delete this category "%s"?
+Installers.Log.CategoryRemoveError=							Incorrect category or category is not found.
+Installers.Log.ClearLogTitle=								Clear log
+Installers.Log.ClearLogWarninig=							Do you really want to delete all data from the installation log? This action cannot be undone. After the log has been cleared, you will not be able to uninstall previously installed plugins.Continue?
+Installers.Log.ClearLogDone=								Log cleared
+Installers.Log.Uninstalling=								Uninstalling
+Installers.Log.UninstallingAsk=								Do you really want to uninstall "%s"?
+Installers.Log.UninstallingDone=							Package "%s" has been successfully uninstalled
+Installers.Log.UninstallingNotInstalled=					Package "%s" is not installed
+Installers.Log.ExportTitle=									Log export
+Installers.Log.ExportPacking=								Packing log files
+Installers.Log.ExportNoData=								No data to export
+Installers.Log.ImportTitle=									Log import
+Installers.Log.ImportWarning=								This will replace your current log, you can lose important data.Continue?
+Installers.Log.ImportUnpacking=								Unpacking log files
+Installers.Log.ImportDone=									Log import has been completed
+Installers.Log.ImportError=									Import error
+Installers.Log.ImportUnsupportedVersion=					Unsupported log version: %s
+Installers.Log.ImportNoData=								No data to import
+Installers.Log.Import30Title=								Import log v3.0
+Installers.Log.Import30Warning=								WARNING!You are going to import log version 3.0.Continue?
+
+Installers.Req=												Requirements
+Installers.Req.VersionError=								Version: error
+Installers.Req.VersionInstalled=							Installed
+Installers.Req.VersionNotInstalled=							Not installed
+Installers.Req.VersionUnavailable=							Unavailable
+
+Installers.Req.StateError=									Status: error
+Installers.Req.StateActive=									Active
+Installers.Req.StateInactive=								Inactive
+Installers.Req.StateMissing=								Missing
+Installers.Req.StatePresent=								Present
+Installers.Req.StateInstalled=								Installed
+Installers.Req.StateNotInstalled=							Not installed
+
+Installers.Req.OperatorError=								Operator: error
+Installers.Req.GreaterThan=									Greater than
+Installers.Req.GreaterThanOrEqual=							Greater than or equal to
+Installers.Req.LessThan=									Less than
+Installers.Req.LessThanOrEqual=								Less than or equal to
+Installers.Req.EqualTo=										Equal to
+Installers.Req.Not=											Not
+
+;Module: Install;
+Installers.Install=											Installing
+Installers.Install.InstallerType=							Installer type: %s
+Installers.Install.VersionAlreadyInstalled=					Version "%s" is already installed.Continue?
+Installers.Install.NewerVersionInstalled=					A newer version of "%s" is already installed, it is not recommended that you install an older version.Continue?
+Installers.Install.AlreadyInstalled=						Package "%s" is already installed.Continue?
+
+Installers.Install.VersionMismatchTitle=					Version mismatch
+Installers.Install.VersionMismatchImpossible=				Configuration version of this installer "%s" is incompatible with installation engine version "%s".Installation is impossible.
+Installers.Install.VersionMismatchComversionNeed=			Configuration version of this installer "%s" is incompatible with installation engine version "%s".This installer can only be used once conversion has been performed.
+Installers.Install.VersionMismatchNoInfo=					Can't find configuration version. Installation is not recommended.Continue?
+
+Installers.Install.DescriptionUnavailable=					Description is unavailable
+Installers.Install.ReadyToInstall=							Ready to install
+Installers.Install.CanNotEvaluateInstallerID=				Unable to evaluate installer ID
+Installers.Install.IncorrectInstallInfo=					Incorrect installer config
+
+;Module: InstallManager;
+Installers.Manager=											Installer manager
+Installers.Manager.CacheUpdateTitle=						Cache update
+Installers.Manager.CacheUpdateWarning=						This will update cache for all log entries. It may take a long time.Continue?
+Installers.Manager.CacheUpdateProcessingAll=				Processing log entries. Total: %d
+Installers.Manager.CacheUpdateNoData=						There is no data to update in this file
+Installers.Manager.CacheUpdateDone=							Cache update has been successfully completed
+Installers.Manager.CacheRemoveTitle=						Delete cache
+Installers.Manager.CacheRemoveWarning=						This will delete cache for all log entries. It may take a long time and cannot be canceled.Continue?
+Installers.Manager.LogLoadingX=								Loading log: %d%%
+Installers.Manager.LoadingScreenshots=						Loading screenshots
+Installers.Manager.LoadingFilesListX=						Loading file list: %d%%
+Installers.Manager.FilesListLoadActivator=					Click here to load files list
+Installers.Manager.InvalidFindQuery=						Incorrect query format
+Installers.Manager.FindNotFound=							No items matching "%s" were found
+Installers.Manager.SelectDestinationCategory=				Select a category to where you want move the entries
+
+Installers.Manager.Categories=								Categories
+Installers.Manager.Categories.Animation=					Animation
+Installers.Manager.Categories.Outfits=						Armor, clothing and jewelry
+Installers.Manager.Categories.Weapons=						Weapons
+Installers.Manager.Categories.Environment=					Immersion
+Installers.Manager.Categories.Gameplay=						Gameplay
+Installers.Manager.Categories.Quests=						Quests and adventures
+Installers.Manager.Categories.PlayerHomes=					Player homes
+Installers.Manager.Categories.Settlements=					Cities, villages and settlements
+Installers.Manager.Categories.Dungeons=						Dungeons
+Installers.Manager.Categories.NewLands=						New lands 
+Installers.Manager.Categories.Locations=					Locations - other
+Installers.Manager.Categories.Landscape=					Landscapes
+Installers.Manager.Categories.Overhauls=					Overhauls
+Installers.Manager.Categories.TotalConversions=				Total conversions
+Installers.Manager.Categories.Audio=						Audio, sound and music
+Installers.Manager.Categories.Interface=					User interfaces
+Installers.Manager.Categories.Magic=						Magic, enchantments and alchemy
+Installers.Manager.Categories.Characters=					Characters
+Installers.Manager.Categories.Followers=					Followers
+Installers.Manager.Categories.Races=						Races
+Installers.Manager.Categories.ModelsAndTextures=			Models and textures
+Installers.Manager.Categories.HairAndFace=					Hair and face models
+Installers.Manager.Categories.VisualsAndGraphics=			Visuals and graphics
+Installers.Manager.Categories.ENB=							ENB presets
+Installers.Manager.Categories.Utilities=					Utilities
+Installers.Manager.Categories.Fixes=						Patches and bugfixes
+Installers.Manager.Categories.Misc=							Miscellaneous
+
+Installers.Manager.Menu=									Menu
+Installers.Manager.Menu.Install=							Install
+Installers.Manager.Menu.Uninstall=							Uninstall
+Installers.Manager.Menu.ExtractAll=							Extract all
+Installers.Manager.Menu.ExtractSetupInfo=					Extract setup info
+Installers.Manager.Menu.ExtractSetupData=					Extract setup data
+Installers.Manager.Menu.ImportProject=						Import project
+Installers.Manager.Menu.OpenProject=						Open project
+Installers.Manager.Menu.ClearLog=							Clear log
+Installers.Manager.Menu.UpdateCache=						Update cache
+Installers.Manager.Menu.UpdateAllCache=						Update all log cache
+Installers.Manager.Menu.RemoveCache=						Delete cache
+Installers.Manager.Menu.RemoveAllCache=						Delete all log cache
+Installers.Manager.Menu.Statistics=							Statistics
+Installers.Manager.Menu.Find=								Search
+Installers.Manager.Menu.FindIn=								Search in...
+Installers.Manager.Menu.SortBy=								Sort by...
+Installers.Manager.Menu.SortByNo=							Do not sort
+Installers.Manager.Menu.SortDirection=						Sort order
+Installers.Manager.Menu.SortDirectionAsc=					Ascending
+Installers.Manager.Menu.SortDirectionDsc=					Descending
+
+Installers.Manager.Statistics=								Statistics
+Installers.Manager.Statistics.EntriesCount=					Total entries
+Installers.Manager.Statistics.InstalledCount=				Installed
+Installers.Manager.Statistics.HasDataFileCount=				Contains data files
+Installers.Manager.Statistics.CacheSize=					Cache size
+Installers.Manager.Statistics.LogFileSize=					Log file size
+
+;Module: FOMod;
+Installers.FOMod=											FOMod
+Installers.FOMod.ConvertingConfig=							Converting configuration
+Installers.FOMod.GatheringInfo=								Gathering information
+Installers.FOMod.GatheringRequiredFiles=					Gathering required files
+Installers.FOMod.MainRequirementsAnalysis=					Analyzing main requirements
+Installers.FOMod.InstallComponentsAnalysis=					Analyzing components
+Installers.FOMod.InstallComponentsAnalysisFiles=			Analyzing components: file entries
+Installers.FOMod.ConditionalInstallAnalysis=				Analyzing conditional install components
+Installers.FOMod.ConditionalInstallAnalysisFiles=			Analyzing conditional install components: file entries
+Installers.FOMod.AnalysisFile=								Analyzing "%s"
+Installers.FOMod.BuildingFile=								Building "%s"
+Installers.FOMod.Files=										Files
+Installers.FOMod.Requirements=								Requirements
+Installers.FOMod.Components=								Components
+Installers.FOMod.InfoAndConfig=								Configuration
+Installers.FOMod.Interface=									Interface
+Installers.FOMod.Cleaning=									Clear
+Installers.FOMod.TypeNative=								Native
+Installers.FOMod.TypeConfigurable=							Configurable
+Installers.FOMod.TypeScript=								Script
+Installers.FOMod.TypeSimple=								Simple
+
+;Module: InstallWizard;
+Installers.IW=												Inastallation wizard
+Installers.IW.CategoryWindowTitle=							Select category
+Installers.IW.CategorySelectFromList=						Select from list
+Installers.IW.CategoryCreateNew=							Create new
+
+;Quick Settings Menu;
+Installers.IW.QMS=											Quick settings
+Installers.IW.QMS.InstallAndUninstallTitle=					-- Install and uninstall
+Installers.IW.QMS.UninstallBeforeReinstall=					Uninstall before reinstall
+Installers.IW.QMS.RevertINISettings=						Revert INI configuration after uninstalling
+Installers.IW.QMS.CreateBackUps=							Create backups
+Installers.IW.QMS.OverwriteSettingsTitle=					-- Overwrite files
+Installers.IW.QMS.AccordingInstallerConfig=					According to installer configuration
+Installers.IW.QMS.OverwriteAlways=							Always overwrite
+Installers.IW.QMS.OverwriteNever=							Don't overwrite
+Installers.IW.QMS.OverwriteAsk=								Ask
+Installers.IW.QMS.FilesListPreviewTitle=					-- Preview file list
+Installers.IW.QMS.FilesPreviewDisable=						Disable
+Installers.IW.QMS.FilesPreviewNoAuto=						Don't expand automatically
+Installers.IW.QMS.FilesPreviewAuto=							Expand automatically
+Installers.IW.QMS.MsicTitle=								-- Miscellaneous
+Installers.IW.QMS.JumpToFinishPage=							Jump to finish window automatically
+Installers.IW.QMS.WarnIfNoProfileDataPresent=				Warn if no profile data is available
+
+Installers.IW.NextButton1=									Next >
+Installers.IW.NextButton2=									Install >
+Installers.IW.BackButton=									< Back
+Installers.IW.CancelButton=									Cancel
+Installers.IW.FinishButton=									Finish
+
+Installers.IW.Steps=										Steps
+Installers.IW.Steps.Info=									Info
+Installers.IW.Steps.Requirements=							Requirements
+Installers.IW.Steps.Components=								Components
+Installers.IW.Steps.Installing=								Installing
+Installers.IW.Steps.Finish=									Finish
+
+Installers.IW.Info.ID=										Identifier
+Installers.IW.Info.Name=									Name
+Installers.IW.Info.LocalName=								Translated name
+Installers.IW.Info.LocalNameShort=							Translated name
+Installers.IW.Info.Version=									Version
+Installers.IW.Info.Author=									Author
+Installers.IW.Info.Localizer=								Translator
+Installers.IW.Info.Copyrights=								Copyrights
+Installers.IW.Info.Site=									Website
+Installers.IW.Info.OriginalURL=								Original website
+Installers.IW.Info.DiscussionURL=							Discussion
+Installers.IW.Info.Category=								Category
+Installers.IW.Info.CategoryID=								Category ID
+Installers.IW.Info.CategoryName=							Category name
+Installers.IW.Info.Profile=									Profile
+Installers.IW.Info.ProfileStringFormat=						%s (Current: "%s")
+Installers.IW.Info.ProfileNotFoundString=					<Not found>
+
+Installers.IW.Info.NoProfileInfo=							Installer doesn't contain profile ID which it was designed for."Cancel" - Do not show again
+Installers.IW.Info.ProfileNotExist=							Profile "%s" cannot be found in system
+Installers.IW.Info.ProfilesMismatch=						Specified profile "%s" doesn't match which is being currently used (%s).It is recommnded that you change profile and restart the installation
+
+Installers.IW.Requirements.NameNotFound=					Name not found
+Installers.IW.Requirements.Verson=							Version
+Installers.IW.Requirements.Name=							Name
+Installers.IW.Requirements.RequiredState=					Required state
+Installers.IW.Requirements.CurrentState=					Current state
+Installers.IW.Requirements.Comment=							Comment
+Installers.IW.Requirements.File=							File
+
+Installers.IW.File.CanNotFindElement=						Unable to find file/folder matching the specified ID: %s
+Installers.IW.File.OverwriteFileAsk=						Overwrite "%s"?"Yes" - Overwrite"No" - Don't overwrite"Cancel" - Yes to all
+Installers.IW.File.IncorrectEntryType=						Unknown entry type "%s" for file/folder "%s".
+Installers.IW.File.WritingInLog=							Writing to log
+
+Installers.IW.Components.SelectAtLeastOne=					At least one
+Installers.IW.Components.SelectExactlyOne=					Exactly one
+Installers.IW.Components.SelectAtMostOne=					At most one
+Installers.IW.Components.SelectAny=							Any
+Installers.IW.Components.SelectExtended=					Any
+Installers.IW.Components.SelectExtendedAsIs=				Extended
+Installers.IW.Components.SelectAll=							All
+
+Installers.IW.Components.ComponentsSelection=				Component selection
+Installers.IW.Components.ComponentsSelectionDesc=			Select an element from the list to view the desription
+Installers.IW.Components.SelectComponent=					Select a component
+Installers.IW.Components.IncorrectConfig=					Incorrect install steps configuration
+Installers.IW.Components.NoComponentsFound=					No components found
+Installers.IW.Components.SelectModeTitle=					%s (Select %s)
+Installers.IW.Components.DefaultSetName=					Options
+Installers.IW.Components.FilesPreviewDisabled=				File list preview has been disabled
+Installers.IW.Components.Component=							Components
+
+Installers.IW.Installing.InstallSequenceError=				Extraction hasn't been completed. Installation will be aborted.
+Installers.IW.Installing.CurrectAction1=					Currect action: uninstalling previous version
+Installers.IW.Installing.CurrectAction2=					Currect action: uninstalling completed
+Installers.IW.Installing.TotalProgress=						
+Installers.IW.Installing.WriteINITitle=						Writing INI values
+Installers.IW.Installing.WriteINIAsk=						Apply these changes to INI files?%s
+
+Installers.IW.Finish.Label=									Package "%s" has been successfully installed
+
+;Module: Project;
+Installers.Project=											Project
+Installers.Project.NewProject=								New project
+Installers.Project.EmptyProject=							Empty project
+Installers.Project.SetConfig=								Configuration
+Installers.Project.SetList=									Set list
+Installers.Project.Config=									Configuration
+Installers.Project.AddSet=									Add a set
+Installers.Project.RemoveSet=								Remove set
+Installers.Project.RemoveSetAsk=							Do you really want to remove "%s" set?
+Installers.Project.SetIDUsed=								A set with "%s" ID already exists
+Installers.Project.EntryIDUsed=								An entry with "%s" ID already exists
+
+Installers.Project.Menu=									Menu
+Installers.Project.MenuArrange=								Arrange and rename
+Installers.Project.MenuStructureTitle=						-- File structure
+Installers.Project.MenuOperatorTitle=						-- Operator
+
+Installers.Project.Menu.NewProject=							New
+Installers.Project.Menu.OpenProject=						Open
+Installers.Project.Menu.SaveProject=						Save
+Installers.Project.Menu.SaveProjectAs=						Save as
+Installers.Project.Menu.Templates=							Templates
+Installers.Project.Menu.TemplatesControl=					Manage templates
+Installers.Project.Menu.SaveAsTemplate=						Save as template
+
+Installers.Project.Menu.ImportFromInstaller=				Import from installer
+Installers.Project.Menu.ImportFromFOModArchive=				Import from FOMod (archive)
+Installers.Project.Menu.ImportFromFOModXML=					Import from FOMod (XML)
+Installers.Project.Menu.ImportFromSiteTESALLRU=				Import from TESALL.RU
+Installers.Project.Menu.ImportFromSiteNEXUSMODSCOM=			Import from NexusMods.com
+Installers.Project.Menu.ImportFromSiteMODGAMESNET=			Import from ModGames.net
+Installers.Project.Menu.ImportFromSiteNotSupported=			Website "%s" not supported
+Installers.Project.Menu.ImportNoData=						Unable to find data required for import
+
+Installers.Project.Menu.BuildUpdateInfo=					Update info
+Installers.Project.Menu.BuildPreview=						Preview
+
+Installers.Project.Menu.ProjectSaved=						Project saved: "%s"
+Installers.Project.Menu.CanNotFindProject=					Project not found in: "%s"
+Installers.Project.Menu.SavingTemplateTitle=				Save template
+Installers.Project.Menu.TemplateSaved=						Template saved: "%s%s"
+Installers.Project.Menu.TemplateOverwrite=					Template "%s" already exists.Overwrite?
+
+Installers.Project.Info=									Info
+Installers.Project.Info.ExactMegaBytes=						%d MB
+Installers.Project.Info.ApproximateMegaBytes=				~%d MB
+Installers.Project.Info.BZip2LessThan128=					< %d MB
+Installers.Project.Info.RequiredMemory=						Memory for compression
+Installers.Project.Info.DictionarySize.Label=				Dictionary size
+Installers.Project.Info.VersionFormat.Label=				Version format
+Installers.Project.Info.VersionFormat=						(Numeric="Numeric (5.3.0.7a)", Date="Date (DD:MM:YYYY)");
+Installers.Project.Info.ProfilesList.Label=					Profile
+Installers.Project.Info.ProfilesList=						(="<None>");
+Installers.Project.Info.ComponenteEnabled=					Enable components
+Installers.Project.Info.ConditionalInstallEnabled=			Enable conditional install
+Installers.Project.Info.SolidArchive=						Solid archive
+Installers.Project.Info.UseMultiThreading=					Multithreading compression
+Installers.Project.Info.VersionComparison=					Version comparison
+
+Installers.Project.Info.CustomInfo=							User information
+Installers.Project.Info.DefaultDocument.Label=				Default document
+Installers.Project.Info.MarkByDefault=						Check by default
+
+Installers.Project.Files=									Files
+Installers.Project.Files.Folders=							Folders
+Installers.Project.Files.FolderAdd=							Add folder
+Installers.Project.Files.FileAdd=							Add file
+Installers.Project.Files.FolderRemove=						Delete folder
+Installers.Project.Files.FileRemove=						Delete file
+Installers.Project.Files.FilesList=							File list
+Installers.Project.Files.StructNested=						Nested
+Installers.Project.Files.StructSimple=						Simple
+Installers.Project.Files.OverwriteYes=						Yes
+Installers.Project.Files.OverwriteNo=						No
+Installers.Project.Files.OverwriteAsk=						Ask
+Installers.Project.Files.ChaceChecking=						Checking cache
+Installers.Project.Files.ExtractingPath=					Extraction path
+Installers.Project.Files.LocalPath=							Local path
+Installers.Project.Files.SetIDUsed=							A folder with ID "%s" already exists
+
+Installers.Project.Interface=								Interface
+Installers.Project.Interface.WindowText=					Window text
+Installers.Project.Interface.WindowTitle=					Window title
+Installers.Project.Interface.DefaultWindowTitle=			Installing - %s
+Installers.Project.Interface.WindowSubTitle=				Window subtitle
+Installers.Project.Interface.DefaultWindowSubTitle=			Window subtitle
+Installers.Project.Interface.Logo=							Logo
+Installers.Project.Interface.ImagesList=					Image list
+Installers.Project.Interface.ImportFromFolder=				Import from folder
+Installers.Project.Interface.AllowScreenshotsView=			Allow viewing screenshots
+
+Installers.Project.Requirements=							Requirements
+Installers.Project.Requirements.List=						Requirement list
+Installers.Project.Requirements.StdReqList=					Standard requirements
+Installers.Project.Requirements.GeneralRequirements=		General requirements
+Installers.Project.Requirements.AddCustomReq=				Add a requirement
+Installers.Project.Requirements.AddStdReq=					Add
+Installers.Project.Requirements.PlaceholderDefault=			<Default>
+Installers.Project.Requirements.All=						All
+Installers.Project.Requirements.Inapplicable=				Inapplicable
+Installers.Project.Requirements.ReqAlreadyExist=			A requirement with this ID already exists
+Installers.Project.Requirements.ReqSpecifyNameOrID=			Specify name or ID
+Installers.Project.Requirements.CurrentStateLabel=			%s: State: %s, Version: (Inst.: "%s" %s "%s") = %s
+Installers.Project.Requirements.RequirementConfig=			Requirement configuration
+Installers.Project.Requirements.RequiredVersion=			Required version
+Installers.Project.Requirements.RequiredState=				Required state
+Installers.Project.Requirements.CurrentState=				Current state
+Installers.Project.Requirements.NameAndID=					Name and ID
+Installers.Project.Requirements.State.Label=				State
+Installers.Project.Requirements.State=						(Active="Active", Inactive="Inactive", Missing="Missing", Present="Present", Installed="Installed");
+Installers.Project.Requirements.RemoveDefaultSet=			Default set cannot be deleted
+Installers.Project.Requirements.SelectVersionAndOperator=	Select version and operator
+
+Installers.Project.Requirements.Groups=						Requirement groups
+Installers.Project.Requirements.Groups.Title=				-- %s
+Installers.Project.Requirements.Groups.General=				General
+Installers.Project.Requirements.Groups.Utilities=			Programs
+Installers.Project.Requirements.Groups.DLC=					DLC
+Installers.Project.Requirements.Groups.Framework=			Frameworks
+Installers.Project.Requirements.Groups.Body=				Body replacers
+Installers.Project.Requirements.Groups.BodyExtra=			Body replacers - extra
+Installers.Project.Requirements.Groups.Patch=				Fixes
+Installers.Project.Requirements.Groups.Extra=				Extra
+Installers.Project.Requirements.Groups.Misc=				Miscellaneous
+
+Installers.Project.Components=								Components
+Installers.Project.Components.Marks=						Marks
+Installers.Project.Components.Image=						Image
+Installers.Project.Components.ReqSet=						Requirements set
+Installers.Project.Components.INI=							INI
+Installers.Project.Components.IncompatibleID=				Incompatible IDs
+Installers.Project.Components.RequiredID=					Required IDs
+Installers.Project.Components.CompList=						Components list
+Installers.Project.Components.InstallSteps.Label=			Installation steps
+Installers.Project.Components.ImportFromFiles=				Import from files
+Installers.Project.Components.RequiredFiles.Label=			Required files
+Installers.Project.Components.ConditionalInstall.Label=		Conditional Install
+Installers.Project.Components.SelectionMode.Label=			Selection mode
+Installers.Project.Components.SelectionMode=				(ExactlyOne="Exactly one", AtLeastOne="At least one", AtMostOne="At most one", Any="Any", All="All", Extended="Extended");
+Installers.Project.Components.TypeDescriptor.Label=			Type
+Installers.Project.Components.TypeDescriptor=				(Optional="Optional", Recommended="Recommended", Required="Required", CouldBeUsable="Could Be Usable", NotUsable="Not Usable");
+Installers.Project.Components.SelectReqSet=					Select requirements set
+Installers.Project.Components.SelectImage=					Select image
+Installers.Project.Components.Flags=						Flags
+Installers.Project.Components.SetFlags=						Set flags
+Installers.Project.Components.RequiredFlags=				Required flags
+Installers.Project.Components.ArrangeSteps=					Arrange installation steps
+Installers.Project.Components.StepList=						Step list
+Installers.Project.Components.AutoSetup=					Autogenerate
+Installers.Project.Cpomonents.AutoSetupAsk=					This will replace your current step list.Continue?
+Installers.Project.Components.CI.StepID=					Step ID
+
+Installers.Project.INI=										INI files
+Installers.Project.INI.ParametrList=						Parameter list
+Installers.Project.INI.StandartFiles=						Standard files
+Installers.Project.INI.OtherFiles=							Other files
+Installers.Project.INI.EntryAlreadyExist=					An entry with this ID already exists
+Installers.Project.INI.EnterSectionAndKey=					Enter section and key
+Installers.Project.INI.AutoApply=							Apply automatically
+
+Installers.Project.Build=									Building
+Installers.Project.Build.CurrectAction=						Current action: %s
+Installers.Project.Build.TotalProgress=						Total progress: %s
+Installers.Project.Build.FileNotFound=						Can't find file to extract: "%s"Unable to continue
+Installers.Project.Build.IncorrectInstallerPath=			Incorrect installer path
+Installers.Project.Build.OK=								Building has been successfully completed
+Installers.Project.Build.OKX=								Building has been successfully completed%sSize: %s
+Installers.Project.Build.Fail=								Building has been aborted
+Installers.Project.Build.FailX=								Building has been aborted. Error: %s
+
+Installers.Project.Build.CopyingDocuments=					Copying files: documents
+Installers.Project.Build.CopyingImages=						Copying files: images
+Installers.Project.Build.XMLDocments=						Building XML: documents
+Installers.Project.Build.XMLFiles=							Building XML: files
+Installers.Project.Build.XMLInterface=						Building XML: interface
+Installers.Project.Build.XMLRequirements=					Building XML: requirements
+Installers.Project.Build.XMLComponents=						Building XML: components
+Installers.Project.Build.XMLSave=							Building XML: saving XML
+
+Installers.Project.Build.CompressingFiles=					Building project: compressing files
+Installers.Project.Build.CopyingFolder=						Building project: copying "%s" folder
+
+;Module: Properties;
+Installers.Properties=										Properties
+
+Installers.Properties.StandardInfo=							Standard information
+Installers.Properties.CustomInfo=							User information
+Installers.Properties.NoCustomInfo=							No user information
+Installers.Properties.Config=								Confiuration
+Installers.Properties.InstallerFormat=						Package format
+Installers.Properties.ArchiveFormat=						Arcive format
+Installers.Properties.ArchiveSolid=							Solid archive
+Installers.Properties.YesXCount=							Yes. %d.
+Installers.Properties.Compatibility=						Compatibility
+Installers.Properties.CompatibilityFull=					Full
+Installers.Properties.CompatibilityPartial=					Partial
+Installers.Properties.CompatibilityConversionNeed=			None. Conversion is required to install.
+Installers.Properties.CompatibilityTooOldWarning=			Accuracy of the remaining information is not guaranteed.
+Installers.Properties.SetupInfoVersion=						Config version
+Installers.Properties.SetupInfoVersionData=					Current version
+Installers.Properties.ComponentsEnabled=					Components enabled
+Installers.Properties.HasDescription=						Has a description
+Installers.Properties.HasDocuments=							Contains documents
+Installers.Properties.HasScreenshots=						Contains screenshots
+Installers.Properties.HasProjectFile=						Contains project file
+Installers.Properties.SizeAndLocation=						Size and location
+Installers.Properties.Size=									Size

@@ -1,0 +1,314 @@
+[Morrowind]
+Order=10
+; Main
+Name=The Elder Scrolls III: Morrowind
+ShortName=Morrowind
+; Launch
+Launch=(0="Morrowind.exe", Name[0]="Morrowind");
+LaunchConfig=(Main="0");
+; Path and Registry
+RegistryNode=32
+; Additional Apps
+Launcher=(0="Morrowind Launcher.exe", Name[0]="Morrowind Launcher");
+Editor=(0="TES Construction Set.exe", Name[0]="Construction Set", SupportRunViaAlternate="0");
+; Paths
+DataFilesPath=(Variable="InstallPath", Path="Data Files");
+SettingsPath=(Variable="InstallPath", Path="Morrowind.ini");
+SavesPath=(Variable="InstallPath", Path="Saves");
+; ConfigINI
+ConfigFormat=INI
+SupportENB=0
+ConfigFiles=(1024="Morrowind.ini");
+; DataFiles
+PluginActivationConfig=(Method="BethesdaMorrowind", ConfigFileID="1024", ChangeFileModifiedDate="1", AlwaysSortByDate="1", FileFormat="BethesdaMorrowind", MainESM="Morrowind.esm");
+;
+SortingToolsSupport=(BOSS="0", LOOT="0");
+;
+ArchivesConfig=(Method="BethesdaMorrowind", Path="Data Files");
+ArchivesConfigINI=(ConfigFileID="1024");
+ArchivesFileFilter=(BSA=".bsa");
+;
+SavesManagerConfig=(SaveFormat="BethesdaMorrowind", PluginsSyncSupport="1", MultiFileSave="0", BaseExtension=".ess");
+SavesManagerFileFilter=(ESS=".ess", ESS+BAK=".ess|.bak");
+;
+ArchiveInvalidation=();
+SteamConfig=(SteamID="22320", Path="Data Files");
+ToolsConfig=(0="Data Files", 1="Data Files\Tools", 2="");
+ScreenshotsConfig=(0="", 1="Screenshots");
+; Installers
+MainRequirement=(Variable="InstallPath", File="Morrowind.exe", State="Present", RequiredVersion="");
+
+[Oblivion]
+Order=11
+; Main
+Name=The Elder Scrolls IV: Oblivion
+ShortName=Oblivion
+; Launch
+Launch=(0="Oblivion.exe", Name[0]="Oblivion", 1="OBSE_Loader.exe", Name[1]="Oblivion Script Extender (OBSE)", ShortName[1]="OBSE", Args[1]="-editor", 2="ENB_Injector.exe", Name[2]="ENB Injector");
+LaunchConfig=(Main="0", Alternate="1", Additional="2");
+; Path and Registry
+RegistryNode=32
+InstallPathRegistry=(MainKey="HKEY_LOCAL_MACHINE", Path="SOFTWARE\Bethesda Softworks\Oblivion", Key="Installed Path", KeyType="REG_SZ");
+; Additional Apps
+Launcher=(0="OblivionLauncher.exe", Name[0]="Oblivion Launcher");
+Editor=(0="TESConstructionSet.exe", Name[0]="Construction Set", SupportRunViaAlternate="1");
+; Paths
+DataFilesPath=(Variable="InstallPath", Path="Data");
+SettingsPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Oblivion");
+SavesPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Oblivion\Saves");
+PluginsLoadOrderPath=(Variable="SHF_APPLICATIONDATA_LOCAL", Path="Oblivion");
+; ConfigINI
+ConfigFormat=INI
+SupportENB=1
+ConfigFiles=(0="Oblivion.ini", 1024="ENB1");
+; DataFiles
+PluginActivationConfig=(Method="BethesdaGeneric", ChangeFileModifiedDate="1", AlwaysSortByDate="1", FileFormat="BethesdaOblivion", MainESM="Oblivion.esm");
+LoadOrderList=(Active="Plugins.txt", Order="LoadOrder");
+LoadOrderDefaultContent=(Active="# This file is used to tell %s which data files to load.|# Please do not modify this file by hand.|# Last modified by %s: Version: %s Date: %s.", Active[1]="ID", Active[2]="AppName", Active[3]="AppVersion", Active[4]="%DateRU%", Order="# This file is used by %s to keep track of your downloaded content.|# Please do not modify this file.|# Last modified by %s. Version: %s. Date: %s.", Order[1]="ID", Order[2]="AppName", Order[3]="AppVersion", Order[4]="%DateRU%");
+;
+SortingToolsSupport=(BOSS="1", LOOT="1");
+BOSS=(CLI="--game %s --silent", 1="ID", IgnoreLoadOrderList="1");
+LOOT=(CLI="--game=%s", 1="ID");
+;
+ArchivesConfig=(Method="BethesdaGeneric", Path="Data");
+ArchivesConfigINI=(ConfigFileID="0", 1="sArchiveList", Section[1]="Archive");
+ArchivesFileFilter=(BSA=".bsa");
+;
+SavesManagerConfig=(SaveFormat="BethesdaOblivion", PluginsSyncSupport="1", MultiFileSave="1", BaseExtension=".ess", CorrespondingExtension=".obse");
+SavesManagerFileFilter=(ESS=".ess", ESS+BAK=".ess|.bak");
+;
+ArchiveInvalidation=(ConfigFileID="0");
+SteamConfig=(SteamID="22330", Path="Data");
+ToolsConfig=(0="Data", 1="Data\Tools", 2="");
+ScreenshotsConfig=(0="", 1="Screenshots", 1024="");
+; Installers
+MainRequirement=(Variable="InstallPath", File="Oblivion.exe", State="Present", RequiredVersion="");
+
+[Skyrim]
+Order=12
+; Main
+Name=The Elder Scrolls V: Skyrim
+ShortName=Skyrim
+; Launch
+Launch=(0="TESV.exe", Name[0]="Skyrim", 1="SKSE_Loader.exe", Name[1]="Skyrim Script Extender (SKSE)", ShortName[1]="SKSE", Args[1]="-editor", 2="ENB_Injector.exe", Name[2]="ENB Injector");
+LaunchConfig=(Main="0", Alternate="1", Additional="2");
+; Path and Registry
+RegistryNode=32
+InstallPathRegistry=(MainKey="HKEY_LOCAL_MACHINE", Path="SOFTWARE\Bethesda Softworks\Skyrim", Key="Installed Path", KeyType="REG_SZ");
+; Additional Apps
+Launcher=(0="SkyrimLauncher.exe", Name[0]="Skyrim Launcher");
+Editor=(0="CreationKit.exe", Name[0]="Creation Kit", SupportRunViaAlternate="0");
+; Paths
+DataFilesPath=(Variable="InstallPath", Path="Data");
+SettingsPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Skyrim");
+SavesPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Skyrim\Saves");
+PluginsLoadOrderPath=(Variable="SHF_APPLICATIONDATA_LOCAL", Path="Skyrim");
+; ConfigINI
+ConfigFormat=INI
+SupportENB=1
+ConfigFiles=(0="Skyrim.ini", 1="SkyrimPrefs.ini", 1024="ENB1", 1048="SkyrimEditor.ini", 1049="SkyrimEditorPrefs.ini");
+; DataFiles
+PluginActivationConfig=(Method="BethesdaGeneric", ChangeFileModifiedDate="0", AlwaysSortByDate="0", FileFormat="BethesdaSkyrim", MainESM="Skyrim.esm");
+LoadOrderList=(Active="Plugins.txt", Order="LoadOrder");
+LoadOrderDefaultContent=(Active="# Last modified by %s. Version: %s Date: %s.", Active[1]="AppName", Active[2]="AppVersion", Active[3]="%DateRU%", Order="# This file is used by %s to keep track of your downloaded content.|# Please do not modify this file.|# Last modified by %s. Version: %s. Date: %s.", Order[1]="ID", Order[2]="AppName", Order[3]="AppVersion", Order[4]="%DateRU%");
+;
+SortingToolsSupport=(BOSS="1", LOOT="1");
+BOSS=(CLI="--game %s --silent", 1="ID");
+LOOT=(CLI="--game=%s", 1="ID");
+;
+ArchivesConfig=(Method="BethesdaGeneric", Path="Data");
+ArchivesConfigINI=(ConfigFileID="0", EditorConfigFileID="1048", 1="sResourceArchiveList", Section[1]="Archive", 2="sResourceArchiveList2", Section[2]="Archive");
+ArchivesFileFilter=(BSA=".bsa", BSA+BSL=".bsa|.bsl");
+;
+SavesManagerConfig=(SaveFormat="BethesdaSkyrim", PluginsSyncSupport="1", MultiFileSave="1", BaseExtension=".ess", CorrespondingExtension=".skse");
+SavesManagerFileFilter=(ESS=".ess", ESS+BAK=".ess|.bak");
+;
+ArchiveInvalidation=(ConfigFileID="0");
+SteamConfig=(SteamID="72850", Path="Data");
+ToolsConfig=(0="Data", 1="Data\Tools", 2="");
+ScreenshotsConfig=(0="", 1="Screenshots", 1024="");
+; Installers
+MainRequirement=(Variable="InstallPath", File="TESV.exe", State="Present", RequiredVersion="1.9.32.0");
+
+[SkyrimSE]
+Order=13
+; Main
+Name=The Elder Scrolls V: Skyrim - Special Edition
+ShortName=Skyrim - Special Edition
+; Launch
+;Launch=(0="SkyrimSE.exe", Name[0]="Skyrim - Special Edition", 1="SKSE64_Loader.exe?", Name[1]="Skyrim SE Script Extender (SKSE64)", ShortName[1]="SKSE64", Args[1]="-editor", 2="ENB_Injector.exe", Name[2]="ENB Injector");
+;LaunchConfig=(Main="0", Alternate="1", Additional="2");
+Launch=(0="SkyrimSE.exe", Name[0]="Skyrim - Special Edition", 2="ENB_Injector.exe", Name[2]="ENB Injector");
+LaunchConfig=(Main="0", Additional="2");
+; Path and Registry
+RegistryNode=32
+InstallPathRegistry=(MainKey="HKEY_LOCAL_MACHINE", Path="SOFTWARE\Bethesda Softworks\Skyrim Special Edition", Key="Installed Path", KeyType="REG_SZ");
+; Additional Apps
+Launcher=(0="SkyrimSELauncher.exe", Name[0]="Skyrim SE Launcher");
+;Editor=(0="CreationKit.exe", Name[0]="Creation Kit", SupportRunViaAlternate="0");
+; Paths
+DataFilesPath=(Variable="InstallPath", Path="Data");
+SettingsPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Skyrim Special Edition");
+SavesPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Skyrim Special Edition\Saves");
+PluginsLoadOrderPath=(Variable="SHF_APPLICATIONDATA_LOCAL", Path="Skyrim Special Edition");
+; ConfigINI
+ConfigFormat=INI
+SupportENB=1
+ConfigFiles=(0="Skyrim.ini", 1="SkyrimPrefs.ini", 1024="ENB1", 1048="SkyrimEditor.ini", 1049="SkyrimEditorPrefs.ini");
+; DataFiles
+PluginActivationConfig=(Method="BethesdaFallout4", ChangeFileModifiedDate="0", AlwaysSortByDate="0", FileFormat="BethesdaSkyrim", MainESM="Skyrim.esm");
+LoadOrderList=(Active="Plugins.txt", Order="LoadOrder");
+LoadOrderDefaultContent=(Active="# Last modified by %s. Version: %s Date: %s.", Active[1]="AppName", Active[2]="AppVersion", Active[3]="%DateRU%", Order="# This file is used by %s to keep track of your downloaded content.|# Please do not modify this file.|# Last modified by %s. Version: %s. Date: %s.", Order[1]="ID", Order[2]="AppName", Order[3]="AppVersion", Order[4]="%DateRU%");
+;
+SortingToolsSupport=(BOSS="0", LOOT="1");
+LOOT=(CLI="--game="Skyrim Special Edition"", 1="ID");
+;
+ArchivesConfig=(Method="BethesdaGeneric", Path="Data");
+ArchivesConfigINI=(ConfigFileID="0", EditorConfigFileID="1048", 1="sResourceArchiveList", Section[1]="Archive", 2="sResourceArchiveList2", Section[2]="Archive");
+ArchivesFileFilter=(BSA=".bsa", BSA+BSL=".bsa|.bsl");
+;
+SavesManagerConfig=(SaveFormat="BethesdaSkyrimSE", PluginsSyncSupport="1", MultiFileSave="0", BaseExtension=".ess", CorrespondingExtension=".skse?");
+SavesManagerFileFilter=(ESS=".ess", ESS+BAK=".ess|.bak");
+;
+ArchiveInvalidation=(ConfigFileID="0");
+SteamConfig=(SteamID="489830", Path="Data");
+ToolsConfig=(0="Data", 1="Data\Tools", 2="");
+ScreenshotsConfig=(0="", 1="Screenshots", 1024="");
+; Installers
+MainRequirement=(Variable="InstallPath", File="SkyrimSE.exe", State="Present", RequiredVersion="1.1.47.0", VersionType="ProductVersion");
+
+[Fallout3]
+Order=22
+; Main
+Name=Fallout 3
+ShortName=Fallout 3
+; Launch
+Launch=(0="Fallout3.exe", Name[0]="Fallout 3", 1="FOSE_Loader.exe", Name[1]="Fallout Script Extender (FOSE)", ShortName[1]="FOSE", 2="ENB_Injector.exe", Name[2]="ENB Injector");
+LaunchConfig=(Main="0", Alternate="1", Additional="2");
+; Path and Registry
+RegistryNode=32
+InstallPathRegistry=(MainKey="HKEY_LOCAL_MACHINE", Path="SOFTWARE\Bethesda Softworks\Fallout3", Key="Installed Path", KeyType="REG_SZ");
+; Additional Apps
+Launcher=(0="FalloutLauncher.exe", Name[0]="Fallout 3 Launcher");
+Editor=(0="GECK.exe", Name[0]="GECK", SupportRunViaAlternate="0");
+; Paths
+DataFilesPath=(Variable="InstallPath", Path="Data");
+SettingsPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Fallout3");
+SavesPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Fallout3\Saves");
+PluginsLoadOrderPath=(Variable="SHF_APPLICATIONDATA_LOCAL", Path="Fallout3");
+; ConfigINI
+ConfigFormat=INI
+SupportENB=1
+ConfigFiles=(0="Fallout.ini", 1="FalloutPrefs.ini", 8="GECKPrefs.ini", 9="GECKCustom.ini", 1024="ENB1");
+; DataFiles
+PluginActivationConfig=(Method="BethesdaGeneric", ChangeFileModifiedDate="1", AlwaysSortByDate="1", FileFormat="BethesdaSkyrim", MainESM="Fallout3.esm");
+LoadOrderList=(Active="Plugins.txt", Order="LoadOrder");
+;
+SortingToolsSupport=(BOSS="1", LOOT="1");
+BOSS=(CLI="--game %s --silent", 1="ID");
+LOOT=(CLI="--game=%s", 1="ID");
+;
+ArchivesConfig=(Method="BethesdaGeneric", Path="Data");
+ArchivesConfigINI=(ConfigFileID="0", EditorConfigFileID="8", 1="sArchiveList", Section[1]="Archive");
+ArchivesFileFilter=(BSA=".bsa", BSA+BSL=".bsa|.bsl");
+;
+SavesManagerConfig=(SaveFormat="BethesdaFallout3", PluginsSyncSupport="1", MultiFileSave="1", BaseExtension=".fos", CorrespondingExtension=".fose");
+SavesManagerFileFilter=(ESS=".fos", ESS+BAK=".fos|.bak");
+;
+ArchiveInvalidation=(ConfigFileID="0");
+SteamConfig=(SteamID="22300", Path="Data");
+ToolsConfig=(0="Data", 1="Data\Tools", 2="");
+ScreenshotsConfig=(0="", 1="Screenshots", 1024="");
+; Installers
+MainRequirement=(Variable="InstallPath", File="Fallout3.exe", State="Present", RequiredVersion="");
+
+[FalloutNV]
+Order=23
+; Main
+Name=Fallout: New Vegas
+ShortName=Fallout: New Vegas
+; Launch
+Launch=(0="FalloutNV.exe", Name[0]="Fallout: New Vegas", 1="NVSE_Loader.exe", Name[1]="New Vegas Script Extender (NVSE)", ShortName[1]="NVSE", 2="ENB_Injector.exe", Name[2]="ENB Injector");
+LaunchConfig=(Main="0", Alternate="1", Additional="2");
+; Path and Registry
+RegistryNode=32
+InstallPathRegistry=(MainKey="HKEY_LOCAL_MACHINE", Path="SOFTWARE\Bethesda Softworks\FalloutNV", Key="Installed Path", KeyType="REG_SZ");
+; Additional Apps
+Launcher=(0="FalloutNVLauncher.exe", Name[0]="FNV Launcher");
+Editor=(0="GECK.exe", Name[0]="GECK", SupportRunViaAlternate="0");
+; Paths
+DataFilesPath=(Variable="InstallPath", Path="Data");
+SettingsPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\FalloutNV");
+SavesPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\FalloutNV\Saves");
+PluginsLoadOrderPath=(Variable="SHF_APPLICATIONDATA_LOCAL", Path="FalloutNV");
+; ConfigINI
+ConfigFormat=INI
+SupportENB=1
+ConfigFiles=(0="Fallout.ini", 1="FalloutPrefs.ini", 8="GECKPrefs.ini", 9="GECKCustom.ini", 1024="ENB1");
+; DataFiles
+PluginActivationConfig=(Method="BethesdaGeneric", ChangeFileModifiedDate="1", AlwaysSortByDate="1", FileFormat="BethesdaSkyrim", MainESM="FalloutNV.esm");
+LoadOrderList=(Active="Plugins.txt", Order="LoadOrder");
+;
+SortingToolsSupport=(BOSS="1", LOOT="1");
+BOSS=(CLI="--game %s --silent", 1="ID");
+LOOT=(CLI="--game=%s", 1="ID");
+;
+ArchivesConfig=(Method="BethesdaGeneric", Path="Data");
+ArchivesConfigINI=(ConfigFileID="0", EditorConfigFileID="8", 1="sArchiveList", Section[1]="Archive");
+ArchivesFileFilter=(BSA=".bsa", BSA+BSL=".bsa|.bsl");
+;
+SavesManagerConfig=(SaveFormat="BethesdaFalloutNV", PluginsSyncSupport="1", MultiFileSave="1", BaseExtension=".fos", CorrespondingExtension=".nvse");
+SavesManagerFileFilter=(ESS=".fos", ESS+BAK=".fos|.bak");
+;
+ArchiveInvalidation=(ConfigFileID="0");
+SteamConfig=(SteamID="22380", Path="Data");
+ToolsConfig=(0="Data", 1="Data\Tools", 2="");
+ScreenshotsConfig=(0="", 1="Screenshots", 1024="");
+; Installers
+MainRequirement=(Variable="InstallPath", File="FalloutNV.exe", State="Present", RequiredVersion="");
+
+[Fallout4]
+Order=24
+; Main
+Name=Fallout 4
+ShortName=Fallout 4
+; Launch
+Launch=(0="Fallout4.exe", Name[0]="Fallout 4", 1="F4SE_Loader.exe", Name[1]="Fallout 4 Script Extender (F4SE)", ShortName[1]="F4SE", Args[1]="", 2="ENB_Injector.exe", Name[2]="ENB Injector");
+LaunchConfig=(Main="0", Alternate="1", Additional="2");
+; Path and Registry
+RegistryNode=32
+InstallPathRegistry=(MainKey="HKEY_LOCAL_MACHINE", Path="SOFTWARE\Bethesda Softworks\Fallout4", Key="Installed Path", KeyType="REG_SZ");
+; Additional Apps
+Launcher=(0="Fallout4Launcher.exe", Name[0]="Fallout 4 Launcher");
+Editor=(0="CreationKit.exe", Name[0]="Creation Kit", SupportRunViaAlternate="0");
+; Paths
+DataFilesPath=(Variable="InstallPath", Path="Data");
+SettingsPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Fallout4");
+SavesPath=(Variable="SHF_MYDOCUMENTS", Path="My Games\Fallout4\Saves");
+PluginsLoadOrderPath=(Variable="SHF_APPLICATIONDATA_LOCAL", Path="Fallout4");
+; ConfigINI
+ConfigFormat=INI
+SupportENB=1
+ConfigFiles=(0="Fallout4.ini", 1="Fallout4Prefs.ini", 2="Fallout4Custom.ini", 1024="ENB1");
+; DataFiles
+PluginActivationConfig=(Method="BethesdaFallout4", ChangeFileModifiedDate="0", FileFormat="BethesdaSkyrim", MainESM="Fallout4.esm");
+LoadOrderList=(Active="Plugins.txt", Order="LoadOrder");
+LoadOrderDefaultContent=(Active="# This file is used by %s to keep track of your downloaded content.|# Last modified by %s: Version: %s Date: %s.", Active[1]="ID", Active[2]="AppName", Active[3]="AppVersion", Active[4]="%DateRU%", Order="# Last modified by %s. Version: %s. Date: %s.", Order[1]="AppName", Order[2]="AppVersion", Order[3]="%DateRU%");
+;
+SortingToolsSupport=(BOSS="0", LOOT="1");
+BOSS=(CLI="--game %s --silent", 1="ID");
+LOOT=(CLI="--game=%s", 1="ID");
+;
+ArchivesConfig=(Method="BethesdaGeneric", Path="Data");
+ArchivesConfigINI=(ConfigFileID="0", 1="sResourceArchiveList", Section[1]="Archive", 2="sResourceArchiveList2", Section[2]="Archive", 3="sResourceIndexFileList", Section[3]="Archive", 4="sResourceStartUpArchiveList", Section[4]="Archive", 5="sResourceArchiveMemoryCacheList", Section[5]="Archive");
+ArchivesFileFilter=(BA2=".ba2", BSA=".bsa", BSA+BA2=".bsa|ba2");
+;
+SavesManagerConfig=(SaveFormat="BethesdaFallout4", PluginsSyncSupport="1", MultiFileSave="1", BaseExtension=".fos", CorrespondingExtension=".f4se");
+SavesManagerFileFilter=(ESS=".fos", ESS+BAK=".fos|.bak");
+;
+ArchiveInvalidation=(ConfigFileID="0");
+SteamConfig=(SteamID="377160", Path="Data");
+ToolsConfig=(0="Data", 1="Data\Tools", 2="");
+ScreenshotsConfig=(0="", 1="Screenshots", 1024="");
+; Installers
+MainRequirement=(Variable="InstallPath", File="Fallout4.exe", State="Present", RequiredVersion="");

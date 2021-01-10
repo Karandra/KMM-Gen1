@@ -1,0 +1,1306 @@
+[Config]
+CharSet=RUSSIAN_CHARSET
+
+; ANSI_CHARSET - ANSI character set.
+; BALTIC_CHARSET - Baltic character set.
+; CHINESEBIG5_CHARSET - Chinese character set.
+; DEFAULT_CHARSET - Default character set.
+; EASTEUROPE_CHARSET - Eastern European character set.
+; GB2312_CHARSET - GB2312 character set.
+; GREEK_CHARSET - Greek character set.
+; HANGUL_CHARSET - Hangul character set.
+; MAC_CHARSET - MAC character set.
+; OEM_CHARSET - OEM character set.
+; RUSSIAN_CHARSET - Russian character set.
+; SHIFTJIS_CHARSET - Shiftjis character set.
+; SYMBOL_CHARSET - Symbol character set.
+; TURKISH_CHARSET - Turkish character set.
+;Comments;
+LineSeparator= (0x1F)
+;Comments;
+[Lang]
+;Generic;
+Generic.Error=												Ошибка
+Generic.Warning=											Предупреждение
+Generic.Confrimation=										Подтверждение
+Generic.Info=												Информация
+Generic.Unknown=											Неизвестно
+Generic.OK=													ОК
+Generic.Cancel=												Отмена
+Generic.Extra=												Дополнительно
+Generic.NotDefined=											Не определено
+Generic.Move=												Перемещение
+Generic.DataInputTitle=										Ввод данных
+Generic.DataInputSelect=									Выберите параметр:
+Generic.DataInputType=										Введите данные:
+Generic.EnterName=											Введите название:
+Generic.EnterName2=											Введите имя:
+Generic.EnterFileName=										Введите имя файла:
+Generic.EnterID=											Введите идентификатор:
+Generic.EnterCommand=										Введите команду:
+Generic.EnterVersion=										Введите версию:
+Generic.EnterData=											Ввод данных
+Generic.Cantinue=											Продолжить
+Generic.CantinueAsk=										Продолжить?
+Generic.Removing=											Удаление
+Generic.RemovingS=											Удаление "%s"
+Generic.Renaming=											Переименование
+Generic.Overwrite=											Перезапись
+Generic.Copying=											Копирование
+Generic.CopyingS=											Копирование "%s"
+Generic.CopyingP=											Копирование: %d%%
+Generic.CopyingXS=											Копирование: %d%% "%s"
+Generic.Moving=												Перемещение
+Generic.MovingS=											Перемещение "%s"
+Generic.MovingXS=											Перемещение: %d%% "%s"
+Generic.Extracting=											Распаковка
+Generic.ExtractingS=										Распаковка "%s"
+Generic.SelectFolder=										Выберите папку
+Generic.SelectFolders=										Выберите папки
+Generic.SelectFile=											Выберите файл
+Generic.SelectFiles=										Выберите файлы
+Generic.FileNotFound=										Файл не найден"%s"
+Generic.CanNotOpenFile=										Не удалось открыть файл"%s"
+Generic.CanNotOpenFolder=									Не удалось открыть папку"%s"
+Generic.CanNotSaveFile=										Не удалось сохранить файл"%s"
+Generic.OverwriteFile=										Файл уже существует"%s"Перезаписать?
+Generic.NoData=												Нет данных
+Generic.NoDataToLoad=										Нет данных для загрузки
+Generic.RemoveFileAsk=										Вы действиельно хотите удалить этот файл"%s"?
+Generic.RemoveFolderAsk=									Вы действиельно хотите удалить эту папку и всё её содержимое"%s"?
+Generic.Properties=											Свойства
+
+Generic.File=												Файл
+Generic.FileS=												Файл "%s"
+Generic.Folder=												Папка
+Generic.FolderS=											Папка "%s"
+Generic.NoFiles=											Нет файлов
+
+Generic.Done=												Готово
+Generic.Saving=												Сохранение
+Generic.Loading=											Загрузка
+Generic.Open=												Открыть
+Generic.Save=												Сохранить
+Generic.Browse=												Обзор
+Generic.Select=												Выбрать
+Generic.SelectAll=											Выбрать все
+Generic.SelectAll2=											Выбрать всё
+Generic.Apply=												Применить
+Generic.Detect=												Определить
+Generic.Import=												Импорт
+Generic.Export=												Экспорт
+Generic.SpecialCharacters=									Специальне символы
+Generic.Clean=												Очистить
+Generic.ImportNoData=										Нет данных для импорта
+Generic.UnsupportedFileType=								Неподдерживаемый тип файла
+Generic.UnsupportedFileTypeS=								Неподдерживаемый тип файла: "%s"
+Generic.Yes=												Да
+Generic.No=													Нет
+Generic.Add=												Добавить
+Generic.Remove=												Удалить
+Generic.RemoveAll=											Удалить все
+Generic.RemoveAll2=											Удалить всё
+Generic.Copy=												Копировать
+Generic.Paste=												Вставить
+
+Generic.AllFiles=											Все файлы
+Generic.AllSupported=										Все поддерживаемые форматы
+Generic.Images=												Изображения
+Generic.PNG=												Изображения PNG
+Generic.JPG=												Изображения JPEG
+Generic.BMP=												Изображения BMP
+Generic.GIF=												Изображения GIF
+Generic.EXE=												Программы
+Generic.DLL=												Библиотеки DLL
+Generic.INI=												INI файлы
+Generic.XML=												XML файлы
+Generic.TXT=												Текстовые файлы
+Generic.ZIP=												ZIP архивы
+Generic.SMI=												Skyrim Mod Installer
+Generic.SMP=												Simple Mod Project
+Generic.SMPOld=												Skyrim Mod Project
+Generic.AMI=												Advanced Mod Installer
+Generic.LNK=												Ярлыки
+Generic.Saves=												Файлы сохранений
+
+;Generic Menu Strings;
+Menu=														Меню
+Menu.Open=													Открыть
+Menu.Save=													Сохранить
+Menu.SaveAs=												Сохранить как
+Menu.FileLocation=											Расположение файла
+Menu.FolderLocation=										Расположение папки
+Menu.RenameFile=											Переименовать файл
+Menu.RenameFolder=											Переименовать
+Menu.RemoveFile=											Удалить файл
+Menu.RemoveFolder=											Удалить папку
+Menu.FileProperties=										Свойства
+Menu.Debug=													Отладка
+Menu.FileFilter=											-- Фильтр файлов
+Menu.CheckAll=												Выбрать все
+Menu.UncheckAll=											Убрать все
+Menu.Enabled=												Включено
+Menu.Disabled=												Отключено
+
+;Generic Interface Strings;
+Interface=													Интерфейс
+Interface.File=												Файл
+Interface.Files=											Файлы
+Interface.MainFiles=										Основные файлы
+Interface.FileName=											Имя файла
+Interface.Path=												Путь
+Interface.FullPath=											Полный путь
+Interface.Command=											Команда
+Interface.Resolution=										Разрешение
+Interface.Format=											Формат
+Interface.Size=												Размер
+Interface.Index=											Индекс
+Interface.Compare=											Сравнить
+Interface.Type=												Тип
+Interface.ElementType=										Тип элемента
+Interface.DateCreation=										Дата создания
+Interface.DateModified=										Дата изменения
+Interface.DateUpdate=										Дата обновления
+Interface.DateInstall=										Дата установки
+Interface.DateUninstall=									Дата деинсталляции
+Interface.DateLastAccess=									Дата последнего доступа
+Interface.Version=											Версия
+Interface.Author=											Автор
+Interface.Description=										Описание
+Interface.Name=												Название
+Interface.Name2=											Имя
+Interface.ID=												Идентификатор
+Interface.IDShort=											ID
+Interface.Address=											Адрес
+Interface.Flag=												Флаг
+Interface.Set=												Набор
+Interface.OrderNum=											Номер
+Interface.Parametr=											Параметр
+Interface.Section=											Секция
+Interface.Field=											Поле
+Interface.Element=											Элемент
+Interface.Data=												Данные
+Interface.Value=											Значение
+Interface.Comment=											Комментарий
+Interface.Installer=										Установщик
+Interface.NotSupported=										Не поддерживается
+Interface.FileNotLoaded=									Файл не загружен
+Interface.Action=											Действие
+Interface.Time=												Время
+Interface.Component=										Компонент
+Interface.LoadingFilesList=									Загрузка списка файлов
+Interface.LoadedX/Y=										Загружено %d из %d
+Interface.LoadedX=											Загружено %d%%
+Interface.ProcessedX/Y=										Обработано %d из %d
+Interface.ProcessedX=										Выполнено %d%%
+Interface.GeneralProgressX=									Общий прогресс %d%%
+Interface.SaveObject=										Сохранение
+Interface.Character=										Персонаж
+Interface.Level=											Уровень
+Interface.Karma=											Карма
+Interface.Location=											Локация
+Interface.TimeInGame=										Время в игре
+Interface.Gender=											Пол
+Interface.Race=												Раса
+Interface.Plugins=											Плагины
+Interface.SearchPathNotSpeciefed=							Не указан путь для поиска файлов
+Interface.RecurseSearch=									Искать в подпапках
+Interface.SearchingFiles=									Поиск файлов
+Interface.SearchingFilesS=									Поиск файлов: "%s"
+Interface.FilteringFiles=									Отсеивание файлов
+Interface.ShellOpen=										Открыть в ассоциированной программе
+Interface.ShellEdit=										Редактировать в ассоциированной программе
+Interface.Edit=												Редактировать
+Interface.Search=											Поиск
+Interface.SearchResultsTrue=								Поиск завершён. Найдено элементов: %d
+Interface.SearchResultsFalse=								По запросу "%s" ничего не найдено
+Interface.GoToUpLevel=										На уровень выше
+Interface.Collapse=											Свернуть
+Interface.Expand=											Развернуть
+Interface.WebLinkOpenTitle=									Переход по ссылке
+Interface.WebLinkOpen=										Вы хотите открыть данную веб-страницу: "%s"?
+Interface.LoadingFiles=										Загрузка файлов
+Interface.LoadingData=										Загрузка данных
+Interface.SavingData=										Сохранение данных
+Interface.PlaceholderNo=									<Нет>
+Interface.PlaceholderNone=									<Нет>
+Interface.PlaceholderAll=									<Все>
+Interface.PlaceholderAll2=									<Всё>
+Interface.EmptyStringPlaceholder=							<Пустая строка>
+Interface.DoNotChange=										Не менять
+Interface.Variable=											Переменная
+Interface.Info=												Информация
+Interface.Dependencies=										Зависимости
+Interface.Screenshots=										Скриншоты
+Interface.Documents=										Документы
+Interface.Video=											Видео
+Interface.Log=												Журнал
+Interface.Signature=										Сигнатура
+Interface.Site=												Сайт
+Interface.Create=											Создать
+Interface.Remove=											Удалить
+Interface.Categories=										Категории
+Interface.CategoryCreate=									Создать категорию
+Interface.CategoryRemove=									Удалить категорию
+Interface.RemoveFromLog=									Удалить из журнала
+Interface.OpenFolder=										Открыть папку
+Interface.CreateShortcut=									Создать ярлык
+Interface.Move=												Переместить
+Interface.EntryNotFound=									Запись не найдена
+Interface.Controls=											Управление
+Interface.Build=											Собрать
+Interface.Data=												Данные
+Interface.UserData=											Пользов. данные
+Interface.CompressionLevel.Label=							Уровень сжатия
+Interface.CompressionLevel=									(0="0 - Без сжатия", 1="1 - Скоростной", 3="3 - Быстрый", 5="5 - Обычный", 7="7 - Максимальный", 9="9 - Ультра");
+Interface.CompressionMethod=								Метод сжатия
+Interface.IncorrectInputS=									Некорректный ввод "%s"
+Interface.TextEditor=										Текстовый редактор
+Interface.CurrentVariableValue=								Текущее значение переменной
+
+;Miscellaneous;
+Misc=														Разное
+Misc.Components=											Компоненты
+
+;Component: Core. Module: Core;
+NotSupported=												Не поддерживается
+Unavailable=												Недоступно
+Unavailable.Warning=										Недоступно в этой версии
+
+Status=														Состояние
+Status.Initializing=										Инициализация данных. Это может занять некоторое время
+Status.Cancel=												Отмена
+Status.Working=												Выполнение
+Status.Installing=											Установка
+Status.InstallingNoFiles=									Нет файлов для установки
+Status.Preparing=											Подготовка
+Status.Converting=											Конвертирование
+Status.Interrupt=											Прерывание
+Status.Processing=											Обработка
+Status.ProcessingFile=										Обработка файла
+Status.TempFolderCleaning=									Очистка временной папки
+Status.LoadingDocuments=									Загрузка документов
+Status.LoadingDocument=										Загрузка документа
+Status.NoDocuments=											Нет доументов
+Status.LoadingImages=										Загрузка скриншотов
+Status.NoImages=											Нет скриншотов
+Status.NoVideo=												Нет видеозаписей
+
+;Module: Menu;
+Menu.Settings=												Настройки
+Menu.Profile=												Сменить профиль. Выбран: "%s"
+Menu.About=													О программе
+Menu.LaunchGeneric=											Запустить %s
+Menu.Open=													Открыть
+Menu.Game=													игру
+Menu.Game2=													игры
+Menu.AdditionalProgram=										доп. программу
+Menu.AlternateProgram=										альт. программу
+Menu.Launcher=												лаунчер
+Menu.Editor=												редактор
+
+Menu.Open.MainSettings=										Папку основных настроек
+Menu.Open.ProfileSettings=									Папку настроек профиля
+Menu.Open.Game=												Папку %s
+Menu.Open.DataFiles=										Папку файлов данных %s
+Menu.Open.Settings=											Папку настроек %s
+Menu.Open.Saves=											Папку сохранений %s
+Menu.Open.PluginsList=										Папку списка плагинов %s
+Menu.Open.ConfigBackUp=										Папку резервных копий файлов настроек %s
+Menu.Open.FolderNotExist=									Эта папка отсутствует в списке доступных путей
+
+Menu.Installers=											Установщики
+Menu.Installers.Manager=									Управление установщиками
+Menu.Installers.Install=									Установка
+Menu.Installers.Design=										Создание
+
+;Module: Settings;
+Settings=													Настройки
+Settings.General=											Основные настройки
+Settings.Reset=												Сброс настроек
+Settings.ResetWarning=										Вы уверены что хотите сбросить настройки для профиля "%s"?
+
+Settings.General.Language.Label=							Язык интерфейса
+Settings.General.Language=									(Russian="Russian - Русский", English="English - Английский");
+Settings.General.InstalledPath=								Папка %s
+Settings.General.DiskImage=									Образ диска
+Settings.General.SteamLibrary=								Библиотека Steam
+Settings.General.StartWindow.Label=							Стартовое окно
+Settings.General.StartWindow=								(1="Настройка INI", 2="Подключение плагинов", 3="Установка плагинов", 4="Создание установщиков");
+Settings.General.LaunchVia=									Запуск %s через %s
+Settings.General.LaunchAdditional=							Запускать %s
+Settings.General.AllowLaunch=								Разрешить запуск %s
+Settings.General.BackgroundModeOnLaunch=					Ждущий режим при запуске %s
+Settings.General.MountDiskImage=							Монтировать образ диска
+Settings.General.SaveAndRestoreWindowSizes=					Сохранять и восстанавливать размеры окон
+Settings.General.SaveAndRestoreWindowSizesReset=			Сброс
+Settings.General.SimpleMenuComposition=						Упрощённая композиция панели меню
+
+Settings.LaunchEx=											Расширенный запуск
+Settings.LaunchEx.LaunchList=								Список программ
+Settings.LaunchEx.LaunchListInterval.Label=					Интервал запуска
+Settings.LaunchEx.LaunchListInterval=						(0="0 с", 100="0.1 c", 300="0.3 с", 500="0.5 с", 800="0.8 с", 1000="1 с", 1200="1.2 с", 1500="1.5 с");
+Settings.LaunchEx.WindowMode.Label=							Режим окна
+Settings.LaunchEx.WindowMode=								(1="Обычный", 6="Свернуть", 3="Развернуть");
+Settings.LaunchEx.EanbleLaunchEx=							Включить расширенный запуск
+Settings.LaunchEx.EanbleLaunchList=							Включить запуск списка программ
+Settings.LaunchEx.EanbleTransmitControl=					Передавать управление запуском
+Settings.LaunchEx.EanbleTransmitControlBackground=			Ждущий режим при запуске
+
+Settings.ConfigINI=											Настройка INI
+Settings.ConfigINI.BackupCompressionLavel.Label=			Уровень сжатия копий
+Settings.ConfigINI.BackupCompressionLavel=					(0="0 - Без сжатия", 1="1 - Скоростной", 3="3 - Быстрый", 5="5 - Обычный", 7="7 - Максимальный", 9="9 - Ультра");
+Settings.ConfigINI.ENBOverride.Label=						Файл настроек ENB
+Settings.ConfigINI.AutoShowConsole=							Автоматически показывать консоль
+
+Settings.DataFiles=											Файлы данных
+Settings.DataFiles.LoadOrderFile.Label=						Список загрузки
+Settings.DataFiles.BOSSPath.Label=							Путь к папке BOSS
+Settings.DataFiles.LOOTPath.Label=							Путь к папке LOOT
+Settings.DataFiles.AutoSavePluginsList=						Автосохранение списка плагинов
+Settings.DataFiles.LoadLogData=								Загружать данные из журнала установки
+Settings.DataFiles.AllowESPAboveESM=						Разрешить перемещать ESP выше ESM
+Settings.DataFiles.ShowSystemToolLinks=						Показывать системные ссылки на инструменты
+
+Settings.Installers=										Установщики
+Settings.Installers.InstallersFolder.Label=					Папка установщиков
+Settings.Installers.ProjectsFolder.Label=					Папка проектов
+Settings.Installers.FOModTitle=								Настройки FOMod
+Settings.Installers.FOModGenerateID.Label=					Создавать идентификаторы
+Settings.Installers.FOModGenerateID=						(0="Всегда", 1="Только для установки", 2="Никогда");
+Settings.Installers.FOModEncoding.Label=					Кодировка
+Settings.Installers.EngineVersionCheck=						Проверка версии установочного модуля
+Settings.Installers.InstalledCheck=							Проверка переустановки
+Settings.Installers.InstallerVersionCheck=					Проверка установленной версии
+Settings.Installers.RevertINISettingsOnUninstall=			Возвращать настройки INI файлов
+Settings.Installers.RememberFolder=							Запоминать последнюю папку
+Settings.Installers.ExpandInfoRows=							Разворачивать строки с информацией
+Settings.Installers.UninstallOnReinstall=					Деинсталляция перед переустановкой
+Settings.Installers.UninstallOnCancel=						Деинсталляция после отмены установки
+
+WindowName.Settings=										%s - %s - Настройки программы
+WindowName.ConfigINI=										%s - %s - Настройка INI
+WindowName.DataFiles=										%s - %s - Файлы данных
+WindowName.InstallPackage=									%s - %s - Установка
+WindowName.CreatePackage=									%s - %s - Создание установщика
+WindowName.PackageManager=									%s - %s - Управление установщиками
+WindowName.Interface=										%s - %s - Страница интерфейса
+
+About=														О программе
+About.Version=												Версия: %s
+About.Info=													Информация
+About.License=												Лицензия
+
+;Module: LaunchEx;
+LaunchEx=													Расширенный запуск
+LaunchEx.StatusText1=										Запуск программ
+LaunchEx.StatusText2=										Ожидание запуска: 
+LaunchEx.StatusText3=										Ждите %f секунд до запуска
+LaunchEx.StatusText4=										Прерывание
+LaunchEx.StatusText5=										Запуск
+LaunchEx.IncorrectLaunchConfigMessage=						Некорректные настройки расширенного запуска. Запустить используя обычную схему?
+LaunchEx.ProgramNotFound=									Не найден файл для запуска: "%s".Продолжить?
+LaunchEx.TransmitProgramNotFound=							Не найден файл для передачи управления запуском: "%s"
+
+;Module: Profiles and AppData;
+Profiles.NotInstalled=										Не установлено
+Profiles.GameFolderNotExist=								Указанная игра не установлена или её папка не существует
+Profiles.ProfileRegistryPathMismatch=						Путь до папки профиля в реестре не указан или не совпадает с сохранённым путём в настройках профиля.Исправить?
+Profiles.PathNotSpecified=									Папка профиля не указана. Завершение работы.
+Profiles.GameFolderNotFound=								Установочная папка "%s" не найдена по указанному пути:"%s"Возможно что она была перемещена или удалена. Вы хотите указать папку вручную?
+Profiles.PathFromRegistry=									Путь из реестра
+Profiles.PathInRegistryNotFound=							Путь к папке в реестре отсутствует
+Profiles.ProfileNotSpecified=								Профиль не указан
+
+Profiles.WindowTitle=										Выбор профиля
+Profiles.WindowSubTitle=									Выбор профиля для запуска
+Profiles.ShowHide=											Скрытый профиль
+Profiles.ShowHiddenProfiles=								Показывать скрытые профили
+Profiles.ShowProfilesID=									Показывать идентификаторы
+Profiles.DoNotShowOnLaunch=									Не показывать при запуске
+
+;Component: ConfigINI;
+ConfigINI=													Настройка INI
+;Module: Core;
+ConfigINI.OtherRatios=										Другие соотношения сторон
+ConfigINI.BackUpMessageTitle=								Резервное копирование
+ConfigINI.BackUpRemoveMessage=								Вы уверены что хотите удалить резервную копию настроек?Копия создана: %s
+ConfigINI.CanNotOpenBackUpConfig=							Не удалось открыть файл конфигурации резервной копии
+ConfigINI.KeyCodeNotFound=									Код клавиши не найден
+;Console;
+ConfigINI.Console.KeyNotAssigned=							{Не назначено}
+ConfigINI.Console.KeyNotFound=								{Не найдено}
+ConfigINI.Console.SectionRemoved=							{%s}Секция удалена: [%s]
+ConfigINI.Console.ValueRemoved=								{%s}[%s]Паметр удалён: %s
+ConfigINI.Console.ValueNotFound=							{%s}[%s]%s={Значение не найдено}
+ConfigINI.Console.ValueFound=								{%s}[%s]%s=%s
+ConfigINI.Console.ValueFoundDouble=							{%s}[%s]%s=%s%s=%s
+
+;Interface;
+;Graphics;
+ConfigINI.Interface.bFull Screen=							Полный экран
+ConfigINI.Interface.bFXAAEnabled=							Активировать FXAA
+ConfigINI.Interface.iPresentInterval=						Вертикальная синхронизация
+ConfigINI.Interface.bTransparencyMultisampling=				Сглаживание прозрачности
+ConfigINI.Interface.bDoHighDynamicRange=					Использовать HDR
+ConfigINI.Interface.bDoDepthOfField=						Глубина резкости
+ConfigINI.Interface.bDoRadialBlur=							Радиальное размытие
+ConfigINI.Interface.bDisableAllGore=						Отключить кровь
+ConfigINI.Interface.bBloodSplatterEnabled=					Брызги крови на экране
+ConfigINI.Interface.bFloatPointRenderTarget=				bFloatPointRenderTarget
+
+ConfigINI.Interface.iMultiSample.Label=						Сглаживание
+ConfigINI.Interface.iMultiSample=							(0="0 - Нет", 1="1х - Низкий", 2="2х - Средний", 4="4х - Высокий", 8="8х - Ультра");
+ConfigINI.Interface.iMaxAnisotropy.Label=					Анизотропная фильтрация
+ConfigINI.Interface.iMaxAnisotropy=							(0="0 - Нет", 2="2х - Низкий", 4="4х - Средний", 8="8х - Высокий", 12="12x - Ультра", 16="16х - Экстремальный");
+ConfigINI.Interface.iTexMipMapSkip.Label=					Качество текстур
+ConfigINI.Interface.iTexMipMapSkip=							(4="4 - Очень низкий", 3="3 - Низкий", 2="2 - Средний", 1="1 - Высокий", 0="0 - Ультра", -1="-1 - Повышенная резкость", -2="-2 - Повышенная резкость");
+ConfigINI.Interface.fGamma.Label=							Гамма-коррекция
+ConfigINI.Interface.sD3DDevice.Label=						Видеокарта
+ConfigINI.Interface.Resolution.Label=						Разрешение
+
+;Shadows;
+ConfigINI.Interface.bTreesReceiveShadows=					Тени на деревьях
+ConfigINI.Interface.bDrawLandShadows=						Тени от земли
+ConfigINI.Interface.bActorSelfShadowing=					Самозатенение персонажей
+
+ConfigINI.Interface.iShadowMapResolution.Label=				Разрешение теней
+ConfigINI.Interface.iShadowMapResolution=					(512="512 - Низкий", 1024="1024 - Средний", 2048="2048 - Высокий", 4096="4096 - Ультра", 8192="8192 - Экстремальный");
+ConfigINI.Interface.iBlurDeferredShadowMask.Label=			Размытие теней
+ConfigINI.Interface.iBlurDeferredShadowMask=				(0="0 - Без размытия", 3="3 - Среднее размытие", 7="7 - Полное размытие");
+ConfigINI.Interface.iShadowMaskQuarter.Label=				Чёткость теней
+ConfigINI.Interface.fShadowDistance.Label=					Дистанция теней
+ConfigINI.Interface.fInteriorShadowDistance.Label=			Дистанция в интерьерах
+ConfigINI.Interface.fShadowBiasScale.Label=					Смещение теней
+ConfigINI.Interface.fSunUpdateThreshold.Label=				Частота обновления теней
+ConfigINI.Interface.fSunShadowUpdateTime.Label=				Длительность обновления
+
+;Water;
+ConfigINI.Interface.bUseWaterReflections=					Отражения на воде
+ConfigINI.Interface.bReflectLODObjects=						Отражать объекты
+ConfigINI.Interface.bReflectLODLand=						Отражать ландшафт
+ConfigINI.Interface.bReflectSky=							Отражать небо
+ConfigINI.Interface.bReflectLODTrees=						Отражать деревья
+ConfigINI.Interface.bUseWaterRefractions=					Преломление света в воде
+ConfigINI.Interface.bUseWaterDepth=							Глубина воды
+ConfigINI.Interface.bUseWaterDisplacements=					Эффекты водоизмещения
+
+ConfigINI.Interface.iWaterMultiSamples.Label=				Сглаживание воды
+ConfigINI.Interface.iWaterMultiSamples=						(0="0 - Нет", 1="1х - Низкий", 2="2х - Средний", 4="4х - Высокий", 8="8х - Ультра");
+ConfigINI.Interface.Water Resolution.Label=					Разрешение отражений
+
+;Audio;
+ConfigINI.Interface.bEnableAudio=							Включить звук
+ConfigINI.Interface.fAudioMasterVolume.Label=				Общая громкость
+
+;Gameplay;
+ConfigINI.Interface.bGamepadEnable=							Активировать геймпад
+ConfigINI.Interface.bGamePadRumble=							Вибрация геймпада
+ConfigINI.Interface.bSaveOnPause=							Сохранять в меню паузы
+ConfigINI.Interface.bSaveOnWait=							Сохранять при ожидании
+ConfigINI.Interface.bSaveOnTravel=							Сохранять при путешествии
+ConfigINI.Interface.bSaveOnRest=							Сохранять при отдыхе
+
+ConfigINI.Interface.iDifficulty.Label=						Уровень сложности
+ConfigINI.Interface.iDifficulty=							(0="Новичок", 1="Ученик", 2="Адепт", 3="Эксперт", 4="Мастер", 5="Легендарный");
+ConfigINI.Interface.fAutosaveEveryXMins.Label=				Автосохранение (мин)
+
+;Interface;
+ConfigINI.Interface.bDialogueSubtitles=						Субтитры диалогов
+ConfigINI.Interface.bGeneralSubtitles=						Общие субтитры
+ConfigINI.Interface.bShowCompass=							Показывать компас
+ConfigINI.Interface.bShowQuestMarkers=						Квестовые маркеры
+ConfigINI.Interface.bShowFloatingQuestMarkers=				Плавающие квестовые маркеры
+ConfigINI.Interface.bCrosshairEnabled=						Аключить перекрестие
+ConfigINI.Interface.bShowHUDMessages=						Информационные сообщения
+ConfigINI.Interface.bShowTutorials=							Обучающие сообщения
+ConfigINI.Interface.bShowSubtitleSpeakerName=				Имя говорящего персонажа
+ConfigINI.Interface.bTrackProgress=							Прогресс уровня
+ConfigINI.Interface.bHealthBarShowing=						Здоровье врагов
+
+ConfigINI.Interface.fHUDOpacity.Label=						Непрозрачность HUD
+ConfigINI.Interface.fHUDOpacity=							(1.0000="1.0000 - Непрозрачность", 0.0000="0.0000 - Полная прозрачность");
+ConfigINI.Interface.fMaxSubtitleDistance.Label=				Дистанция субтитров
+ConfigINI.Interface.sIntroSequence.Label=					Всупительные видео
+;Vegetation;
+ConfigINI.Interface.GrassTitle=								Трава
+ConfigINI.Interface.TreesTitle=								Деревья
+
+ConfigINI.Interface.bAllowCreateGrass=						Включить траву
+ConfigINI.Interface.bGrassPointLighting=					Точечное освещение
+ConfigINI.Interface.bDrawShaderGrass=						Улучшенный шейдер травы
+ConfigINI.Interface.bRenderSkinnedTrees=					Улучшенные деревья
+
+ConfigINI.Interface.fGrassFadeRange.Label=					Расстояние видимости
+ConfigINI.Interface.iMinGrassSize.Label=					Плотность зарослей
+ConfigINI.Interface.fTreeLoadDistance.Label=				Расстояние видимости
+ConfigINI.Interface.fTreesMidLODSwitchDist.Label=			Детализация
+ConfigINI.Interface.uiMaxSkinnedTreesToRender.Label=		Количество листвы
+
+;LevelOfDetail;
+ConfigINI.Interface.bPrecipitation=							Погодные эффекты
+ConfigINI.Interface.bDecals=								Включить декали
+
+ConfigINI.Interface.fLODFadeOutMultObjects.Label=			Видимость объектов
+ConfigINI.Interface.fLODFadeOutMultItems.Label=				Видимость предметов
+ConfigINI.Interface.fLODFadeOutMultActors.Label=			Видимость персонажей
+ConfigINI.Interface.fSkyCellRefFadeDistance.Label=			Видимость облаков
+ConfigINI.Interface.fBlockMaximumDistance.Label=			fBlockMaximumDistance
+ConfigINI.Interface.fBlockLevel1Distance.Label=				fBlockLevel1Distance
+ConfigINI.Interface.fBlockLevel0Distance.Label=				fBlockLevel0Distance
+ConfigINI.Interface.fSplitDistanceMult.Label=				fSplitDistanceMult
+ConfigINI.Interface.uGridsToLoad.Label=						Ячеек для загрузки
+ConfigINI.Interface.iMaxDesired.Label=						Количество частиц
+
+;Other;
+ConfigINI.Interface.MemoryManagementTitle=					Управление памятью
+ConfigINI.Interface.DebugLogTitle=							Журнал отладки
+ConfigINI.Interface.BackgroudLoadingTitle=					Фоновая загрузка
+
+ConfigINI.Interface.bAlwaysRunByDefault=					Бег включен по умолчанию
+ConfigINI.Interface.bMouseAcceleration=						Ускорение мыши
+ConfigINI.Interface.bInvertYValues=							Инверсия оси Y
+ConfigINI.Interface.bEnableFileSelection=					Подкл. файлов в %s
+ConfigINI.Interface.bAllowScreenShot=						Разрешить скриншоты
+ConfigINI.Interface.bPreemptivelyUnloadCells=				Выгружать ненужные ячейки
+ConfigINI.Interface.bPreCullActors=							Отбор персонажей
+ConfigINI.Interface.bSelectivePurgeUnusedOnFastTravel=		Очистка при путешествии
+ConfigINI.Interface.bEnableLogging=							Включить журналирование
+ConfigINI.Interface.bEnableTrace=							Включить трассировку
+ConfigINI.Interface.bEnableStoryManagerLogging=				Запись истории действий
+ConfigINI.Interface.bUseBackgroundFileLoader=				Использовать фоновый загрузчик
+ConfigINI.Interface.bBackgroundLoadLipFiles=				Загрузка LIP файлов
+ConfigINI.Interface.bLoadBackgroundFaceGen=					Загрузка файлов лиц
+ConfigINI.Interface.bUseMultiThreadedFaceGen=				Многопоточность для лиц
+ConfigINI.Interface.bBackgroundCellLoads=					Загружать локации
+ConfigINI.Interface.bLoadHelmetsInBackground=				Загружать шлемы
+ConfigINI.Interface.bUseMultiThreadedTrees=					Многопоточность для деревьев
+
+ConfigINI.Interface.sLanguage.Label=						Язык
+ConfigINI.Interface.sLanguage=								(RUSSIAN="Русский", ENGLISH="Английский", GERMAN="Немецкий", FRENCH="Французский", CZECH="Чешский", ITALIAN="Итальянский", POLISH="Польский", SPANISH="Испанский");
+ConfigINI.Interface.fMouseHeadingSensitivity.Label=			Чувствительность мыши
+ConfigINI.Interface.fMouseWheelZoomSpeed.Label=				Скорость камеры
+ConfigINI.Interface.iScreenShotIndex.Label=					Индекс скриншота
+ConfigINI.Interface.fInAirFallingCharGravityMult.Label=		Скорось падения
+
+;ENB Effects;
+ConfigINI.Interface.EffectsTitle=							Эффекты
+ConfigINI.Interface.GeneralSettingsTitle=					Общие настройки
+
+ConfigINI.Interface.UseEffect=								Использовать эффекты
+ConfigINI.Interface.ForceAnisotropicFiltering=				Принудительная АФ
+ConfigINI.Interface.UseOriginalPostProcessing=				Оригинальная постобработка
+ConfigINI.Interface.UseOriginalObjectsProcessing=			Ориг. постобработка объектов
+ConfigINI.Interface.EnableBloom=							Свечение
+ConfigINI.Interface.EnableAdaptation=						Адаптация
+ConfigINI.Interface.EnableAmbientOcclusion=					Ambient Occlusion (SSAO)
+ConfigINI.Interface.EnableDepthOfField=						Глубина резкости
+ConfigINI.Interface.EnableDetailedShadow=					Детальные тени
+ConfigINI.Interface.EnableSunRays=							Солнечные лучи
+ConfigINI.Interface.EnableSkyLighting=						Освещение неба
+ConfigINI.Interface.EnableReflection=						Отражения
+ConfigINI.Interface.SkipShaderOptimization=					Пропуск оптимизации шейдеров
+ConfigINI.Interface.UsePaletteTexture=						Использовать текстуру палитры
+ConfigINI.Interface.UsePatchSpeedhackWithoutGraphics=		Отключить графические эффекты
+
+ConfigINI.Interface.Quality=								(2="2 - Низкий", 1="1 - Средний", 0="0 - Высокий");
+ConfigINI.Interface.Quality.Label=							Качество свечения
+ConfigINI.Interface.MaxAnisotropy.Label=					Анизотропная фильтрация
+ConfigINI.Interface.MaxAnisotropy=							(0="0 - Нет", 2="2х - Низкий", 4="4х - Средний", 8="8х - Высокий", 12="12x - Ультра", 16="16х - Экстремальный");
+ConfigINI.Interface.AdditionalConfigFile.Label=				Доп. файл настроек
+
+;ENB AmbientOcclusion;
+ConfigINI.Interface.EnableAmbientOcclusion=					Ambient Occlusion (AO)
+ConfigINI.Interface.UseIndirectLighting=					Отражённое освещение (IL)
+ConfigINI.Interface.UseComplexIndirectLighting=				Сложное отражённое освещение
+
+ConfigINI.Interface.SamplingQuality.Label=					Качество выборки
+ConfigINI.Interface.SamplingQuality=						(2="2 - Низкий", 1="1 - Средний", 0="0 - Высокий");
+ConfigINI.Interface.FilterQuality.Label=					Качество фильтрации
+ConfigINI.Interface.FilterQuality=							(2="2 - Низкий", 1="1 - Средний", 0="0 - Высокий");
+ConfigINI.Interface.SamplingRange.Label=					Радиус выборки
+ConfigINI.Interface.FadeFogRangeDay.Label=					День, исчезн. тумана
+ConfigINI.Interface.FadeFogRangeNight.Label=				Ночь, исчезн. тумана
+ConfigINI.Interface.SizeScale.Label=						Масштаб действия SSAO
+ConfigINI.Interface.SourceTexturesScale.Label=				Масштаб текстуры
+ConfigINI.Interface.AOAmount.Label=							Количество AO
+ConfigINI.Interface.ILAmount.Label=							Количество IL
+
+;ENB Shadows;
+ConfigINI.Interface.ShadowObjectsFix=						Исправление теней на объектах
+ConfigINI.Interface.ShadowCastersFix=						Исправление ступенчатости
+ConfigINI.Interface.UseBilateralShadowFilter=				Двустронняя фильтрация теней
+ConfigINI.Interface.ShadowQualityFix=						Исправление качества
+
+ConfigINI.Interface.DetailedShadowQuality.Label=			Качество детализации
+ConfigINI.Interface.ShadowBlurRange.Label=					Диапазон размытия
+ConfigINI.Interface.ShadowFilterQuality.Label=				Качество фильтрации
+
+;ENB Other;
+ConfigINI.Interface.FPSLimitTitle=							Ограничение FPS
+ConfigINI.Interface.ProxyLibraryTitle=						Прокси-библиотека
+ConfigINI.Interface.FixesTitle=								Исправления
+ConfigINI.Interface.ControlsTitle=							Настройка управления
+
+ConfigINI.Interface.EnableFPSLimit=							Включено
+ConfigINI.Interface.WaitBusyRenderer=						Ждать рендерер
+ConfigINI.Interface.EnableProxyLibrary=						Активировать прокси-библиотеку
+ConfigINI.Interface.InitProxyFunctions=						Инициализация функций прокси
+ConfigINI.Interface.ForceFakeVideocard=						"Поддельная" видеокарта
+ConfigINI.Interface.FixGameBugs=							Исправлять ошибки игры
+ConfigINI.Interface.FixParallaxBugs=						Исправлять ошибки параллакса
+ConfigINI.Interface.ForceSingleCoreCPU=						Одноядерный процессор
+ConfigINI.Interface.IgnoreThreadManagement=					Отключить управление потоками
+ConfigINI.Interface.IgnoreThreadPriority=					Отключить приоритет потоков
+ConfigINI.Interface.AntiBSOD=								Анти "BSoD"
+ConfigINI.Interface.IgnoreLoadingScreen=					Игнорировать загрузочный экран
+ConfigINI.Interface.ProxyLibrary.Label=						Прокси библиотека
+ConfigINI.Interface.FPSLimit.Label=							Максимум FPS
+ConfigINI.Interface.KeyReadConfig.Label=					Чтение настроек
+ConfigINI.Interface.KeyCombination.Label=					Кнопка комбинации
+ConfigINI.Interface.KeyUseEffect.Label=						Включить эффекты
+ConfigINI.Interface.KeyFPSLimit.Label=						Ограничить FPS
+ConfigINI.Interface.KeyShowFPS.Label=						Показать FPS
+ConfigINI.Interface.KeyScreenshot.Label=					Сделать скриншот
+ConfigINI.Interface.KeyEditor.Label=						Открыть редактор
+ConfigINI.Interface.KeyFreeVRAM.Label=						Очистить видеопамять
+
+;Page names;
+ConfigINI.Pages=											Страницы настроек
+ConfigINI.Pages.ExtendedEditor=								Расширенный редактор
+
+ConfigINI.Pages.Graphics=									Графика
+ConfigINI.Pages.Shadows=									Тени
+ConfigINI.Pages.Water=										Вода
+ConfigINI.Pages.Audio=										Звук
+ConfigINI.Pages.Gameplay=									Геймплей
+ConfigINI.Pages.Interface=									Интерфейс
+ConfigINI.Pages.Vegetation=									Растительность
+ConfigINI.Pages.LevelOfDetail=								Уровень детализации
+ConfigINI.Pages.Other=										Прочее
+
+ConfigINI.Pages.ENB=										ENB
+ConfigINI.Pages.ENB.Effects=								Эффекты
+ConfigINI.Pages.ENB.AO=										Ambient Occlusion
+ConfigINI.Pages.ENB.Shadows=								Тени
+ConfigINI.Pages.ENB.Other=									Прочее
+;Menu;
+ConfigINI.Menu=												Меню
+ConfigINI.Menu.ReadOnlyController=							Только для чтения
+ConfigINI.Menu.BackUp=										Резервное копирование
+ConfigINI.Menu.BackUp.Create=								Создать копию
+ConfigINI.Menu.BackUp.Restore=								Восстановить %s
+ConfigINI.Menu.BackUp.Remove=								Удалить копию
+ConfigINI.Menu.ExtendedEditor=								Расширенный редактор
+;Quick Settings Menu;
+ConfigINI.QSM.Title.ENB=									-- INI файлы ENB
+;Module: ExtendedEditor;
+ConfigINI.ExtendedEditor=									Расширенный редактор
+ConfigINI.ExtendedEditor.MainFiles=							Основные файлы
+ConfigINI.ExtendedEditor.OtherFiles=						Другие файлы
+;Menu;
+ConfigINI.ExtendedEditor.Menu=								Меню
+ConfigINI.ExtendedEditor.Menu.AddSection=					Добавить секцию
+ConfigINI.ExtendedEditor.Menu.RemoveSection=				Удалить секцию
+ConfigINI.ExtendedEditor.Menu.RemoveSectionAsk=				Вы действительно хотите удалить секцию "%s"?
+ConfigINI.ExtendedEditor.Menu.SectionAlreadyExist=			Секция "%s" уже существует
+ConfigINI.ExtendedEditor.Menu.AddValue=						Добавить параметр
+ConfigINI.ExtendedEditor.Menu.RemoveValue=					Удалить параметр
+ConfigINI.ExtendedEditor.Menu.ValueAlreadyExist=			Параметр "%s" уже существует
+ConfigINI.ExtendedEditor.Menu.RemoveValueAsk=				Вы действительно хотите удалить параметр "%s"?
+
+;Component: DataFiles;
+DataFiles=													Файлы данных
+;Module: Core;
+;No Strings;
+;Module: Menu;
+DataFiles.Menu=												Меню
+DataFiles.Menu.PluginActivation=							Подключение плагинов
+DataFiles.Menu.ArchivesRegistration=						Регистрация архивов
+DataFiles.Menu.SavesManager=								Менеджер сохранений
+DataFiles.Menu.SteamWorkshopModBuilder=						Сборщик модов Steam Workshop
+DataFiles.Menu.Tools=										Инструменты
+DataFiles.Menu.Screenshots=									Скриншоты
+DataFiles.Menu.ArchiveInvalidation=							Инвалидация архивов
+;Module: PluginFile;
+DataFiles.PluginFile.IncorrectFileType=						Файл не является корректным файлом данных
+DataFiles.PluginFile.TypeMaster=							Мастер-файл
+DataFiles.PluginFile.TypePlugin=							
+;Module: ArchiveInv;
+DataFiles.ArchiveInv=										Инвалидация архивов
+;Module: Archives;
+DataFiles.Archives=											Регистрация архивов
+DataFiles.Archives.ListSaved=								Список "%s" из [%s] сохранён
+;Quick Settings Menu;
+DataFiles.Archives.QMS=										Меню быстрых настроек
+DataFiles.Archives.QMS.EditorMode=							Режим редактора
+;Module: Connection;
+DataFiles.Connection=										Подключение плагинов
+DataFiles.Connection.ActiveListNotFound=					Файл списка используемых плагинов не найден по указанному пути: "%s"Файл будет создан.
+DataFiles.Connection.OrderListNotFound=						Файл списка установленных плагинов не найден по указанному пути: "%s"Файл будет создан.
+DataFiles.Connection.FileArrangeError=						Нельзя перемещать ESP файлы выше мастер файлов.Если вам всё же нужно сделать это, включите данное действие в настройках программы.
+DataFiles.Connection.DependenciesChecking=					Проверка зависимостей
+DataFiles.Connection.DependenciesChecking.FileNotFound=		Файл "%s" не найден. Он требуется для работы следующих файлов:
+;Menu;
+DataFiles.Menu=												Меню
+DataFiles.Menu.Import=										Импорт
+DataFiles.Menu.ImportExport=								Импорт/Экспорт
+DataFiles.Menu.Sorting=										Сортировка
+DataFiles.Menu.ImportList=									Импорт порядка загрузки
+DataFiles.Menu.ExportList=									Экспорт порядка загрузки
+DataFiles.Menu.ExportOnlyActive=							Экспорт списка активных плагинов
+;Quick Settings Menu;
+DataFiles.QMS=												Меню быстрых настроек
+
+DataFiles.QMS.LoadOrderTitle=								-- Список загрузки
+
+DataFiles.QMS.BOSSWorkingMode=								-- Режим работы BOSS
+DataFiles.QMS.ModeConsole=									Консоль
+DataFiles.QMS.ModeGUI=										Графический интерфейс
+
+DataFiles.QMS.MiscTitle=									-- Разное
+DataFiles.QMS.ActivePluginsCount=							Подключено плагинов: %d
+DataFiles.QMS.AllowMoveESPAboveESM=							Разрешить перемещать ESP выше ESM
+DataFiles.QMS.Fallout4PluginActivationBypass=				Обход подключения плагинов
+DataFiles.QMS.ReadOnlyTitle=								-- Только для чтения
+;Interface;
+DataFiles.Interface=										Интерфейс
+DataFiles.Interface.PartOfInstaller=						Часть установщика
+DataFiles.Interface.PartOf=									Часть
+DataFiles.Interface.NoDependencies=							Нет зависимостей
+
+;Module: SavesManager;
+DataFiles.SavesManager=										Менеджер сохранений
+DataFiles.SavesManager.PluginsSyncError=					Ошибка при синхронизации списка плагинов
+DataFiles.SavesManager.PluginsFetchError=					Ошибка при получении списка плагинов
+DataFiles.SavesManager.HMS=									%d ч. %d мин. %d с.
+DataFiles.SavesManager.HMS2=								%d дней
+DataFiles.SavesManager.IncorrectFileType=					Файл не является корректным файлом сохранения
+;Menu;
+DataFiles.SavesManager.Menu=								Меню
+DataFiles.SavesManager.Menu.SyncPluginsList=				Синхронизировать список плагинов
+DataFiles.SavesManager.Menu.ExportPluginsList=				Экспортировать список плагинов
+
+;Module: Screenshots;
+DataFiles.Screenshots=										Скриншоты
+DataFiles.Screenshots.Image=								Изображение %s
+DataFiles.Screenshots.ImageENBImages=						Игнорировать изображения от ENB
+
+;Module: Sorting;
+DataFiles.Sorting=											Автосортировка
+DataFiles.Sorting.WorkingFolderNotSpecified=				Не указана рабочая папка для "%s".Хотите указать её?
+DataFiles.Sorting.UseTool=									Использовать %s
+DataFiles.Sorting.WaitForComplete=							Ожидание завершения работы %s
+DataFiles.Sorting.WorkingModeNotSpecified=					Не указан режим запуска %s: "%s". Проверьте настройки режима работы.
+DataFiles.Sorting.WorkingError=								Ошибка в работе %s. Код ошибки: %d
+DataFiles.Sorting.WorkingComplete=							Работа %s завершена
+DataFiles.Sorting.IncorrectLoadOrderFile=					Вы должны выбрать файл "%s" в качестве основного списка загрузки прежде чем использовать эту функцию.
+DataFiles.Sorting.ConsoleNotSupported=						В этой версии %s консольный режим недоступен.
+
+;Module: SteamWorkshopModBuilder;
+DataFiles.SWModBuilder=										Сборщик модов Steam Workshop
+DataFiles.SWModBuilder.ID=									Идентификатор дополнения
+DataFiles.SWModBuilder.SimpleInstall=						Простая установка
+DataFiles.SWModBuilder.CreateInstaller=						Создать утановщик
+DataFiles.SWModBuilder.CreatingInstaller=					Создание утановщика
+DataFiles.SWModBuilder.SimpleInstallComplete=				Установка завершена.Удалить исходные файлы?
+DataFiles.SWModBuilder.SimpleInstallNoFiles=				Нет файлов для установки.
+DataFiles.SWModBuilder.InformationWebRequest=				Запрос информации от Steam Workshop
+DataFiles.SWModBuilder.CreatingProject=						Создание проекта
+DataFiles.SWModBuilder.SavingProject=						Сохранение проекта
+
+;Module: Tools;
+DataFiles.Tools=											Инструменты
+DataFiles.Tools.AddLink=									Добавить ссылку
+DataFiles.Tools.RemoveLink=									Удалить ссылку
+DataFiles.Tools.EditCommand=								Изменить команду
+DataFiles.Tools.SystemLinkRemoveWarning=					Вы не можете удалить системную ссылку
+DataFiles.Tools.ShowSystemLinks=							Показывать предустановленные ссылки
+
+;Component: Installers;
+Installers=													Установщики
+;Module: Core;
+Installers.Operator=										Оператор
+Installers.Operators=										Операторы
+Installers.SelectOperator=									Выберите оператор
+Installers.Operators.And=									И
+Installers.Operators.Or=									Или
+
+Installers.ExtractingError=									Ошибка распаковки: #%d. Команда:
+Installers.ExtractingErrorSimple=							Ошибка распаковки: #%d
+Installers.FormatNotSupported=								Формат "%s" не поддерживается.
+Installers.FormatNotRecognized=								Не удалось определить тип установщика:"%s"
+Installers.CanNotOpenArchive=								Не удалось открыть файл: "%s"Возможно, архив повреждён или его формат не поддерживается.
+
+Installers.Log=												Журнал установки
+Installers.Log.RemovingEntryTitle=							Удаление из журнала
+Installers.Log.RemovingEntry=								Вы действительно хотите удалить эту запись из журнала "%s"?
+Installers.Log.RemovingEntryUninstaallAsk=					Хотите ли вы выполнить деинсталляцию перед удалением из журнала?
+Installers.Log.EntryNotFound=								Запись "%s" не найдена
+Installers.Log.EntryInvalidPointer=							Указатель "%s" не является корректным указателем записи журнала.
+Installers.Log.CategoryRemoveAsk=							Вы действительно хотите удалить эту категорию "%s"?
+Installers.Log.CategoryRemoveError=							Некорректный тип категории или категория не найдена.
+Installers.Log.ClearLogTitle=								Очистка журнала
+Installers.Log.ClearLogWarninig=							Вы действительно хотите удалить все данные из журнала установки? Это действие нельзя отменить. После очистки вы не сможете деинсталлировать установленные плагины.Продолжить?
+Installers.Log.ClearLogDone=								Журнал очищен
+Installers.Log.Uninstalling=								Деинсталляция
+Installers.Log.UninstallingAsk=								Вы уверены что хотите удалить "%s"
+Installers.Log.UninstallingDone=							Деинсталляция "%s" завершена
+Installers.Log.UninstallingNotInstalled=					Установочный пакет "%s" не установлен
+Installers.Log.ExportTitle=									Экспорт журнала
+Installers.Log.ExportPacking=								Упаковка файлов журнала
+Installers.Log.ExportNoData=								Нет данных для экспорта
+Installers.Log.ImportTitle=									Импорт журнала
+Installers.Log.ImportWarning=								Это действие заменит ваш текущий журнал, вы можете потерять важные данные.Продолжить?
+Installers.Log.ImportUnpacking=								Распаковка файлов журнала
+Installers.Log.ImportDone=									Импорт журнала завершён
+Installers.Log.ImportError=									Ошибка импорта
+Installers.Log.ImportUnsupportedVersion=					Неподдерживаемая версия журнала: %s
+Installers.Log.ImportNoData=								Нет данных для импорта
+Installers.Log.Import30Title=								Импорт журнала версии 3.0
+Installers.Log.Import30Warning=								ВНИМАНИЕ!Вы собираетесь импортировать журнал версии 3.0.Продолжить?
+
+Installers.Req=												Требования
+Installers.Req.VersionError=								Версия: ошибка
+Installers.Req.VersionInstalled=							Установлено
+Installers.Req.VersionNotInstalled=							Не установлено
+Installers.Req.VersionUnavailable=							Недоступно
+
+Installers.Req.StateError=									Состояние: ошибка
+Installers.Req.StateActive=									Активен
+Installers.Req.StateInactive=								Неактивен
+Installers.Req.StateMissing=								Отсутствует
+Installers.Req.StatePresent=								Присутствует
+Installers.Req.StateInstalled=								Установлен
+Installers.Req.StateNotInstalled=							Не установлен
+
+Installers.Req.OperatorError=								Оператор: ошибка
+Installers.Req.GreaterThan=									Больше чем
+Installers.Req.GreaterThanOrEqual=							Больше или равно
+Installers.Req.LessThan=									Меньше чем
+Installers.Req.LessThanOrEqual=								Меньше или равно
+Installers.Req.EqualTo=										Равно
+Installers.Req.Not=											Не
+
+;Module: Install;
+Installers.Install=											Установка
+Installers.Install.InstallerType=							Тип установщика: %s
+Installers.Install.VersionAlreadyInstalled=					Версия "%s" уже установлена.Продолжить?
+Installers.Install.NewerVersionInstalled=					Более новая версия "%s" уже установлена, переустановка не рекомендуется.Продолжить?
+Installers.Install.AlreadyInstalled=						Установка "%s" уже выполнена.Продолжить?
+
+Installers.Install.VersionMismatchTitle=					Несовпадение версий
+Installers.Install.VersionMismatchImpossible=				Версия конфигурации этого установщика "%s" несовместима с версией установочного модуля "%s".Установка невозможна.
+Installers.Install.VersionMismatchComversionNeed=			Версия конфигурации этого установщика "%s" несовместима с версией установочного модуля "%s".Использование этого установщика возможно только после конвертирования.
+Installers.Install.VersionMismatchNoInfo=					Нет информации о версии конфигурации для этого установщика. Установка не рекомендуется.Продолжить?
+
+Installers.Install.DescriptionUnavailable=					Описание недоступно
+Installers.Install.ReadyToInstall=							Готов к установке
+Installers.Install.CanNotEvaluateInstallerID=				Невозможно определить ID установщика
+Installers.Install.IncorrectInstallInfo=					Некорректные установочные данные
+
+;Module: InstallManager;
+Installers.Manager=											Менеджер установщиков
+Installers.Manager.CacheUpdateTitle=						Обновление кэша
+Installers.Manager.CacheUpdateWarning=						Эта операция обновит кэш для всех записей журнала. Это может занять много времени.Продолжить?
+Installers.Manager.CacheUpdateProcessingAll=				Обработка записей журнала. Всего: %d
+Installers.Manager.CacheUpdateNoData=						Файл не содержит данных для обновления
+Installers.Manager.CacheUpdateDone=							Кэш обновлён
+Installers.Manager.CacheRemoveTitle=						Удаление кэша
+Installers.Manager.CacheRemoveWarning=						Эта операция удалит кэш для всех записей журнала. Это может занять много времени и отменить её невозможно.Продолжить?
+Installers.Manager.LogLoadingX=								Загрузка журнала: %d%%
+Installers.Manager.LoadingScreenshots=						Загрузка скриншотов
+Installers.Manager.LoadingFilesListX=						Загрузка списка файлов: %d%%
+Installers.Manager.FilesListLoadActivator=					Нажмите сюда для загрузки списка
+Installers.Manager.InvalidFindQuery=						Некорректный формат запроса
+Installers.Manager.FindNotFound=							По запросу "%s" ничего не найдено
+Installers.Manager.SelectDestinationCategory=				Выберите категорию куда требуется переместить записи
+
+Installers.Manager.Categories=								Категории
+Installers.Manager.Categories.Animation=					Анимация
+Installers.Manager.Categories.Outfits=						Броня, одежда и украшения
+Installers.Manager.Categories.Weapons=						Оружие
+Installers.Manager.Categories.Environment=					Атмосфера и окружение
+Installers.Manager.Categories.Gameplay=						Геймплей
+Installers.Manager.Categories.Quests=						Квесты и приключения
+Installers.Manager.Categories.PlayerHomes=					Дома для игрока
+Installers.Manager.Categories.Settlements=					Города, деревни и поселения
+Installers.Manager.Categories.Dungeons=						Подземелия
+Installers.Manager.Categories.NewLands=						Новые миры
+Installers.Manager.Categories.Locations=					Другие локации
+Installers.Manager.Categories.Landscape=					Ландшафт
+Installers.Manager.Categories.Overhauls=					Полные изменения
+Installers.Manager.Categories.TotalConversions=				Глобальные конверсии
+Installers.Manager.Categories.Audio=						Звук и музыка
+Installers.Manager.Categories.Interface=					Интерфейс и управление
+Installers.Manager.Categories.Magic=						Магия, зачарования и алхимия
+Installers.Manager.Categories.Characters=					Персонажи
+Installers.Manager.Categories.Followers=					Компаньоны
+Installers.Manager.Categories.Races=						Расы
+Installers.Manager.Categories.ModelsAndTextures=			Модели и текстуры
+Installers.Manager.Categories.HairAndFace=					Лица и причёски
+Installers.Manager.Categories.VisualsAndGraphics=			Графика и визуальные эффекты
+Installers.Manager.Categories.ENB=							Пресеты для ENB
+Installers.Manager.Categories.Utilities=					Программы
+Installers.Manager.Categories.Fixes=						Исправления и патчи
+Installers.Manager.Categories.Misc=							Разное
+
+Installers.Manager.Menu=									Меню
+Installers.Manager.Menu.Install=							Установка
+Installers.Manager.Menu.Uninstall=							Деинсталляция
+Installers.Manager.Menu.ExtractAll=							Извлечь всё
+Installers.Manager.Menu.ExtractSetupInfo=					Извлечь установочную информацию
+Installers.Manager.Menu.ExtractSetupData=					Извлечь установочные данные
+Installers.Manager.Menu.ImportProject=						Импортировать проект
+Installers.Manager.Menu.OpenProject=						Открыть проект
+Installers.Manager.Menu.ClearLog=							Очистить журнал
+Installers.Manager.Menu.UpdateCache=						Обновить кэш
+Installers.Manager.Menu.UpdateAllCache=						Обновить кэш для всего журнала
+Installers.Manager.Menu.RemoveCache=						Удалить кэш
+Installers.Manager.Menu.RemoveAllCache=						Удалить весь кэш журнала
+Installers.Manager.Menu.Statistics=							Статистика
+Installers.Manager.Menu.Find=								Искать
+Installers.Manager.Menu.FindIn=								Поиск в...
+Installers.Manager.Menu.SortBy=								Сортировать по...
+Installers.Manager.Menu.SortByNo=							Не сортировать
+Installers.Manager.Menu.SortDirection=						Направление сортировки
+Installers.Manager.Menu.SortDirectionAsc=					По возрастанию
+Installers.Manager.Menu.SortDirectionDsc=					По убыванию
+
+Installers.Manager.Statistics=								Статистика
+Installers.Manager.Statistics.EntriesCount=					Всего записей
+Installers.Manager.Statistics.InstalledCount=				Установлено
+Installers.Manager.Statistics.HasDataFileCount=				Имеют файлы данных
+Installers.Manager.Statistics.CacheSize=					Размер кэша
+Installers.Manager.Statistics.LogFileSize=					Размер файла журнала
+
+;Module: FOMod;
+Installers.FOMod=											FOMod
+Installers.FOMod.ConvertingConfig=							Конвертирование конфигурации
+Installers.FOMod.GatheringInfo=								Сбор информации
+Installers.FOMod.GatheringRequiredFiles=					Сбор необходимых файлов 
+Installers.FOMod.MainRequirementsAnalysis=					Анализ основных требований
+Installers.FOMod.InstallComponentsAnalysis=					Анализ компонентов установки
+Installers.FOMod.InstallComponentsAnalysisFiles=			Анализ компонентов установки: файловые записи
+Installers.FOMod.ConditionalInstallAnalysis=				Анализ компонентов условной установки
+Installers.FOMod.ConditionalInstallAnalysisFiles=			Анализ компонентов условной установки: файловые записи
+Installers.FOMod.AnalysisFile=								Анализ "%s"
+Installers.FOMod.BuildingFile=								Компоновка "%s"
+Installers.FOMod.Files=										Файлы
+Installers.FOMod.Requirements=								Требования
+Installers.FOMod.Components=								Компоненты
+Installers.FOMod.InfoAndConfig=								Информация и параметры
+Installers.FOMod.Interface=									Интерфейс
+Installers.FOMod.Cleaning=									Очистка
+Installers.FOMod.TypeNative=								Собственный
+Installers.FOMod.TypeConfigurable=							Конфигурируемый
+Installers.FOMod.TypeScript=								Скриптовый
+Installers.FOMod.TypeSimple=								Простой
+
+;Module: InstallWizard;
+Installers.IW=												Мастер установки
+Installers.IW.CategoryWindowTitle=							Выбор категории
+Installers.IW.CategorySelectFromList=						Выбрать из списка
+Installers.IW.CategoryCreateNew=							Создать новую
+;Quick Settings Menu;
+Installers.IW.QMS=											Меню быстрых настроек
+Installers.IW.QMS.InstallAndUninstallTitle=					-- Установка и деинсталляция
+Installers.IW.QMS.UninstallBeforeReinstall=					Деинсталляция перед переустановкой
+Installers.IW.QMS.RevertINISettings=						Возвращать настройки INI файлов после деинсталляции
+Installers.IW.QMS.CreateBackUps=							Создание резервных копий
+Installers.IW.QMS.OverwriteSettingsTitle=					-- Перезапись файлов
+Installers.IW.QMS.AccordingInstallerConfig=					Согласно настройкам установщика
+Installers.IW.QMS.OverwriteAlways=							Всегда перезаписывать
+Installers.IW.QMS.OverwriteNever=							Без перезаписи
+Installers.IW.QMS.OverwriteAsk=								Спрашивать
+Installers.IW.QMS.FilesListPreviewTitle=					-- Предпросмотр списка файлов
+Installers.IW.QMS.FilesPreviewDisable=						Отключить
+Installers.IW.QMS.FilesPreviewNoAuto=						Не разворачивать автоматически
+Installers.IW.QMS.FilesPreviewAuto=							Разворачивать автоматически
+Installers.IW.QMS.MsicTitle=								-- Разное
+Installers.IW.QMS.JumpToFinishPage=							Сразу переходить на страницу завершения
+Installers.IW.QMS.WarnIfNoProfileDataPresent=				Предупреждать при отсутствии информации о профиле
+
+Installers.IW.NextButton1=									Далее >
+Installers.IW.NextButton2=									Установить >
+Installers.IW.BackButton=									< Назад
+Installers.IW.CancelButton=									Отмена
+Installers.IW.FinishButton=									Готово
+
+Installers.IW.Steps=										Этапы
+Installers.IW.Steps.Info=									Информация
+Installers.IW.Steps.Requirements=							Требования
+Installers.IW.Steps.Components=								Компоненты
+Installers.IW.Steps.Installing=								Установка
+Installers.IW.Steps.Finish=									Завершение
+
+Installers.IW.Info.ID=										Идентификатор
+Installers.IW.Info.Name=									Название
+Installers.IW.Info.LocalName=								Локализованное название
+Installers.IW.Info.LocalNameShort=							Локал. название
+Installers.IW.Info.Version=									Версия
+Installers.IW.Info.Author=									Автор
+Installers.IW.Info.Localizer=								Переводчик
+Installers.IW.Info.Copyrights=								Авторские права
+Installers.IW.Info.Site=									Сайт
+Installers.IW.Info.OriginalURL=								Оригинал
+Installers.IW.Info.DiscussionURL=							Обсуждение
+Installers.IW.Info.Category=								Категория
+Installers.IW.Info.CategoryID=								Идентификатор категории
+Installers.IW.Info.CategoryName=							Название категории
+Installers.IW.Info.Profile=									Профиль
+Installers.IW.Info.ProfileStringFormat=						%s (Текущий: "%s")
+Installers.IW.Info.ProfileNotFoundString=					<Не найден>
+
+Installers.IW.Info.NoProfileInfo=							Установщик не содержит информации о профиле для которого он предназначен."Отмена" - Не показывать больше
+Installers.IW.Info.ProfileNotExist=							Профиль "%s" не найден в системе
+Installers.IW.Info.ProfilesMismatch=						Указанный профиль "%s" не совпадает с текущим используемым (%s).Рекомендуется сменить профиль и перезапустить установку
+
+Installers.IW.Requirements.NameNotFound=					Название не найдено
+Installers.IW.Requirements.Verson=							Версия
+Installers.IW.Requirements.Name=							Название
+Installers.IW.Requirements.RequiredState=					Требуемое состояние
+Installers.IW.Requirements.CurrentState=					Текущее состояние
+Installers.IW.Requirements.Comment=							Комментарий
+Installers.IW.Requirements.File=							Файл
+
+Installers.IW.File.CanNotFindElement=						Невозможно найти файл/папку по указанному ID: %s
+Installers.IW.File.OverwriteFileAsk=						Перезаписать файл "%s"?"Да" - Перезаписать"Нет" - Не перезаписывать"Отмена" - Да для всех в этой папке
+Installers.IW.File.IncorrectEntryType=						Неизвестный тип записи "%s" для файла/папки "%s".
+Installers.IW.File.WritingInLog=							Запись в журнал
+
+Installers.IW.Components.SelectAtLeastOne=					Не менее одного
+Installers.IW.Components.SelectExactlyOne=					Только один
+Installers.IW.Components.SelectAtMostOne=					Не более одного
+Installers.IW.Components.SelectAny=							Любой
+Installers.IW.Components.SelectExtended=					Любой
+Installers.IW.Components.SelectExtendedAsIs=				Расширенный
+Installers.IW.Components.SelectAll=							Все
+
+Installers.IW.Components.ComponentsSelection=				Выбор компонентов
+Installers.IW.Components.ComponentsSelectionDesc=			Выберите элемент из списка для просмотра его описания
+Installers.IW.Components.SelectComponent=					Выберите компонент
+Installers.IW.Components.IncorrectConfig=					Некорректная конфигурация этапов установки
+Installers.IW.Components.NoComponentsFound=					Компоненты не обнаружены
+Installers.IW.Components.SelectModeTitle=					%s (Выбрать %s)
+Installers.IW.Components.DefaultSetName=					Опции
+Installers.IW.Components.FilesPreviewDisabled=				Предпросмотр списка файлов отключен
+Installers.IW.Components.Component=							Компоненты
+
+Installers.IW.Installing.InstallSequenceError=				Распаковка не завершена. Установка будет прервана.
+Installers.IW.Installing.CurrectAction1=					Текущее действие: удаление предыдущей версии
+Installers.IW.Installing.CurrectAction2=					Текущее действие: удаление завершено
+Installers.IW.Installing.TotalProgress=						
+Installers.IW.Installing.WriteINITitle=						Запись параметров INI
+Installers.IW.Installing.WriteINIAsk=						Внести следующие изменения в INI файлы?%s
+
+Installers.IW.Finish.Label=									Установка "%s" завершена
+
+;Module: Project;
+Installers.Project=											Проект
+Installers.Project.NewProject=								Новый проект
+Installers.Project.EmptyProject=							Пустой проект
+Installers.Project.SetConfig=								Настройка
+Installers.Project.SetList=									Список наборов
+Installers.Project.Config=									Параметры
+Installers.Project.AddSet=									Добавить набор
+Installers.Project.RemoveSet=								Удалить набор
+Installers.Project.RemoveSetAsk=							Вы действительно хотите удалить набор "%s"?
+Installers.Project.SetIDUsed=								Набор с ID "%s" уже существует
+Installers.Project.EntryIDUsed=								Запись с ID "%s" уже существует
+
+Installers.Project.Menu=									Меню
+Installers.Project.MenuArrange=								Расположение и переименование
+Installers.Project.MenuStructureTitle=						-- Файловая структура
+Installers.Project.MenuOperatorTitle=						-- Оператор
+
+Installers.Project.Menu.NewProject=							Новый
+Installers.Project.Menu.OpenProject=						Открыть
+Installers.Project.Menu.SaveProject=						Сохранить
+Installers.Project.Menu.SaveProjectAs=						Сохранить как
+Installers.Project.Menu.Templates=							Шаблоны
+Installers.Project.Menu.TemplatesControl=					Управление шаблонами
+Installers.Project.Menu.SaveAsTemplate=						Сохранить как шаблон
+
+Installers.Project.Menu.ImportFromInstaller=				Импорт из установщика
+Installers.Project.Menu.ImportFromFOModArchive=				Импорт из FOMod (архив)
+Installers.Project.Menu.ImportFromFOModXML=					Импорт из FOMod (XML)
+Installers.Project.Menu.ImportFromSiteTESALLRU=				Импорт с TESALL.RU
+Installers.Project.Menu.ImportFromSiteNEXUSMODSCOM=			Импорт с NexusMods.com
+Installers.Project.Menu.ImportFromSiteMODGAMESNET=			Импорт с ModGames.net
+Installers.Project.Menu.ImportFromSiteNotSupported=			Сайт "%s" не поддерживается
+Installers.Project.Menu.ImportNoData=						Не найдено необходимых данных для импорта
+
+Installers.Project.Menu.BuildUpdateInfo=					Обновить информацию
+Installers.Project.Menu.BuildPreview=						Предпросмотр
+
+Installers.Project.Menu.ProjectSaved=						Проект "%s" сохранён
+Installers.Project.Menu.CanNotFindProject=					Проект не обнаружен по следующему пути: "%s"
+Installers.Project.Menu.SavingTemplateTitle=				Сохранение шаблона
+Installers.Project.Menu.TemplateSaved=						Шаблон "%s%s" сохранён
+Installers.Project.Menu.TemplateOverwrite=					Шаблон "%s" уже существует.Заменить?
+
+Installers.Project.Info=									Информация
+Installers.Project.Info.ExactMegaBytes=						%d МБ
+Installers.Project.Info.ApproximateMegaBytes=				~%d МБ
+Installers.Project.Info.BZip2LessThan128=					< %d МБ
+Installers.Project.Info.RequiredMemory=						Объём памяти для упаковки
+Installers.Project.Info.DictionarySize.Label=				Размер словаря
+Installers.Project.Info.VersionFormat.Label=				Формат версии
+Installers.Project.Info.VersionFormat=						(Numeric="Числовой (5.3.0.7a)", Date="Дата (ДД:ММ:ГГГГ)");
+Installers.Project.Info.ProfilesList.Label=					Профиль
+Installers.Project.Info.ProfilesList=						(="<Нет>");
+Installers.Project.Info.ComponenteEnabled=					Использовать компоненты
+Installers.Project.Info.ConditionalInstallEnabled=			Использовать условную установку
+Installers.Project.Info.SolidArchive=						Непрерывный архив
+Installers.Project.Info.UseMultiThreading=					Многопоточное сжатие
+Installers.Project.Info.VersionComparison=					Сравнение версий
+
+Installers.Project.Info.CustomInfo=							Дополнительная информация
+Installers.Project.Info.DefaultDocument.Label=				Документ по умолчанию
+Installers.Project.Info.MarkByDefault=						Ставить метку
+
+Installers.Project.Files=									Файлы
+Installers.Project.Files.Folders=							Папки
+Installers.Project.Files.FolderAdd=							Добавить папку
+Installers.Project.Files.FileAdd=							Добавить файл
+Installers.Project.Files.FolderRemove=						Удалить папку
+Installers.Project.Files.FileRemove=						Удалить файл
+Installers.Project.Files.FilesList=							Список файлов
+Installers.Project.Files.StructNested=						Вложенная
+Installers.Project.Files.StructSimple=						Простая
+Installers.Project.Files.OverwriteYes=						Да
+Installers.Project.Files.OverwriteNo=						Нет
+Installers.Project.Files.OverwriteAsk=						Спрашивать
+Installers.Project.Files.ChaceChecking=						Проверка кэша
+Installers.Project.Files.ExtractingPath=					Путь распаковки
+Installers.Project.Files.LocalPath=							Локальное расположение
+Installers.Project.Files.SetIDUsed=							Папка с ID "%s" уже существует
+
+Installers.Project.Interface=								Интерфейс
+Installers.Project.Interface.WindowText=					Текст в окне
+Installers.Project.Interface.WindowTitle=					Заголовок окна
+Installers.Project.Interface.DefaultWindowTitle=			Установка - %s
+Installers.Project.Interface.WindowSubTitle=				Подзаголовок окна
+Installers.Project.Interface.DefaultWindowSubTitle=			Подзаголовок окна
+Installers.Project.Interface.Logo=							Логотип
+Installers.Project.Interface.ImagesList=					Список изображений
+Installers.Project.Interface.ImportFromFolder=				Импорт из папки
+Installers.Project.Interface.AllowScreenshotsView=			Разрешить просмотр скриншотов
+
+Installers.Project.Requirements=							Требования
+Installers.Project.Requirements.List=						Список требований
+Installers.Project.Requirements.StdReqList=					Стандартные требования
+Installers.Project.Requirements.GeneralRequirements=		Общие требования
+Installers.Project.Requirements.AddCustomReq=				Добавить требование
+Installers.Project.Requirements.AddStdReq=					Добавить
+Installers.Project.Requirements.PlaceholderDefault=			<По умолчанию>
+Installers.Project.Requirements.All=						Все
+Installers.Project.Requirements.Inapplicable=				Неприменимо
+Installers.Project.Requirements.ReqAlreadyExist=			Требование с данным ID уже есть в списке
+Installers.Project.Requirements.ReqSpecifyNameOrID=			Укажите название или идентификатор
+Installers.Project.Requirements.CurrentStateLabel=			%s: Состояние: %s, Версия: (Уст.: "%s" %s "%s") = %s
+Installers.Project.Requirements.RequirementConfig=			Параметры требования
+Installers.Project.Requirements.RequiredVersion=			Требуемая версия
+Installers.Project.Requirements.RequiredState=				Требуемое состояние
+Installers.Project.Requirements.CurrentState=				Текущее состояние
+Installers.Project.Requirements.NameAndID=					Название и идентификатор
+Installers.Project.Requirements.State.Label=				Состояние
+Installers.Project.Requirements.State=						(Active="Активен", Inactive="Не активен", Missing="Отсутствует", Present="Присутствует", Installed="Установлен");
+Installers.Project.Requirements.RemoveDefaultSet=			Невозможно удалить набор требований по умолчанию
+Installers.Project.Requirements.SelectVersionAndOperator=	Выберите версию и оператор
+
+Installers.Project.Requirements.Groups=						Группы требований
+Installers.Project.Requirements.Groups.Title=				-- %s
+Installers.Project.Requirements.Groups.General=				Основное
+Installers.Project.Requirements.Groups.Utilities=			Программы
+Installers.Project.Requirements.Groups.DLC=					DLC
+Installers.Project.Requirements.Groups.Framework=			Фреймворки
+Installers.Project.Requirements.Groups.Body=				Модели тел
+Installers.Project.Requirements.Groups.BodyExtra=			Модели тел - дополнительно
+Installers.Project.Requirements.Groups.Patch=				Исправления
+Installers.Project.Requirements.Groups.Extra=				Дополнительно
+Installers.Project.Requirements.Groups.Misc=				Разное
+
+Installers.Project.Components=								Компоненты
+Installers.Project.Components.Marks=						Метки
+Installers.Project.Components.Image=						Изображение
+Installers.Project.Components.ReqSet=						Набор требований
+Installers.Project.Components.INI=							INI
+Installers.Project.Components.IncompatibleID=				Несовместимые ID
+Installers.Project.Components.RequiredID=					Требуемые ID
+Installers.Project.Components.CompList=						Список компонентов
+Installers.Project.Components.InstallSteps.Label=			Этапы установки
+Installers.Project.Components.ImportFromFiles=				Импорт из файлов
+Installers.Project.Components.RequiredFiles.Label=			Требуемые файлы
+Installers.Project.Components.ConditionalInstall.Label=		Условная установка
+Installers.Project.Components.SelectionMode.Label=			Режим выбора
+Installers.Project.Components.SelectionMode=				(ExactlyOne="Только один", AtLeastOne="Не менее одного", AtMostOne="Не более одного", Any="Любой", All="Все", Extended="Расширенный");
+Installers.Project.Components.TypeDescriptor.Label=			Тип
+Installers.Project.Components.TypeDescriptor=				(Optional="Необязательный", Recommended="Рекомендуемый", Required="Необходимый", CouldBeUsable="Может быть использован", NotUsable="Не может быть использован");
+Installers.Project.Components.SelectReqSet=					Выберите набор требований
+Installers.Project.Components.SelectImage=					Выберите изображение
+Installers.Project.Components.Flags=						Флаги
+Installers.Project.Components.SetFlags=						Установить флаги
+Installers.Project.Components.RequiredFlags=				Требуемые флаги
+Installers.Project.Components.ArrangeSteps=					Настройка этапов установки
+Installers.Project.Components.StepList=						Список этапов
+Installers.Project.Components.AutoSetup=					Автоматически
+Installers.Project.Components.AutoSetupAsk=					Это действие заменит ваш текуший список этапов.Продолжить?
+Installers.Project.Components.CI.StepID=					Идентификатор этапа
+
+Installers.Project.INI=										INI файлы
+Installers.Project.INI.ParametrList=						Список параметров
+Installers.Project.INI.StandartFiles=						Стандартные файлы
+Installers.Project.INI.OtherFiles=							Другие файлы
+Installers.Project.INI.EntryAlreadyExist=					Запись с данным ID уже есть в списке
+Installers.Project.INI.EnterSectionAndKey=					Введите секцию и параметр
+Installers.Project.INI.AutoApply=							Автоприменение
+
+Installers.Project.Build=									Сборка
+Installers.Project.Build.CurrectAction=						Текущее действие: %s
+Installers.Project.Build.TotalProgress=						Общий прогресс: %s
+Installers.Project.Build.FileNotFound=						Не найден файл для упаковки"%s"Продолжение невозможно
+Installers.Project.Build.IncorrectInstallerPath=			Некорректно указан путь для установщика
+Installers.Project.Build.OK=								Сборка завершена
+Installers.Project.Build.OKX=								Сборка завершена%sРазмер: %s
+Installers.Project.Build.Fail=								Сборка прервана
+Installers.Project.Build.FailX=								Сборка прервана. Ошибка: %s
+
+Installers.Project.Build.CopyingDocuments=					Копирование файлов: документы
+Installers.Project.Build.CopyingImages=						Копирование файлов: изображения
+Installers.Project.Build.XMLDocments=						Сборка XML: документы
+Installers.Project.Build.XMLFiles=							Сборка XML: файлы
+Installers.Project.Build.XMLInterface=						Сборка XML: интерфейс
+Installers.Project.Build.XMLRequirements=					Сборка XML: требования
+Installers.Project.Build.XMLComponents=						Сборка XML: компоненты
+Installers.Project.Build.XMLSave=							Сборка XML: сохранение XML
+
+Installers.Project.Build.CompressingFiles=					Сборка проекта: упаковка файлов
+Installers.Project.Build.CopyingFolder=						Сборка проекта: копирование папки "%s"
+
+;Module: Properties;
+Installers.Properties=										Свойства
+
+Installers.Properties.StandartInfo=							Стандартная информация
+Installers.Properties.CustomInfo=							Дополнительная информация
+Installers.Properties.NoCustomInfo=							Нет дополнительной информации
+Installers.Properties.Config=								Конфигурация и параметры
+Installers.Properties.InstallerFormat=						Формат установщика
+Installers.Properties.ArchiveFormat=						Формат архива
+Installers.Properties.ArchiveSolid=							Непрерывный архив
+Installers.Properties.YesXCount=							Да. %d шт.
+Installers.Properties.Compatibility=						Совместимость
+Installers.Properties.CompatibilityFull=					Полная
+Installers.Properties.CompatibilityPartial=					Частичная
+Installers.Properties.CompatibilityConversionNeed=			Нет. Для установки необходимо конвертирование.
+Installers.Properties.CompatibilityTooOldWarning=			Точность остальной информации не гарантируется.
+Installers.Properties.SetupInfoVersion=						Версия конфигурации
+Installers.Properties.SetupInfoVersionData=					Текущая версия
+Installers.Properties.ComponentsEnabled=					Компонентный
+Installers.Properties.HasDescription=						Содержит описание
+Installers.Properties.HasDocuments=							Содержит документы
+Installers.Properties.HasScreenshots=						Содержит скриншоты
+Installers.Properties.HasProjectFile=						Содержит файл проекта
+Installers.Properties.SizeAndLocation=						Размер и расположение
+Installers.Properties.Size=									Размер

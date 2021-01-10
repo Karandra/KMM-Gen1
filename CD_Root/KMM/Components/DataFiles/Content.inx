@@ -1,0 +1,70 @@
+[Morrowind]
+Morrowind.esm=(Name="", Logo="Morrowind.png");
+Tribunal.esm=(Name="+Tribunal", Logo="MTB.png");
+Bloodmoon.esm=(Name="+Bloodmoon", Logo="MTB.png");
+[Oblivion]
+Oblivion.esm=(Name="", Logo="Oblivion.png");
+OblivionMsg.esp=(Name="", Logo="Oblivion.png");
+DLCShiveringIsles.esp=(Name="+Shivering Isles", Logo="ShiveringIsles.png");
+Knights.esp=(Name="+Knights of the Nine", Logo="Knights.png");
+DLCSpellTomes.esp=(Name="+Spell Tomes", Logo="Oblivion.png");
+DLCVileLair.esp=(Name="+The Vile Lair", Logo="Oblivion.png");
+DLCMehrunesRazor.esp=(Name="+Mehrunes Razor", Logo="Oblivion.png");
+DLCThievesDen.esp=(Name="+The Thieves Den", Logo="Oblivion.png");
+DLCFrostcrag.esp=(Name="+Wizard's Tower", Logo="Oblivion.png");
+DLCOrrery.esp=(Name="+Orrery", Logo="Oblivion.png");
+DLCHorseArmor.esp=(Name="+Horse Armor", Logo="Oblivion.png");
+DLCFightersStronghold.esp=(Name="+Fighter's Stronghold", Logo="Oblivion.png");
+[Skyrim]
+Skyrim.esm=(Name="", Logo="Skyrim.png");
+Update.esm=(Name="+Update", Logo="Skyrim.png");
+Dawnguard.esm=(Name="+Dawnguard", Logo="Dawnguard.png");
+HearthFires.esm=(Name="+HearthFire", Logo="HearthFires.png");
+Dragonborn.esm=(Name="+Dragonborn", Logo="Dragonborn.png");
+HighResTexturePack01.esp=(Name="+High Res Texture Pack", Logo="HighResTexturePack.png");
+HighResTexturePack02.esp=(Name="+High Res Texture Pack", Logo="HighResTexturePack.png");
+HighResTexturePack03.esp=(Name="+High Res Texture Pack", Logo="HighResTexturePack.png");
+[SkyrimSE]
+Skyrim.esm=(Name="", Logo="Skyrim.png");
+Update.esm=(Name="+Update", Logo="Skyrim.png");
+Dawnguard.esm=(Name="+Dawnguard", Logo="Dawnguard.png");
+HearthFires.esm=(Name="+HearthFire", Logo="HearthFires.png");
+Dragonborn.esm=(Name="+Dragonborn", Logo="Dragonborn.png");
+[Fallout3]
+Fallout3.esm=(Name="", Logo="Fallout3.png");
+Anchorage.esm=(Name="+Operation Anchorage", Logo="Anchorage.png");
+ThePitt.esm=(Name="+The Pitt", Logo="ThePitt.png");
+BrokenSteel.esm=(Name="+Broken Steel", Logo="BrokenSteel.png");
+BrokenSteel1.esp=(Name="+Broken Steel", Logo="BrokenSteel.png");
+BrokenSteel2.esp=(Name="+Broken Steel", Logo="BrokenSteel.png");
+PointLookout.esm=(Name="+Point Lookout", Logo="PointLookout.png");
+Zeta.esm=(Name="+Mothership Zeta", Logo="Zeta.png");
+[FalloutNV]
+FalloutNV.esm=(Name="", Logo="FalloutNV.png");
+FalloutNV_lang.esp=(Name="", Logo="FalloutNV.png");
+OldWorldBlues.esm=(Name="+Old World Blues", Logo="OldWorldBlues.png");
+OldWorldBlues_lang.esp=(Name="+Old World Blues", Logo="OldWorldBlues.png");
+DeadMoney.esm=(Name="+Dead Money", Logo="DeadMoney.png");
+DeadMoney_lang.esp=(Name="+Dead Money", Logo="DeadMoney.png");
+LonesomeRoad.esm=(Name="+Lonesome Road", Logo="LonesomeRoad.png");
+LonesomeRoad_lang.esp=(Name="+Lonesome Road", Logo="LonesomeRoad.png");
+HonestHearts.esm=(Name="+Honest Hearts", Logo="HonestHearts.png");
+HonestHearts_lang.esp=(Name="+Honest Hearts", Logo="HonestHearts.png");
+GunRunnersArsenal.esm=(Name="+Gun Runners Arsenal", Logo="GunRunnersArsenal.png");
+GunRunnersArsenal_lang.esp=(Name="+Gun Runners Arsenal", Logo="GunRunnersArsenal.png");
+ClassicPack.esm=(Name="+Courier's Stash - Classic Pack", Logo="CouriersStash.png");
+ClassicPack_lang.esp=(Name="+Courier's Stash - Classic Pack", Logo="CouriersStash.png");
+MercenaryPack.esm=(Name="+Courier's Stash - Mercenary Pack", Logo="CouriersStash.png");
+MercenaryPack_lang.esp=(Name="+Courier's Stash - Mercenary Pack", Logo="CouriersStash.png");
+CaravanPack.esm=(Name="+Courier's Stash - Caravan Pack", Logo="CouriersStash.png");
+CaravanPack_lang.esp=(Name="+Courier's Stash - Caravan Pack", Logo="CouriersStash.png");
+TribalPack.esm=(Name="+Courier's Stash - Tribal Pack", Logo="CouriersStash.png");
+TribalPack_lang.esp=(Name="+Courier's Stash - Tribal Pack", Logo="CouriersStash.png");
+[Fallout4]
+Fallout4.esm=(Name="", Logo="Fallout4.png");
+DLCWorkshop01.esm=(Name="+Wasteland Workshop", Logo="WastelandWorkshop01.png");
+DLCWorkshop02.esm=(Name="+Wasteland Workshop", Logo="WastelandWorkshop02.png");
+DLCWorkshop03.esm=(Name="+Wasteland Workshop", Logo="WastelandWorkshop03.png");
+DLCRobot.esm=(Name="+Automatron", Logo="Automatron.png");
+DLCCoast.esm=(Name="+Far Harbor", Logo="FarHarbor.png");
+DLCNukaWorld.esm=(Name="+Nuka World", Logo="NukaWorld.png");

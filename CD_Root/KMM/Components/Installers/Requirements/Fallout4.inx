@@ -1,0 +1,25 @@
+[ReqConfig]
+; Operators: >, >=, <, <=, ==, !=
+; States: Active, Inactive, Present, Missing, Installed
+DefaultOperator=>=
+DefaultVariable=InstallPath
+DefaultState=Present
+;QWERTY=(Name="", Variable="", File="", State="Present", RequiredVersion="");
+
+[General]
+F4SE=(Name="Fallout 4 Script Extender", Variable="InstallPath", File="F4SE_Loader.exe", State="Present", RequiredVersion="");
+
+[DLC]
+WastelandWorkshop=(Name="Wasteland Workshop", Variable="DataFilesPath", File="DLCWorkshop01.esm", State="Present", RequiredVersion="");
+Automatron=(Name="Automatron", Variable="DataFilesPath", File="DLCRobot.esm", State="Present", RequiredVersion="");
+FarHarbor=(Name="Far Harbor", Variable="DataFilesPath", File="DLCCoast.esm", State="Present", RequiredVersion="");
+NukaWorld=(Name="Nuka World", Variable="DataFilesPath", File="DLCNukaWorld.esm", State="Present", RequiredVersion="");
+
+[Framework]
+AWKCR=(Name="Armor and Weapon Keywords Community Resource", Variable="DataFilesPath", File="ArmorKeywords.esm", State="Present", RequiredVersion="");
+
+[Body]
+CBBE=(Name="Caliente's Beautiful Bodies Enhancer", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+
+[Patch]
+UF4P=(Name="Unofficial Fallout 4 Patch", Variable="DataFilesPath", File="Unofficial Fallout 4 Patch.esp", State="Present", RequiredVersion="");

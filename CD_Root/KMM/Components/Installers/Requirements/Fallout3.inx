@@ -1,0 +1,22 @@
+[ReqConfig]
+; Operators: >, >=, <, <=, ==, !=
+; States: Active, Inactive, Present, Missing, Installed
+DefaultOperator=>=
+DefaultVariable=InstallPath
+DefaultState=Present
+;QWERTY=(Name="", Variable="", File="", State="Present", RequiredVersion="");
+
+[General]
+FOSE=(Name="Fallout 3 Script Extender", Variable="InstallPath", File="FOSE_Loader.exe", State="Present", RequiredVersion="");
+
+[DLC]
+Anchorage=(Name="Operation Anchorage", Variable="DataFilesPath", File="Anchorage.esm", State="Present", RequiredVersion="");
+ThePitt=(Name="The Pitt", Variable="DataFilesPath", File="ThePitt.esm", State="Present", RequiredVersion="");
+BrokenSteel=(Name="Broken Steel", Variable="DataFilesPath", File="BrokenSteel.esm", State="Present", RequiredVersion="");
+PointLookout=(Name="Point Lookout", Variable="DataFilesPath", File="PointLookout.esm", State="Present", RequiredVersion="");
+Zeta=(Name="Mothership Zeta", Variable="DataFilesPath", File="Zeta.esm", State="Present", RequiredVersion="");
+
+[Body]
+Type3=(Name="Dimonized TYPE3 Female Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+T6M=(Name="Type 6 Modification Body", Variable="InstallPath", File="", State="Installed", RequiredVersion="");
+BreezeBody=(Name="Breezes FO3 Males", Variable="InstallPath", File="", State="Installed", RequiredVersion="");

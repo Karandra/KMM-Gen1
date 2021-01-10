@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<!-- Advanced Mod Installer Format (AMI) 1.1 -->
+<!-- AMI 1.0 == SMI (Skyrim Mod Installer) 5.0 -->
+<SetupInfo Version="5.1">
+	<Installer ID="" Profile="">
+		<Settings>
+			<InstallerPath></InstallerPath>
+			<CompressionMethod></CompressionMethod>
+			<CompressionLevel></CompressionLevel>
+			<DictionarySize></DictionarySize>
+			<UseMultiThreading></UseMultiThreading>
+			<Solid></Solid>
+			<ComponentsEnabled></ComponentsEnabled>
+			<ConditionalInstallEnabled></ConditionalInstallEnabled>
+		</Settings>
+		<Info>
+			<Name></Name>
+			<LocalizedName></LocalizedName>
+			<Version></Version>
+			<Author></Author>
+			<Localizer></Localizer>
+			<Copyrights></Copyrights>
+			<Description></Description>
+			<URL></URL>
+			<OriginalURL></OriginalURL>
+			<Discussion></Discussion>
+			<Category>---</Category>
+			<Custom>
+				<Entry Show="" Name=""></Entry>
+			</Custom>
+			<Documents Default="">
+				<Entry Show="" Name=""></Entry>
+			</Documents>
+			<Videos>
+				<Entry Show="" Name=""></Entry>
+			</Videos>
+		</Info>
+		<Files StructureType="Simple">
+			<!-- Для проекта -->
+			<Folder ID="" Source="" Destination="" AllowInstall="" OverwriteMode="">
+				<Path InstallPath="%InstallPath%\T_runBackward.HkX">C:\mT_runBackward.HkX</Path>
+			</Folder>
+			<File ID="" Source="" Destination="" AllowInstall="" OverwriteMode=""></File>
+			
+			<!-- Для установщика -->
+			<Folder ID="" Source="" Destination="" AllowInstall="" OverwriteMode=""></Folder>
+			<File ID="" Source="" Destination="" AllowInstall="" OverwriteMode=""></File>
+		</Files>
+		<Interface>
+			<WindowTitle></WindowTitle>
+			<WindowSubtitle></WindowSubtitle>
+			<Logo></Logo>
+			<Images ScreenshotsEnabled="1">
+				<Entry Show="" Comment=""></Entry>
+			</Images>
+		</Interface>
+		<Requirements ShowCommonRequirements="">
+			<Set ID="" Operator="And">
+				<Entry Type="BuiltIn">
+					<ID></ID>
+					<RequiredVersion></RequiredVersion>
+					<Comment></Comment>
+				</Entry>
+				<Entry Type="Log">
+					<ID></ID>
+					<Name></Name>
+					<RequiredVersion></RequiredVersion>
+					<Comment></Comment>
+				</Entry>
+				<Entry Type="File">
+					<Variable></Variable>
+					<Path></Path>
+					<State>Active/Inactive/Missing/Present</State>
+					<RequiredVersion></RequiredVersion>
+					<Comment></Comment>
+				</Entry>
+			</Set>
+		</Requirements>
+		<Components>
+			<RequiredFiles>
+				<Entry></Entry>
+			</RequiredFiles>
+			<Steps>
+				<Step ID="" Name="">
+					<RequiredFlags Operator="">
+						<Flag Value=""></Flag>
+					</RequiredFlags>
+					<Data>
+						<Entry></Entry>
+					</Data>
+				</Step>
+			</Steps>
+			<Sets>
+				<Set ID="---" Name="" SelectionMode="">
+					<RequiredFlags Operator="">
+						<Flag Value=""></Flag>
+					</RequiredFlags>
+					<Data>
+						<Entry ID="">
+							<Name></Name>
+							<Image></Image>
+							<Description></Description>
+							<Files>
+								<Entry></Entry>
+							</Files>
+							<INI>
+								<Entry></Entry>
+							</INI>
+							<RequirementsSet></RequirementsSet>
+							<TypeDescriptor></TypeDescriptor>
+							<RequiredFlags Operator="">
+								<Flag Value=""></Flag>
+							</RequiredFlags>
+							<SetFlag>
+								<Flag Value=""></Flag>
+							</SetFlag>
+							<RequiredID>
+								<Entry></Entry>
+							</RequiredID>
+							<IncompatibleID>
+								<Entry></Entry>
+							</IncompatibleID>
+						</Entry>
+					</Data>
+				</Set>
+			</Sets>
+		</Components>
+		<INI>
+			<Entry ID="">
+				<Variable></Variable>
+				<Path></Path>
+				<Section></Section>
+				<Value></Value>
+				<Data></Data>
+			</Entry>
+		</INI>
+	</Installer>
+</SetupInfo>
