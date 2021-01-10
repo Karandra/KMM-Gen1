@@ -2,7 +2,7 @@
 KMM Gen.: 1 also know as "Kerber's Mod Manger", version 1.1.0.1,
 
 # Description
-A bit better version of [KMM Get.: 0](https://github.com/KerberX/KMM-Gen0) but still worse than Nexus Mod Manager.
+A bit better version of [KMM Gen.: 0](https://github.com/KerberX/KMM-Gen0) but still worse than Nexus Mod Manager.
 
 # Package
 - Written in Lua using [AutoPlay Media Studio](https://www.indigorose.com/autoplay-media-studio/) v8.x.
