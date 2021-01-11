@@ -6,5 +6,5 @@ A bit better version of [KMM Gen.: 0](https://github.com/KerberX/KMM-Gen0) but s
 
 # Package
 - Written in Lua using [AutoPlay Media Studio](https://www.indigorose.com/autoplay-media-studio/) v8.x.
-- Uses a lot of their party native plugins (binaries not included).
+- Uses a lot of third party native plugins (binaries not included).
 - All the Lua code is inside `Kerber Mod Manager.autoplay` (which is XML file, about 10-20% here) and the rest scattered inside many `*.api` files (ZIP archives with Lua files inside).
